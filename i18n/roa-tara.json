@@ -7,5 +7,6 @@
 	"bs-groupmanager-headergroup": "Gruppe",
 	"bs-groupmanager-tipremove": "Live {{PLURAL:$1|gruppe}}",
 	"bs-groupmanager-titlenewgroup": "Gruppe nuève",
-	"bs-groupmanager-titleeditgroup": "Cange 'u gruppe"
+	"bs-groupmanager-titleeditgroup": "Cange 'u gruppe",
+	"groupmanager": "Gestore de gruppe"
 }
