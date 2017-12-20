@@ -4,6 +4,7 @@
 			"Jon Harald Søby"
 		]
 	},
+	"bs-groupmanager-desc": "Administrasjonsgrensesnitt for å legge til, redigere og slette brukergrupper og rettighetene deres",
 	"bs-groupmanager-grpexists": "Gruppa finnes allerede.",
 	"bs-groupmanager-grpempty": "Gruppenavnet kan ikke være tomt.",
 	"bs-groupmanager-grpadded": "Gruppa har blitt lagt til.",
@@ -30,6 +31,8 @@
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|har}} opprettet gruppa $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|har}} endret navn på gruppa $4 til $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|har}} fjernet gruppa $4",
+	"apihelp-bs-groupmanager-description": "Gir oppgaver for utvidelsen GroupManager.",
+	"apihelp-bs-groupmanager-summary": "Gir oppgaver for utvidelsen GroupManager.",
 	"action-groupmanager-viewspecialpage": "vise spesialsiden «{{int:bs-groupmanager-label}}»",
 	"groupmanager": "Gruppebehandler"
 }
