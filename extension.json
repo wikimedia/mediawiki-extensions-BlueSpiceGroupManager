@@ -43,6 +43,12 @@
 	"ExtensionMessagesFiles": {
 		"SpecialGroupManagerAlias": "includes/specials/SpecialGroupManager.alias.php"
 	},
+	"BlueSpiceFoundationAdminToolRegistry": {
+		"bs-group-manager": "BlueSpice\\GroupManager\\AdminTool"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\GroupManager\\" : "src/"
+	},
 	"AutoloadClasses": {
 		"GroupManager": "GroupManager.class.php",
 		"BSApiTasksGroupManager": "includes/api/BSApiTasksGroupManager.php",

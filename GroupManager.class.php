@@ -34,21 +34,6 @@
  */
 class GroupManager extends BsExtensionMW {
 
-	/**
-	 * constructor for GroupManager class
-	 */
-	public function __construct() {
-		wfProfileIn( 'BS::'.__METHOD__ );
-		WikiAdmin::registerModule( 'GroupManager', [
-			'image' => '/extensions/BlueSpiceExtensions/WikiAdmin/resources/images/bs-btn_gruppe_v1.png',
-			'level' => 'wikiadmin',
-			'message' => 'bs-groupmanager-label',
-			'iconCls' => 'bs-icon-group',
-			'permissions' => [ 'groupmanager-viewspecialpage' ],
-		]);
-		wfProfileOut( 'BS::'.__METHOD__ );
-	}
-
 	protected function initExt() {
 		wfProfileIn( 'BS::'.__METHOD__ );
 		$this->mCore->registerPermission( 'groupmanager-viewspecialpage', array( 'sysop' ), array( 'type' => 'global' ) );
