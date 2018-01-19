@@ -13,6 +13,12 @@
 	},
 	"descriptionmsg": "bs-groupmanager-desc",
 	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": "*"
+		}
+	},
 	"callback": "GroupManager::onRegistration",
 	"bsgExtensions": {
 		"BlueSpiceGroupManager": {
