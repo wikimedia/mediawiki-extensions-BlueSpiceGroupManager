@@ -3,11 +3,11 @@
 /**
  * @group medium
  * @group API
+ * @group Database
  * @group BlueSpice
- * @group BlueSpiceExtensions
  * @group BlueSpiceGroupManager
  */
-class BSApiTasksGroupManagerTest extends BSApiTasksTestBase {
+class BSApiTasksGroupManagerTest extends  BSApiTasksTestBase {
 
 	protected function getModuleName() {
 		return 'bs-groupmanager';
@@ -23,10 +23,13 @@ class BSApiTasksGroupManagerTest extends BSApiTasksTestBase {
 		$aGroupsToAdd = array( 'DummyGroup', 'DummyGroup2', 'DummyGroup3' );
 		foreach( $aGroupsToAdd as $sGroup ) {
 			$oData = $this->addGroup( $sGroup );
-
-			$this->assertTrue( $oData->success );
-			$this->assertTrue( isset( $wgAdditionalGroups[$sGroup] ) );
 		}
+
+		$this->assertTrue( $oData->success );
+		$this->assertTrue( isset( $wgAdditionalGroups['DummyGroup'] ) );
+		$this->assertTrue( isset( $wgAdditionalGroups['DummyGroup2'] ) );
+		$this->assertTrue( isset( $wgAdditionalGroups['DummyGroup3'] ) );
+
 	}
 
 	public function testEditGroup() {
@@ -42,10 +45,10 @@ class BSApiTasksGroupManagerTest extends BSApiTasksTestBase {
 			)
 		);
 
-		$this->assertEquals( true, $oData->success );
 		$this->assertTrue( isset( $wgAdditionalGroups['FakeGroup'] ) );
+		$this->assertTrue( $wgAdditionalGroups['FakeGroup'] );
 		$this->assertFalse( $wgAdditionalGroups['DummyGroup'] );
-	}
+}
 
 	public function testRemoveGroup() {
 		global $wgAdditionalGroups;
@@ -57,7 +60,7 @@ class BSApiTasksGroupManagerTest extends BSApiTasksTestBase {
 			)
 		);
 
-		$this->assertEquals( true, $oData->success );
+		$this->assertTrue( $oData->success );
 		$this->assertFalse( $wgAdditionalGroups['FakeGroup'] );
 	}
 
@@ -71,7 +74,7 @@ class BSApiTasksGroupManagerTest extends BSApiTasksTestBase {
 			)
 		);
 
-		$this->assertEquals( true, $oData->success );
+		$this->assertTrue( $oData->success );
 		$this->assertFalse( $wgAdditionalGroups['DummyGroup2'] );
 		$this->assertFalse( $wgAdditionalGroups['DummyGroup3'] );
 	}
