@@ -35,9 +35,7 @@
 class GroupManager extends BsExtensionMW {
 
 	protected function initExt() {
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$this->mCore->registerPermission( 'groupmanager-viewspecialpage', array( 'sysop' ), array( 'type' => 'global' ) );
-		wfProfileOut( 'BS::'.__METHOD__ );
 	}
 
 	/**
