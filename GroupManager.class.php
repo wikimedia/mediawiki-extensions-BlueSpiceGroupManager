@@ -45,7 +45,7 @@ class GroupManager extends BsExtensionMW {
 	public static function onRegistration() {
 		global $bsgConfigFiles;
 		$bsgConfigFiles['GroupManager']
-			= BSCONFIGDIR . DS . 'gm-settings.php';
+			= BSCONFIGDIR . '/gm-settings.php';
 	}
 
 	/**
