@@ -18,5 +18,9 @@
 	"bs-groupmanager-headergroup": "Ομάδα",
 	"bs-groupmanager-tipremove": "Αφαίρεση {{PLURAL:$1|ομάδα|ομάδων}}",
 	"bs-groupmanager-titlenewgroup": "Νέα ομάδα",
-	"bs-groupmanager-titleeditgroup": "Επεξεργασία ομάδας"
+	"bs-groupmanager-titleeditgroup": "Επεξεργασία ομάδας",
+	"bs-groupmanager-removegroup": "Είστε βέβαιοι ότι θέλετε να καταργήσετε {{PLURAL:$1|αυτή την ομάδα|αυτές τις ομάδες}};",
+	"bs-groupmanager-lablename": "Όνομα ομάδας:",
+	"bs-groupmanager-msgnoteditable": "Αυτή η ομάδα είναι ομάδα του συστήματος και δεν μπορεί να μετονομαστεί.",
+	"groupmanager": "Διαχειριστής ομάδας"
 }
