@@ -34,10 +34,6 @@
  */
 class GroupManager extends BsExtensionMW {
 
-	protected function initExt() {
-		$this->mCore->registerPermission( 'groupmanager-viewspecialpage', array( 'sysop' ), array( 'type' => 'global' ) );
-	}
-
 	/**
 	 * extension.json callback
 	 * @global array $bsgConfigFiles
