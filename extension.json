@@ -35,6 +35,9 @@
 						"demo"
 					]
 				}
+			},
+			"AdminToolRegistry": {
+				"bs-group-manager": "BlueSpice\\GroupManager\\AdminTool"
 			}
 		}
 	},
@@ -75,9 +78,6 @@
 	},
 	"ExtensionMessagesFiles": {
 		"SpecialGroupManagerAlias": "includes/specials/SpecialGroupManager.alias.php"
-	},
-	"BlueSpiceFoundationAdminToolRegistry": {
-		"bs-group-manager": "BlueSpice\\GroupManager\\AdminTool"
 	},
 	"AutoloadNamespaces": {
 		"BlueSpice\\GroupManager\\" : "src/"
