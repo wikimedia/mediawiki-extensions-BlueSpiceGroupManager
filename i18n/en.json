@@ -29,6 +29,7 @@
 	"log-name-bs-group-manager": "Group manager log",
 	"log-description-bs-group-manager": "This is a log of changes on the user groups.",
 	"log-show-hide-bs-group-manager": "$1 group manager log",
+	"logeventslist-bs-group-manager-log": "Group manager log",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|has created}} the group $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|has renamed}} the group $4 to $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|has removed}} the group $4",
