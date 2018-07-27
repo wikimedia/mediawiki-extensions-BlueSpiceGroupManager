@@ -31,6 +31,7 @@
 	"log-name-bs-group-manager": "Gruppenverwaltungs-Logbuch",
 	"log-description-bs-group-manager": "Logbuch von Änderungen an den Benutzergruppen.",
 	"log-show-hide-bs-group-manager": "$1 Gruppenverwaltung-Logbuch",
+	"logeventslist-bs-group-manager-log": "Gruppenverwaltungs-Logbuch",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|hat}} die Gruppe $4 angelegt",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|hat}} die Gruppe $4 in $5 umbenannt",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|hat}} die Gruppe $4 gelöscht",
