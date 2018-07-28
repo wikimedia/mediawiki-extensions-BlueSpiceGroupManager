@@ -30,6 +30,7 @@
 	"log-name-bs-group-manager": "群組管理者日誌",
 	"log-description-bs-group-manager": "此為變更使用者群組的日誌。",
 	"log-show-hide-bs-group-manager": "$1群組管理員日誌",
+	"logeventslist-bs-group-manager-log": "群組管理者日誌",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|已建立}}群組 $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|已重新命名}}群組 $4 成 $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|已移除}}群組 $4",
