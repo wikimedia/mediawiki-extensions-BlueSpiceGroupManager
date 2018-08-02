@@ -40,5 +40,6 @@
 	"apihelp-bs-groupmanager-description": "Describes the API endpoint that provides tasks for the GroupManager extension\n{{doc-apihelp-description|bs-groupmanager}}",
 	"apihelp-bs-groupmanager-summary": "Describes the API endpoint that provides tasks for the GroupManager extension\n{{doc-apihelp-summary|bs-groupmanager}}",
 	"action-groupmanager-viewspecialpage": "placeholder to describe that view of special page \"{{int:bs-groupmanager-label}}\" is restricted for the current user.\n\n{{Doc-action|groupmanager-viewspecialpage}}",
-	"groupmanager": "Used in overview of special pages, anchor text for group manager\n{{Identical|Group manager}}"
+	"groupmanager": "Used in overview of special pages, anchor text for group manager\n{{Identical|Group manager}}",
+	"right-groupmanager-viewspecialpage": "Grants access to the special page [[Special:GroupManager]].\n{{doc-right|groupmanager-viewspecialpage}}"
 }
