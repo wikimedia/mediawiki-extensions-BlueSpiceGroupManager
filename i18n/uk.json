@@ -4,7 +4,8 @@
 			"Ата",
 			"Andriykopanytsia",
 			"Macofe",
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
 	"bs-groupmanager-desc": "Адміністративний інтерфейс для додавання, редагування і видалення груп, користувачів та їхніх прав",
@@ -37,5 +38,6 @@
 	"apihelp-bs-groupmanager-description": "Забезпечує завдання для розширення GroupManager.",
 	"apihelp-bs-groupmanager-summary": "Забезпечує завдання для розширення GroupManager.",
 	"action-groupmanager-viewspecialpage": "перегляд спеціальної сторінки «{{int:bs-groupmanager-label}}»",
-	"groupmanager": "Менеджер груп"
+	"groupmanager": "Менеджер груп",
+	"right-groupmanager-viewspecialpage": "доступ до спеціальної сторінки [[Special:GroupManager]]."
 }

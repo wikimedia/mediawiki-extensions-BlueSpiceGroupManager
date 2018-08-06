@@ -43,5 +43,6 @@
 	"apihelp-bs-groupmanager-description": "Предоставляет задачи для расширения GroupManager.",
 	"apihelp-bs-groupmanager-summary": "Предоставляет задачи для расширения GroupManager.",
 	"action-groupmanager-viewspecialpage": "просмотр служебной страницы «{{int:bs-groupmanager-label}}»",
-	"groupmanager": "Менеджер групп"
+	"groupmanager": "Менеджер групп",
+	"right-groupmanager-viewspecialpage": "доступ к служебной странице [[Special:GroupManager]]."
 }

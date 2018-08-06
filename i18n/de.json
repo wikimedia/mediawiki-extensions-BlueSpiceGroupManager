@@ -37,5 +37,6 @@
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|hat}} die Gruppe $4 gelöscht",
 	"apihelp-bs-groupmanager-description": "Bietet die Aufgaben für die Erweiterung „GroupManager“.",
 	"action-groupmanager-viewspecialpage": "die Spezialseite „{{int:bs-groupmanager-label}}“ anzusehen",
-	"groupmanager": "Gruppenverwaltung"
+	"groupmanager": "Gruppenverwaltung",
+	"right-groupmanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:GroupManager]] gewähren."
 }

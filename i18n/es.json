@@ -34,5 +34,6 @@
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|cambió el nombre}} del grupo $4 a $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|ha eliminado}} el grupo $4",
 	"action-groupmanager-viewspecialpage": "ver la página especial \"{{int:bs-groupmanager-label}}\"",
-	"groupmanager": "Gestor de grupos"
+	"groupmanager": "Gestor de grupos",
+	"right-groupmanager-viewspecialpage": "Otorga acceso a la página especial [[Special:GroupManager]]."
 }

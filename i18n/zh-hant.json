@@ -37,5 +37,6 @@
 	"apihelp-bs-groupmanager-description": "為 GroupManager 擴充提供任務。",
 	"apihelp-bs-groupmanager-summary": "為 GroupManager 擴充提供任務。",
 	"action-groupmanager-viewspecialpage": "檢視特定頁面「{{int:bs-groupmanager-label}}」",
-	"groupmanager": "群組管理者"
+	"groupmanager": "群組管理者",
+	"right-groupmanager-viewspecialpage": "授予存取特殊頁面 [[Special:GroupManager]] 的權限。"
 }
