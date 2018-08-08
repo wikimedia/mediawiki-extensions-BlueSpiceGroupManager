@@ -34,5 +34,6 @@
 	"apihelp-bs-groupmanager-description": "Gir oppgaver for utvidelsen GroupManager.",
 	"apihelp-bs-groupmanager-summary": "Gir oppgaver for utvidelsen GroupManager.",
 	"action-groupmanager-viewspecialpage": "vise spesialsiden «{{int:bs-groupmanager-label}}»",
-	"groupmanager": "Gruppebehandler"
+	"groupmanager": "Gruppebehandler",
+	"right-groupmanager-viewspecialpage": "Gir tilgang til spesialsiden [[Special:GroupManager]]."
 }
