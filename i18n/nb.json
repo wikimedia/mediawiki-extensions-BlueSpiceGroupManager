@@ -28,6 +28,7 @@
 	"log-name-bs-group-manager": "Gruppebehandlingslogg",
 	"log-description-bs-group-manager": "Dette er en logg over endringer i brukergruppene.",
 	"log-show-hide-bs-group-manager": "$1 gruppebehandlingslogg",
+	"logeventslist-bs-group-manager-log": "Gruppebehandlingslogg",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|har}} opprettet gruppa $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|har}} endret navn på gruppa $4 til $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|har}} fjernet gruppa $4",
