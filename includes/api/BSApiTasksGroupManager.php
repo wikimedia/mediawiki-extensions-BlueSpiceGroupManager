@@ -124,7 +124,7 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 
 		if ( !isset( $wgGroupPermissions[ $sGroup ] ) ) {
 			$wgAdditionalGroups[ $sGroup ] = true;
-			$output = GroupManager::saveData();
+			$output = \BlueSpice\GroupManager\Extension::saveData();
 		}
 		if( $output[ 'success' ] === true ) {
 			// Create a log entry for the creation of the group
@@ -193,7 +193,7 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 
 		$oReturn->success = true;
 
-		$result = GroupManager::saveData();
+		$result = \BlueSpice\GroupManager\Extension::saveData();
 		//Backwards compatibility
 		$result = array_merge(
 			(array) $oReturn,
@@ -304,7 +304,7 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 			return $oReturn;
 		}
 
-		$result = GroupManager::saveData();
+		$result = \BlueSpice\GroupManager\Extension::saveData();
 		//Backwards compatibility
 		$result = array_merge(
 			(array) $oReturn,

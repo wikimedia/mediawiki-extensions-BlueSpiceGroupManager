@@ -23,7 +23,7 @@
 		"BlueSpiceFoundation": {
 			"Extensions": {
 				"BlueSpiceGroupManager": {
-					"className": "GroupManager",
+					"className": "\\BlueSpice\\GroupManager\\Extension",
 					"extPath": "/BlueSpiceGroupManager"
 				}
 			},
@@ -55,7 +55,7 @@
 	"AvailableRights": [
 		"groupmanager-viewspecialpage"
 	],
-	"callback": "GroupManager::onRegistration",
+	"callback": "\\BlueSpice\\GroupManager\\Extension::onRegistration",
 	"SpecialPages": {
 		"GroupManager": "SpecialGroupManager"
 	},
@@ -83,7 +83,6 @@
 		"BlueSpice\\GroupManager\\" : "src/"
 	},
 	"AutoloadClasses": {
-		"GroupManager": "GroupManager.class.php",
 		"BSApiTasksGroupManager": "includes/api/BSApiTasksGroupManager.php",
 		"SpecialGroupManager": "includes/specials/SpecialGroupManager.class.php"
 	},
