@@ -31,8 +31,9 @@
 				"groupmanager-viewspecialpage": {
 					"type": "global",
 					"roles": [
+						"accountmanager",
 						"admin",
-						"demo"
+						"maintenanceadmin"
 					]
 				}
 			},
