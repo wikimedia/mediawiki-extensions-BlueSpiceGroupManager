@@ -230,7 +230,7 @@ Ext.define( 'BS.GroupManager.Panel', {
 		}
 	},
 	renderMsgFailure: function( responseObj ) {
-		if ( responseObj.message.length ) {
+		if ( 'message' in responseObj && responseObj.message.length ) {
 			bs.util.alert( 'UMfail', { text: responseObj.message, titleMsg: 'bs-extjs-title-warning' }, { ok: this.showDlgAgain, cancel: function() {}, scope: this } );
 		}
 	}

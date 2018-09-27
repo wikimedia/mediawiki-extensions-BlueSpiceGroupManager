@@ -51,32 +51,9 @@ class Extension extends \BlueSpice\Extension {
 		global $wgAdditionalGroups;
 		$sSaveContent = "<?php\n\$GLOBALS['wgAdditionalGroups'] = [];\n\n";
 		foreach ( $wgAdditionalGroups as $sGroup => $mValue ) {
-			$aInvalidChars = [];
-			$sGroup = trim( $sGroup );
-			if ( substr_count( $sGroup, '\'' ) > 0 ) {
-				$aInvalidChars[] = '\'';
-			}
-			if ( substr_count( $sGroup, '"' ) > 0 ) {
-				$aInvalidChars[] = '"';
-			}
-			if ( !empty( $aInvalidChars ) ) {
-				return [
-					'success' => false,
-					'message' => \wfMessage( 'bs-groupmanager-invalid-name' )
-						->numParams( count( $aInvalidChars ) )
-						->params( implode( ',', $aInvalidChars ) )
-						->text()
-				];
-			} elseif ( preg_match( "/^[0-9]+$/", $sGroup ) ) {
-				return [
-					'success' => false,
-					'message' => \wfMessage( 'bs-groupmanager-invalid-name-numeric' )->plain()
-				];
-			} elseif ( strlen( $sGroup ) > 255 ) {
-				return [
-					'success' => false,
-					'message' => \wfMessage( 'bs-groupmanager-invalid-name-length' )->plain()
-				];
+			$nameErrors = self::getNameErrors( $sGroup );
+			if( !empty( $nameErrors ) ) {
+				return $nameErrors;
 			} else {
 				if ( $mValue !== false ) {
 					$sSaveContent .= "\$GLOBALS['wgAdditionalGroups']['{$sGroup}'] = [];\n";
@@ -102,6 +79,37 @@ class Extension extends \BlueSpice\Extension {
 				'message' => 'Not able to create or write file "' . $GLOBALS[ 'bsgConfigFiles' ][ 'GroupManager' ] . '".'
 			];
 		}
+	}
+
+	public static function getNameErrors( $name ) {
+		$aInvalidChars = [];
+		$name = trim( $name );
+		if ( substr_count( $name, '\'' ) > 0 ) {
+			$aInvalidChars[] = '\'';
+		}
+		if ( substr_count( $name, '"' ) > 0 ) {
+			$aInvalidChars[] = '"';
+		}
+		if ( !empty( $aInvalidChars ) ) {
+			return [
+				'success' => false,
+				'message' => \wfMessage( 'bs-groupmanager-invalid-name' )
+					->numParams( count( $aInvalidChars ) )
+					->params( implode( ',', $aInvalidChars ) )
+					->text()
+			];
+		} elseif ( preg_match( "/^[0-9]+$/", $name ) ) {
+			return [
+				'success' => false,
+				'message' => \wfMessage( 'bs-groupmanager-invalid-name-numeric' )->plain()
+			];
+		} elseif ( strlen( $name ) > 255 ) {
+			return [
+				'success' => false,
+				'message' => \wfMessage( 'bs-groupmanager-invalid-name-length' )->plain()
+			];
+		}
+		return [];
 	}
 
 	public static function checkI18N( $sGroup, $bValue = true ) {

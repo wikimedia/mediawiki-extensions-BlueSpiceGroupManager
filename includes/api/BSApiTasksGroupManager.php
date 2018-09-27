@@ -124,23 +124,27 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 
 		if ( !isset( $wgGroupPermissions[ $sGroup ] ) ) {
 			$wgAdditionalGroups[ $sGroup ] = true;
-			$output = \BlueSpice\GroupManager\Extension::saveData();
-		}
-		if( $output[ 'success' ] === true ) {
-			// Create a log entry for the creation of the group
-			$oTitle = SpecialPage::getTitleFor( 'WikiAdmin' );
-			$oUser = RequestContext::getMain()->getUser();
-			$oLogger = new ManualLogEntry( 'bs-group-manager', 'create' );
-			$oLogger->setPerformer( $oUser );
-			$oLogger->setTarget( $oTitle );
-			$oLogger->setParameters( array(
+			$res = \BlueSpice\GroupManager\Extension::saveData();
+			if( $res[ 'success' ] === true ) {
+				// Create a log entry for the creation of the group
+				$oTitle = SpecialPage::getTitleFor( 'WikiAdmin' );
+				$oUser = RequestContext::getMain()->getUser();
+				$oLogger = new ManualLogEntry( 'bs-group-manager', 'create' );
+				$oLogger->setPerformer( $oUser );
+				$oLogger->setTarget( $oTitle );
+				$oLogger->setParameters( array(
 					'4::group' => $sGroup
-			) );
-			$oLogger->insert();
+				) );
+				$oLogger->insert();
+
+				$oReturn->success = true;
+				$oReturn->message = wfMessage( 'bs-groupmanager-grpadded' )->plain();
+			} else {
+				$oReturn->success = false;
+				$oReturn->message = $res['message'];
+			}
 		}
 
-		$oReturn->success = true;
-		$oReturn->message = wfMessage( 'bs-groupmanager-grpadded' )->plain();
 		return $oReturn;
 	}
 
@@ -169,6 +173,14 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 			)->plain();
 			return $oReturn;
 		}
+
+		$nameErrors = \BlueSpice\GroupManager\Extension::getNameErrors( $sNewGroup );
+		if( !empty( $nameErrors ) ) {
+			$oReturn->success = false;
+			$oReturn->message = $nameErrors['message'];
+			return $oReturn;
+		}
+
 		// Copy the data of the old group to the group with the new name and then delete the old group
 		$wgAdditionalGroups[$sGroup] = false;
 		$wgAdditionalGroups[$sNewGroup] = true;
@@ -194,6 +206,7 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 		$oReturn->success = true;
 
 		$result = \BlueSpice\GroupManager\Extension::saveData();
+
 		//Backwards compatibility
 		$result = array_merge(
 			(array) $oReturn,
