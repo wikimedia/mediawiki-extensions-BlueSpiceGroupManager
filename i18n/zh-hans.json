@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Hzy980512"
+			"Hzy980512",
+			"A Chinese Wikipedian"
 		]
 	},
 	"bs-groupmanager-desc": "用于添加、编辑和删除用户组及其权限的管理界面",
@@ -29,6 +30,7 @@
 	"log-name-bs-group-manager": "群组管理器日志",
 	"log-description-bs-group-manager": "这是用户组更改的日志。",
 	"log-show-hide-bs-group-manager": "$1群组管理器日志",
+	"logeventslist-bs-group-manager-log": "登录组长",
 	"logentry-bs-group-manager-create": "$1{{GENDER:$2|已创建}}组$4",
 	"logentry-bs-group-manager-modify": "$1{{GENDER:$2|已更改}}组$4至$5",
 	"logentry-bs-group-manager-remove": "$1{{GENDER:$2|已移除}}组$4",
