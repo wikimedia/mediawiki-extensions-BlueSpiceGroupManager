@@ -12,7 +12,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
  * @filesource
  */
-class SpecialGroupManager extends BsSpecialPage {
+class SpecialGroupManager extends \BlueSpice\SpecialPage {
 
 	public function __construct() {
 		parent::__construct( 'GroupManager', 'groupmanager-viewspecialpage' );
@@ -24,10 +24,6 @@ class SpecialGroupManager extends BsSpecialPage {
 
 		$this->getOutput()->addModules( 'ext.bluespice.groupManager' );
 		$oOutputPage->addHTML( '<div id="bs-groupmanager-grid" class="bs-manager-container"></div>' );
-	}
-
-	protected function getGroupName() {
-		return 'bluespice';
 	}
 
 }
