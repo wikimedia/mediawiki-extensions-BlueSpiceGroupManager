@@ -32,6 +32,7 @@
 	"log-name-bs-group-manager": "Журнал менеджера груп",
 	"log-description-bs-group-manager": "Це журнал змін у групах користувачів.",
 	"log-show-hide-bs-group-manager": "$1 журнал менеджера груп",
+	"logeventslist-bs-group-manager-log": "Журнал менеджера груп",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|створив|створила}} групу $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|перейменував|перейменувала}} групу $4 на $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|вилучив|вилучила}} групу $4",
