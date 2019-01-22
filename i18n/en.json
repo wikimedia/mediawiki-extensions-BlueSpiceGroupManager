@@ -26,6 +26,7 @@
 	"bs-groupmanager-lablename": "Group name:",
 	"bs-groupmanager-msgnoteditable": "This group is a system group and cannot be renamed.",
 	"bs-groupmanager-msgnotremovable": "This group is a system group and cannot be removed.",
+	"bs-groupmanager-write-config-file-error": "The file $1 could not be created or saved.",
 	"log-name-bs-group-manager": "Group manager log",
 	"log-description-bs-group-manager": "This is a log of changes on the user groups.",
 	"log-show-hide-bs-group-manager": "$1 group manager log",

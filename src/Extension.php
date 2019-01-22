@@ -75,8 +75,7 @@ class Extension extends \BlueSpice\Extension {
 		} else {
 			return [
 				'success' => false,
-				// TODO SU (04.07.11 11:44): i18n
-				'message' => 'Not able to create or write file "' . $GLOBALS[ 'bsgConfigFiles' ][ 'GroupManager' ] . '".'
+				'message' => wfMessage( 'bs-groupmanager-write-config-file-error', basename( $GLOBALS['bsgConfigFiles']['GroupManager'] ) )
 			];
 		}
 	}
