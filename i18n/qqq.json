@@ -30,6 +30,7 @@
 	"bs-groupmanager-lablename": "Label for a input field thats contains the group name\n{{Identical|Group name}}",
 	"bs-groupmanager-msgnoteditable": "Error message that the group you want to edit is a system group and therefore cannot be renamed",
 	"bs-groupmanager-msgnotremovable": "Error message that the group you want to remove is a system group and therefore cannot be removed",
+	"bs-groupmanager-write-config-file-error": "Text of error message when configuration file is not writable.\n\nParameters:\n* $1 - the name of the configuration file",
 	"log-name-bs-group-manager": "Used in [[Special:Log]], title of the log type",
 	"log-description-bs-group-manager": "Used in [[Special:Log]], description of the log type",
 	"log-show-hide-bs-group-manager": "Used in [[Special:Log]]. Parameters:\n* $1 - link text; one of {{msg-mw|Show}} or {{msg-mw|Hide}}\n{{Related|Log-show-hide}}",
