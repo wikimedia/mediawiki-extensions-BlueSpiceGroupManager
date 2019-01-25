@@ -27,6 +27,7 @@
 	"bs-groupmanager-lablename": "群組名稱：",
 	"bs-groupmanager-msgnoteditable": "此群組為系統群組，無法重新命名。",
 	"bs-groupmanager-msgnotremovable": "此群組為系統群組，無法移除。",
+	"bs-groupmanager-write-config-file-error": "檔案$1無法被創建或儲存。",
 	"log-name-bs-group-manager": "群組管理者日誌",
 	"log-description-bs-group-manager": "此為變更使用者群組的日誌。",
 	"log-show-hide-bs-group-manager": "$1群組管理員日誌",

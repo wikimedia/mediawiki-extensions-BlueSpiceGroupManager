@@ -24,6 +24,7 @@
 	"bs-groupmanager-lablename": "그룹 이름:",
 	"bs-groupmanager-msgnoteditable": "이 그룹은 시스템 그룹이고 이름을 바꿀 수 없습니다.",
 	"bs-groupmanager-msgnotremovable": "이 그룹은 시스템 그룹이고 제거할 수 없습니다.",
+	"bs-groupmanager-write-config-file-error": "$1 파일을 만들거나 저장할 수 없습니다.",
 	"log-name-bs-group-manager": "그룹 관리자 기록",
 	"log-show-hide-bs-group-manager": "그룹 관리자 기록을 $1",
 	"logeventslist-bs-group-manager-log": "그룹 관리자 기록",
