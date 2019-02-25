@@ -29,6 +29,7 @@
 	"bs-groupmanager-lablename": "Назва групи:",
 	"bs-groupmanager-msgnoteditable": "Ця група системна, і її не можна перейменувати.",
 	"bs-groupmanager-msgnotremovable": "Ця група системна, і її не можна вилучити.",
+	"bs-groupmanager-write-config-file-error": "Файл $1 не вдалося створити або зберегти.",
 	"log-name-bs-group-manager": "Журнал менеджера груп",
 	"log-description-bs-group-manager": "Це журнал змін у групах користувачів.",
 	"log-show-hide-bs-group-manager": "$1 журнал менеджера груп",
