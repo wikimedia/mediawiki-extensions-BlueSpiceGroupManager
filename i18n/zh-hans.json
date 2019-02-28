@@ -3,7 +3,8 @@
 		"authors": [
 			"Liuxinyu970226",
 			"Hzy980512",
-			"A Chinese Wikipedian"
+			"A Chinese Wikipedian",
+			"WQL"
 		]
 	},
 	"bs-groupmanager-desc": "用于添加、编辑和删除用户组及其权限的管理界面",
@@ -27,6 +28,7 @@
 	"bs-groupmanager-lablename": "群组名：",
 	"bs-groupmanager-msgnoteditable": "此群组是系统群组并不能重命名。",
 	"bs-groupmanager-msgnotremovable": "此群组是系统群组并不能移除。",
+	"bs-groupmanager-write-config-file-error": "文件 $1 不可被创建或保存。",
 	"log-name-bs-group-manager": "群组管理器日志",
 	"log-description-bs-group-manager": "这是用户组更改的日志。",
 	"log-show-hide-bs-group-manager": "$1群组管理器日志",

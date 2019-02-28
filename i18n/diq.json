@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kumkumuk"
+			"Kumkumuk",
+			"Mirzali"
 		]
 	},
 	"bs-groupmanager-label": "Grup manajer",
-	"bs-groupmanager-headergroup": "Grub"
+	"bs-groupmanager-headergroup": "Grube",
+	"bs-groupmanager-titleeditgroup": "Grube bıvurne"
 }
