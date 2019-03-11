@@ -15,8 +15,8 @@ abstract class BSGroupManagerGroupDeleted extends \BlueSpice\Hook {
 
 	/**
 	 * @param string $group
-	 * @param array $result
-	 * @return boolean
+	 * @param array &$result
+	 * @return bool
 	 */
 	public static function callback( $group, &$result ) {
 		$className = static::class;
@@ -34,7 +34,7 @@ abstract class BSGroupManagerGroupDeleted extends \BlueSpice\Hook {
 	 * @param \IContextSource $context
 	 * @param \Config $config
 	 * @param string $group
-	 * @param array $result
+	 * @param array &$result
 	 */
 	public function __construct( $context, $config, $group, &$result ) {
 		parent::__construct( $context, $config );

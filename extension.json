@@ -85,7 +85,7 @@
 	},
 	"AutoloadClasses": {
 		"BSApiTasksGroupManager": "includes/api/BSApiTasksGroupManager.php",
-		"SpecialGroupManager": "includes/specials/SpecialGroupManager.class.php"
+		"SpecialGroupManager": "includes/specials/SpecialGroupManager.php"
 	},
 	"ResourceModules": {
 		"ext.bluespice.groupManager": {
