@@ -26,10 +26,9 @@
  * @package    BlueSpice_Extensions
  * @subpackage GroupManager
  * @copyright  Copyright (C) 2018 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  * @filesource
  */
-
 
 namespace BlueSpice\GroupManager;
 
@@ -49,24 +48,25 @@ class Extension extends \BlueSpice\Extension {
 	 */
 	public static function saveData() {
 		global $wgAdditionalGroups;
-		$sSaveContent = "<?php\n\$GLOBALS['wgAdditionalGroups'] = [];\n\n";
-		foreach ( $wgAdditionalGroups as $sGroup => $mValue ) {
-			$nameErrors = self::getNameErrors( $sGroup );
-			if( !empty( $nameErrors ) ) {
+		$saveContent = "<?php\n\$GLOBALS['wgAdditionalGroups'] = [];\n\n";
+		foreach ( $wgAdditionalGroups as $group => $value ) {
+			$nameErrors = self::getNameErrors( $group );
+			if ( !empty( $nameErrors ) ) {
 				return $nameErrors;
 			} else {
-				if ( $mValue !== false ) {
-					$sSaveContent .= "\$GLOBALS['wgAdditionalGroups']['{$sGroup}'] = [];\n";
-					self::checkI18N( $sGroup );
+				if ( $value !== false ) {
+					$saveContent .= "\$GLOBALS['wgAdditionalGroups']['{$group}'] = [];\n";
+					self::checkI18N( $group );
 				} else {
-					self::checkI18N( $sGroup, $mValue );
+					self::checkI18N( $group, $value );
 				}
 			}
 		}
 
-		$sSaveContent .= "\n\$GLOBALS['wgGroupPermissions'] = array_merge(\$GLOBALS['wgGroupPermissions'], \$GLOBALS['wgAdditionalGroups']);";
+		$saveContent .= "\n\$GLOBALS['wgGroupPermissions'] = '."
+			. "'array_merge(\$GLOBALS['wgGroupPermissions'], \$GLOBALS['wgAdditionalGroups']);";
 
-		$res = file_put_contents($GLOBALS[ 'bsgConfigFiles' ][ 'GroupManager' ], $sSaveContent );
+		$res = file_put_contents( $GLOBALS[ 'bsgConfigFiles' ][ 'GroupManager' ], $saveContent );
 		if ( $res ) {
 			return [
 				'success' => true,
@@ -75,26 +75,34 @@ class Extension extends \BlueSpice\Extension {
 		} else {
 			return [
 				'success' => false,
-				'message' => wfMessage( 'bs-groupmanager-write-config-file-error', basename( $GLOBALS['bsgConfigFiles']['GroupManager'] ) )
+				'message' => wfMessage(
+					'bs-groupmanager-write-config-file-error',
+					basename( $GLOBALS['bsgConfigFiles']['GroupManager'] )
+				)
 			];
 		}
 	}
 
+	/**
+	 *
+	 * @param string $name
+	 * @return array
+	 */
 	public static function getNameErrors( $name ) {
-		$aInvalidChars = [];
+		$invalidChars = [];
 		$name = trim( $name );
 		if ( substr_count( $name, '\'' ) > 0 ) {
-			$aInvalidChars[] = '\'';
+			$invalidChars[] = '\'';
 		}
 		if ( substr_count( $name, '"' ) > 0 ) {
-			$aInvalidChars[] = '"';
+			$invalidChars[] = '"';
 		}
-		if ( !empty( $aInvalidChars ) ) {
+		if ( !empty( $invalidChars ) ) {
 			return [
 				'success' => false,
 				'message' => \wfMessage( 'bs-groupmanager-invalid-name' )
-					->numParams( count( $aInvalidChars ) )
-					->params( implode( ',', $aInvalidChars ) )
+					->numParams( count( $invalidChars ) )
+					->params( implode( ',', $invalidChars ) )
 					->text()
 			];
 		} elseif ( preg_match( "/^[0-9]+$/", $name ) ) {
@@ -111,19 +119,24 @@ class Extension extends \BlueSpice\Extension {
 		return [];
 	}
 
-	public static function checkI18N( $sGroup, $bValue = true ) {
-		$oTitle = \Title::newFromText( 'group-' . $sGroup, NS_MEDIAWIKI );
-		$oArticle = null;
+	/**
+	 *
+	 * @param string $group
+	 * @param bool $value
+	 */
+	public static function checkI18N( $group, $value = true ) {
+		$title = \Title::newFromText( 'group-' . $group, NS_MEDIAWIKI );
+		$article = null;
 
-		if ( $bValue === false ) {
-			if ( $oTitle->exists() ) {
-				$oArticle = new \Article( $oTitle );
-				$oArticle->doDeleteArticle( 'Group does no more exist' );
+		if ( $value === false ) {
+			if ( $title->exists() ) {
+				$article = new \Article( $title );
+				$article->doDeleteArticle( 'Group does no more exist' );
 			}
 		} else {
-			if ( !$oTitle->exists() ) {
-				$oArticle = new \Article( $oTitle );
-				$oArticle->doEditContent( \ContentHandler::makeContent( $sGroup, $oTitle ), '', EDIT_NEW );
+			if ( !$title->exists() ) {
+				$article = new \Article( $title );
+				$article->doEditContent( \ContentHandler::makeContent( $group, $title ), '', EDIT_NEW );
 			}
 		}
 	}

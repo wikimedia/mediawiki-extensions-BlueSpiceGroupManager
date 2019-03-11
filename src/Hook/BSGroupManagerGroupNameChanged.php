@@ -20,8 +20,8 @@ abstract class BSGroupManagerGroupNameChanged extends \BlueSpice\Hook {
 	/**
 	 * @param string $group
 	 * @param string $newGroup
-	 * @param array $result
-	 * @return boolean
+	 * @param array &$result
+	 * @return bool
 	 */
 	public static function callback( $group, $newGroup, &$result ) {
 		$className = static::class;
@@ -41,7 +41,7 @@ abstract class BSGroupManagerGroupNameChanged extends \BlueSpice\Hook {
 	 * @param \Config $config
 	 * @param string $group
 	 * @param string $newGroup
-	 * @param array $result
+	 * @param array &$result
 	 */
 	public function __construct( $context, $config, $group, $newGroup, &$result ) {
 		parent::__construct( $context, $config );
