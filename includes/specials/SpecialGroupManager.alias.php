@@ -1,12 +1,12 @@
 <?php
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English */
-$specialPageAliases['en'] = array(
-	'GroupManager' => array( 'GroupManager', 'Group Manager' ),
-);
+$specialPageAliases['en'] = [
+	'GroupManager' => [ 'GroupManager', 'Group Manager' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'GroupManager' => array( 'GroupManager', 'Group Manager', 'Gruppenverwaltung', 'Gruppenmanager' ),
-);
+$specialPageAliases['de'] = [
+	'GroupManager' => [ 'GroupManager', 'Group Manager', 'Gruppenverwaltung', 'Gruppenmanager' ],
+];

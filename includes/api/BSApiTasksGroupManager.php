@@ -21,7 +21,7 @@
  * @author     Patric Wirth <wirth@hallowelt.com>
  * @package    Bluespice_Extensions
  * @copyright  Copyright (C) 2016 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  */
 
 /**
@@ -32,9 +32,10 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 
 	/**
 	 * Methods that can be called by task param
+	 * must have this name: /BlueSpiceFoundation/includes/api/BSApiTasksBase.php
 	 * @var array
 	 */
-	protected $aTasks = array(
+	protected $aTasks = [
 		'addGroup' => [
 			'examples' => [
 				[
@@ -97,251 +98,274 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 				]
 			]
 		],
-	);
+	];
 
-	protected function task_addGroup( $oTaskData, $aParams ) {
-		// TODO SU (04.07.11 11:40): global sind leider hier noch nötig, da werte in den globals geändert werden müssen.
+	/**
+	 *
+	 * @global array $wgGroupPermissions
+	 * @global array $wgAdditionalGroups
+	 * @param stdClass $taskData
+	 * @param array $params
+	 * @return Standard
+	 */
+	protected function task_addGroup( $taskData, $params ) {
+		// TODO SU (04.07.11 11:40): global are used here because they have to be changed
 		global $wgGroupPermissions, $wgAdditionalGroups;
 
-		$oReturn = $this->makeStandardReturn();
+		$return = $this->makeStandardReturn();
 
-		$sGroup = isset( $oTaskData->group )
-			? (string) $oTaskData->group
-			: ''
-		;
-		if( empty($sGroup) ) {
-			$oReturn->message = wfMessage(
+		$group = isset( $taskData->group )
+			? (string)$taskData->group
+			: '';
+		if ( empty( $group ) ) {
+			$return->message = wfMessage(
 				'bs-groupmanager-grpempty'
 			)->plain();
-			return $oReturn;
+			return $return;
 		}
-		if ( array_key_exists( $sGroup, $wgAdditionalGroups ) ) {
-			$oReturn->message = wfMessage(
+		if ( array_key_exists( $group, $wgAdditionalGroups ) ) {
+			$return->message = wfMessage(
 				'bs-groupmanager-grpexists'
 			)->plain();
-			return $oReturn;
+			return $return;
 		}
 
-		if ( !isset( $wgGroupPermissions[ $sGroup ] ) ) {
-			$wgAdditionalGroups[ $sGroup ] = true;
+		if ( !isset( $wgGroupPermissions[ $group ] ) ) {
+			$wgAdditionalGroups[ $group ] = true;
 			$res = \BlueSpice\GroupManager\Extension::saveData();
-			if( $res[ 'success' ] === true ) {
+			if ( $res[ 'success' ] === true ) {
 				// Create a log entry for the creation of the group
-				$oTitle = SpecialPage::getTitleFor( 'WikiAdmin' );
-				$oUser = RequestContext::getMain()->getUser();
-				$oLogger = new ManualLogEntry( 'bs-group-manager', 'create' );
-				$oLogger->setPerformer( $oUser );
-				$oLogger->setTarget( $oTitle );
-				$oLogger->setParameters( array(
-					'4::group' => $sGroup
-				) );
-				$oLogger->insert();
+				$title = SpecialPage::getTitleFor( 'WikiAdmin' );
+				$user = RequestContext::getMain()->getUser();
+				$logger = new ManualLogEntry( 'bs-group-manager', 'create' );
+				$logger->setPerformer( $user );
+				$logger->setTarget( $title );
+				$logger->setParameters( [
+					'4::group' => $group
+				] );
+				$logger->insert();
 
-				$oReturn->success = true;
-				$oReturn->message = wfMessage( 'bs-groupmanager-grpadded' )->plain();
+				$return->success = true;
+				$return->message = wfMessage( 'bs-groupmanager-grpadded' )->plain();
 			} else {
-				$oReturn->success = false;
-				$oReturn->message = $res['message'];
+				$return->success = false;
+				$return->message = $res['message'];
 			}
 		}
 
-		return $oReturn;
+		return $return;
 	}
 
-	protected function task_editGroup( $oTaskData, $aParams ) {
+	/**
+	 *
+	 * @global array $wgAdditionalGroups
+	 * @param stdClass $taskData
+	 * @param array $params
+	 * @return Standard
+	 */
+	protected function task_editGroup( $taskData, $params ) {
 		global $wgAdditionalGroups;
 
-		$oReturn = $this->makeStandardReturn();
-		$sGroup = isset( $oTaskData->group )
-			? (string) $oTaskData->group
-			: ''
-		;
-		$sNewGroup = isset( $oTaskData->newGroup )
-			? (string) $oTaskData->newGroup
-			: ''
-		;
-		if( empty( $sGroup ) || empty( $sNewGroup ) || $sGroup == $sNewGroup ) {
-			$oReturn->message = wfMessage(
+		$return = $this->makeStandardReturn();
+		$group = isset( $taskData->group )
+			? (string)$taskData->group
+			: '';
+		$newGroup = isset( $taskData->newGroup )
+			? (string)$taskData->newGroup
+			: '';
+		if ( empty( $group ) || empty( $newGroup ) || $group == $newGroup ) {
+			$return->message = wfMessage(
 				'bs-groupmanager-grpempty'
 			)->plain();
-			return $oReturn;
+			return $return;
 		}
-		if( !isset( $wgAdditionalGroups[$sGroup] ) ) {
+		if ( !isset( $wgAdditionalGroups[$group] ) ) {
 			// If group is not in $wgAdditionalGroups, it's a system group and mustn't be renamed.
-			$oReturn->message = wfMessage(
+			$return->message = wfMessage(
 				'bs-groupmanager-grpedited'
 			)->plain();
-			return $oReturn;
+			return $return;
 		}
 
-		$nameErrors = \BlueSpice\GroupManager\Extension::getNameErrors( $sNewGroup );
-		if( !empty( $nameErrors ) ) {
-			$oReturn->success = false;
-			$oReturn->message = $nameErrors['message'];
-			return $oReturn;
+		$nameErrors = \BlueSpice\GroupManager\Extension::getNameErrors( $newGroup );
+		if ( !empty( $nameErrors ) ) {
+			$return->success = false;
+			$return->message = $nameErrors['message'];
+			return $return;
 		}
 
 		// Copy the data of the old group to the group with the new name and then delete the old group
-		$wgAdditionalGroups[$sGroup] = false;
-		$wgAdditionalGroups[$sNewGroup] = true;
+		$wgAdditionalGroups[$group] = false;
+		$wgAdditionalGroups[$newGroup] = true;
 
 		$dbw = wfGetDB( DB_MASTER );
 		$res = $dbw->update(
 			'user_groups',
-			array(
-				'ug_group' => $sNewGroup
-			),
-			array(
-				'ug_group' => $sGroup
-			)
+			[
+				'ug_group' => $newGroup
+			],
+			[
+				'ug_group' => $group
+			]
 		);
 
-		if( $res === false ) {
-			$oReturn->message = wfMessage(
+		if ( $res === false ) {
+			$return->message = wfMessage(
 				'bs-groupmanager-removegroup-message-unknown'
 			)->plain();
-			return $oReturn;
+			return $return;
 		}
 
-		$oReturn->success = true;
+		$return->success = true;
 
 		$result = \BlueSpice\GroupManager\Extension::saveData();
 
-		//Backwards compatibility
+		// Backwards compatibility
 		$result = array_merge(
-			(array) $oReturn,
+			(array)$return,
 			$result
 		);
 
-		Hooks::run( "BSGroupManagerGroupNameChanged", array( $sGroup, $sNewGroup, &$result ) );
+		Hooks::run( "BSGroupManagerGroupNameChanged", [ $group, $newGroup, &$result ] );
 
 		if ( $result['success'] === false ) {
-			return (object) $result;
+			return (object)$result;
 		}
 		$result['message'] = wfMessage( 'bs-groupmanager-grpedited' )->plain();
 
 		// Create a log entry for the change of the group
-		$oTitle = SpecialPage::getTitleFor( 'WikiAdmin' );
-		$oUser = RequestContext::getMain()->getUser();
-		$oLogger = new ManualLogEntry( 'bs-group-manager', 'modify' );
-		$oLogger->setPerformer( $oUser );
-		$oLogger->setTarget( $oTitle );
-		$oLogger->setParameters( array(
-				'4::group' => $sGroup,
-				'5::newGroup' => $sNewGroup
-		) );
-		$oLogger->insert();
+		$title = SpecialPage::getTitleFor( 'WikiAdmin' );
+		$user = RequestContext::getMain()->getUser();
+		$logger = new ManualLogEntry( 'bs-group-manager', 'modify' );
+		$logger->setPerformer( $user );
+		$logger->setTarget( $title );
+		$logger->setParameters( [
+				'4::group' => $group,
+				'5::newGroup' => $newGroup
+		] );
+		$logger->insert();
 
-		return (object) $result;
+		return (object)$result;
 	}
 
-	protected function task_removeGroups( $oTaskData, $aParams ) {
-		$oReturn = $this->makeStandardReturn();
-		$aGroups = isset( $oTaskData->groups )
-			? $oTaskData->groups
-			: array()
-		;
-		if( !is_array($aGroups) || empty($aGroups) ){
-			$oReturn->message = wfMessage(
+	/**
+	 *
+	 * @param stdClass $taskData
+	 * @param array $params
+	 * @return Standard
+	 */
+	protected function task_removeGroups( $taskData, $params ) {
+		$return = $this->makeStandardReturn();
+		$groups = isset( $taskData->groups )
+			? $taskData->groups
+			: [];
+		if ( !is_array( $groups ) || empty( $groups ) ) {
+			$return->message = wfMessage(
 				'bs-groupmanager-grpempty'
 			)->plain();
-			return $oReturn;
+			return $return;
 		}
-		$aFails = array();
-		foreach( $aGroups as $sGroup ){
-			$oReturn->payload[$sGroup] = $this->task_removeGroup(
-				(object) array( 'group' => $sGroup ),
-				array()
+		$fails = [];
+		foreach ( $groups as $group ) {
+			$return->payload[$group] = $this->task_removeGroup(
+				(object)[ 'group' => $group ],
+				[]
 			);
-			$oReturn->payload_count++;
-			if( isset($oReturn->payload[$sGroup]->success) ) {
+			$return->payload_count++;
+			if ( isset( $return->payload[$group]->success ) ) {
 				continue;
 			}
-			$aFails[] = $sGroup;
+			$fails[] = $group;
 		}
 
-		if( !empty($aFails) ) {
-			$oReturn->success = false;
-			$sErrorList = Xml::openElement( 'ul' );
-			foreach( $aFails as $sGroup ) {
-				$sErrorList .= Xml::element( 'li', array(), $sGroup );
+		if ( !empty( $fails ) ) {
+			$return->success = false;
+			$errorList = Xml::openElement( 'ul' );
+			foreach ( $fails as $group ) {
+				$errorList .= Xml::element( 'li', [], $group );
 			}
-			$sErrorList .= Xml::closeElement( 'ul' );
-			$oReturn->message = wfMessage(
+			$errorList .= Xml::closeElement( 'ul' );
+			$return->message = wfMessage(
 				'bs-groupmanager-removegroup-message-failure',
-				count( $aFails ),
-				$sErrorList
+				count( $fails ),
+				$errorList
 			)->parse();
 		} else {
-			$oReturn->success = true;
-			$oReturn->message = wfMessage(
+			$return->success = true;
+			$return->message = wfMessage(
 				'bs-groupmanager-grpremoved'
 			)->plain();
 		}
-		return $oReturn;
+		return $return;
 	}
 
-	protected function task_removeGroup( $oTaskData, $aParams ) {
+	/**
+	 *
+	 * @global array $wgAdditionalGroups
+	 * @param stdClass $taskData
+	 * @param array $params
+	 * @return Standard
+	 */
+	protected function task_removeGroup( $taskData, $params ) {
 		global $wgAdditionalGroups;
-		$oReturn = $this->makeStandardReturn();
+		$return = $this->makeStandardReturn();
 
-		$sGroup = isset( $oTaskData->group )
-			? (string) $oTaskData->group
-			: ''
-		;
-		if( empty( $sGroup ) ) {
-			$oReturn->message = wfMessage(
+		$group = isset( $taskData->group )
+			? (string)$taskData->group
+			: '';
+		if ( empty( $group ) ) {
+			$return->message = wfMessage(
 				'bs-groupmanager-grpempty'
 			)->plain();
-			return $oReturn;
+			return $return;
 		}
-		if( !isset($wgAdditionalGroups[$sGroup]) ) {
-			$oReturn->message = wfMessage(
+		if ( !isset( $wgAdditionalGroups[$group] ) ) {
+			$return->message = wfMessage(
 				'bs-groupmanager-msgnotremovable'
 			)->plain();
-			return $oReturn;
+			return $return;
 		}
 
-		$wgAdditionalGroups[$sGroup] = false;
+		$wgAdditionalGroups[$group] = false;
 		$dbw = wfGetDB( DB_MASTER );
 		$res = $dbw->delete(
 			'user_groups',
-			array(
-				'ug_group' => $sGroup
-			)
+			[
+				'ug_group' => $group
+			]
 		);
-		if( $res === false ) {
-			$oReturn->message = wfMessage(
+		if ( $res === false ) {
+			$return->message = wfMessage(
 				'bs-groupmanager-removegroup-message-unknown'
 			)->plain();
-			return $oReturn;
+			return $return;
 		}
 
 		$result = \BlueSpice\GroupManager\Extension::saveData();
-		//Backwards compatibility
+		// Backwards compatibility
 		$result = array_merge(
-			(array) $oReturn,
+			(array)$return,
 			$result
 		);
 
-		Hooks::run( "BSGroupManagerGroupDeleted", array( $sGroup, &$result ) );
-		if( $result['success'] === false ) {
-			return (object) $result;
+		Hooks::run( "BSGroupManagerGroupDeleted", [ $group, &$result ] );
+		if ( $result['success'] === false ) {
+			return (object)$result;
 		}
 		$result['message'] = wfMessage( 'bs-groupmanager-grpremoved' )->plain();
 
 		// Create a log entry for the removal of the group
-		$oTitle = SpecialPage::getTitleFor( 'WikiAdmin' );
-		$oUser = RequestContext::getMain()->getUser();
-		$oLogger = new ManualLogEntry( 'bs-group-manager', 'remove' );
-		$oLogger->setPerformer( $oUser );
-		$oLogger->setTarget( $oTitle );
-		$oLogger->setParameters( array(
-				'4::group' => $sGroup
-		));
-		$oLogger->insert();
+		$title = SpecialPage::getTitleFor( 'WikiAdmin' );
+		$user = RequestContext::getMain()->getUser();
+		$logger = new ManualLogEntry( 'bs-group-manager', 'remove' );
+		$logger->setPerformer( $user );
+		$logger->setTarget( $title );
+		$logger->setParameters( [
+				'4::group' => $group
+		] );
+		$logger->insert();
 
-		return (object) $result;
+		return (object)$result;
 	}
 
 	/**
@@ -350,15 +374,12 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 	 * @return array
 	 */
 	protected function getRequiredTaskPermissions() {
-		return array(
-			'addGroup' => array( 'wikiadmin' ),
-			'editGroup' => array( 'wikiadmin' ),
-			'removeGroup' => array( 'wikiadmin' ),
-			'removeGroups' => array( 'wikiadmin' ),
-		);
+		return [
+			'addGroup' => [ 'wikiadmin' ],
+			'editGroup' => [ 'wikiadmin' ],
+			'removeGroup' => [ 'wikiadmin' ],
+			'removeGroups' => [ 'wikiadmin' ],
+		];
 	}
 
-	public function needsToken() {
-		return parent::needsToken();
-	}
 }
