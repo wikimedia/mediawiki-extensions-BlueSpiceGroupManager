@@ -63,8 +63,8 @@ class Extension extends \BlueSpice\Extension {
 			}
 		}
 
-		$saveContent .= "\n\$GLOBALS['wgGroupPermissions'] = '."
-			. "'array_merge(\$GLOBALS['wgGroupPermissions'], \$GLOBALS['wgAdditionalGroups']);";
+		$saveContent .= "\n\$GLOBALS['wgGroupPermissions'] = "
+			. "array_merge(\$GLOBALS['wgGroupPermissions'], \$GLOBALS['wgAdditionalGroups']);";
 
 		$res = file_put_contents( $GLOBALS[ 'bsgConfigFiles' ][ 'GroupManager' ], $saveContent );
 		if ( $res ) {
