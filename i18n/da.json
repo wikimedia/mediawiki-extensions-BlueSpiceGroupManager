@@ -4,5 +4,10 @@
 			"Saederup92"
 		]
 	},
+	"bs-groupmanager-headergroup": "Gruppe",
+	"bs-groupmanager-tipremove": "Fjern {{PLURAL:$1|gruppe|grupper}}",
+	"bs-groupmanager-titlenewgroup": "Ny gruppe",
+	"bs-groupmanager-titleeditgroup": "Rediger gruppe",
+	"bs-groupmanager-lablename": "Gruppenavn:",
 	"bs-groupmanager-write-config-file-error": "Filen $1 kunne ikke oprettes eller gemmes."
 }
