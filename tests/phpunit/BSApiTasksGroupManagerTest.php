@@ -9,7 +9,7 @@ use BlueSpice\Tests\BSApiTasksTestBase;
  * @group BlueSpice
  * @group BlueSpiceGroupManager
  */
-class BSApiTasksGroupManagerTest extends  BSApiTasksTestBase {
+class BSApiTasksGroupManagerTest extends BSApiTasksTestBase {
 
 	protected function getModuleName() {
 		return 'bs-groupmanager';
