@@ -41,5 +41,5 @@
 	"apihelp-bs-groupmanager-summary": "Bietet die Aufgaben für die Erweiterung „GroupManager“.",
 	"action-groupmanager-viewspecialpage": "die Spezialseite „{{int:bs-groupmanager-label}}“ anzusehen",
 	"groupmanager": "Gruppenverwaltung",
-	"right-groupmanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:GroupManager]] gewähren."
+	"right-groupmanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:GroupManager]]"
 }

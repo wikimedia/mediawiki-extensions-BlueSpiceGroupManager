@@ -4,10 +4,12 @@
 			"Joetaras"
 		]
 	},
+	"bs-groupmanager-label": "Gestore de gruppe",
 	"bs-groupmanager-headergroup": "Gruppe",
 	"bs-groupmanager-tipremove": "Live {{PLURAL:$1|gruppe}}",
 	"bs-groupmanager-titlenewgroup": "Gruppe nuève",
 	"bs-groupmanager-titleeditgroup": "Cange 'u gruppe",
 	"bs-groupmanager-lablename": "Nome d'u gruppe:",
-	"groupmanager": "Gestore de gruppe"
+	"groupmanager": "Gestore de gruppe",
+	"right-groupmanager-viewspecialpage": "Tràse jndr'à pàgena speciale [[Special:GroupManager]]"
 }

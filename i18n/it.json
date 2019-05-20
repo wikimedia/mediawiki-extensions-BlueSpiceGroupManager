@@ -37,5 +37,6 @@
 	"apihelp-bs-groupmanager-description": "Fornisce le attività per l'estensione GroupManager.",
 	"apihelp-bs-groupmanager-summary": "Fornisce le attività per l'estensione GroupManager.",
 	"action-groupmanager-viewspecialpage": "visualizzare la pagina speciale \"{{int:bs-groupmanager-label}}\"",
-	"groupmanager": "Gestione gruppi"
+	"groupmanager": "Gestione gruppi",
+	"right-groupmanager-viewspecialpage": "Accede alla pagina speciale [[Special:GroupManager]]"
 }

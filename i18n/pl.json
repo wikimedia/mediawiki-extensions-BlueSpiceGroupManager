@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"bs-groupmanager-desc": "Interfejs administracyjny do dodawania, edytowania i usuwania grup użytkowników i ich uprawnień",
@@ -30,5 +31,5 @@
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|usunął|usunęła}} grupę $4",
 	"action-groupmanager-viewspecialpage": "zobacz stronę specjalną „{{int:bs-groupmanager-label}}”",
 	"groupmanager": "Menedżer grup",
-	"right-groupmanager-viewspecialpage": "Przyznawanie dostępu do strony specjalnej [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "Dostęp do strony specjalnej [[Special:GroupManager]]."
 }
