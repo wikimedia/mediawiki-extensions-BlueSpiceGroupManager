@@ -37,5 +37,6 @@
 	"logentry-bs-group-manager-modify": "$1님이 $4 그룹의 이름을 $5(으)로 {{GENDER:$2|바꾸었습니다}}",
 	"logentry-bs-group-manager-remove": "$1님이 $4 그룹을 {{GENDER:$2|제거했습니다}}",
 	"action-groupmanager-viewspecialpage": "특수 문서 \"{{int:bs-groupmanager-label}}\" 보기",
-	"groupmanager": "그룹 관리자"
+	"groupmanager": "그룹 관리자",
+	"right-groupmanager-viewspecialpage": "[[Special:GroupManager]] 특수 문서로 접근"
 }
