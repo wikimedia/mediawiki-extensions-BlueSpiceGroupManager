@@ -1,5 +1,7 @@
 <?php
 
+use BlueSpice\Special\ManagerBase;
+
 /**
  * Special page for GroupManager of BlueSpice (MediaWiki)
  *
@@ -12,25 +14,25 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  * @filesource
  */
-class SpecialGroupManager extends \BlueSpice\SpecialPage {
+class SpecialGroupManager extends ManagerBase {
 
-	/**
-	 *
-	 */
 	public function __construct() {
 		parent::__construct( 'GroupManager', 'groupmanager-viewspecialpage' );
 	}
 
 	/**
-	 *
-	 * @param string $par URL parameters to special page.
+	 * @return string ID of the HTML element being added
 	 */
-	public function execute( $par ) {
-		parent::execute( $par );
-		$outputPage = $this->getOutput();
-
-		$this->getOutput()->addModules( 'ext.bluespice.groupManager' );
-		$outputPage->addHTML( '<div id="bs-groupmanager-grid" class="bs-manager-container"></div>' );
+	protected function getId() {
+		return 'bs-groupmanager-grid';
 	}
 
+	/**
+	 * @return array
+	 */
+	protected function getModules() {
+		return [
+			'ext.bluespice.groupManager'
+		];
+	}
 }
