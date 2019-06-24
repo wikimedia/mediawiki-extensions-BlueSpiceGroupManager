@@ -3,7 +3,8 @@
 		"authors": [
 			"Alirezaaa",
 			"Reza1615",
-			"Huji"
+			"Huji",
+			"FarsiNevis"
 		]
 	},
 	"bs-groupmanager-desc": "رابط مدیریتی برای افزودن، ویرایش و حذف گروه‌های کاربری و اختیارات آنها",
@@ -25,5 +26,6 @@
 	"bs-groupmanager-removegroup-message-unknown": "یک خطای غیر منتظره رخ داد، لطفاً دوباره تلاش کنید.",
 	"bs-groupmanager-lablename": "نام گروه:",
 	"bs-groupmanager-msgnoteditable": "این گروه یک گروه سیستمی است و نامش نمی‌تواند تغییر یابد.",
-	"bs-groupmanager-msgnotremovable": "این گروه یک گروه سیستمی است و نمی‌تواند حذف شود."
+	"bs-groupmanager-msgnotremovable": "این گروه یک گروه سیستمی است و نمی‌تواند حذف شود.",
+	"groupmanager": "مدیر گروه"
 }

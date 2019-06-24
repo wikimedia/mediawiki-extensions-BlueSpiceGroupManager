@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"BadDog"
 		]
 	},
 	"bs-groupmanager-desc": "Административни интерфејс за додавање, уређивање и брисање корисничких група и њихових права",
@@ -36,5 +37,5 @@
 	"apihelp-bs-groupmanager-summary": "Пружа задатке за екстензију GroupManager.",
 	"action-groupmanager-viewspecialpage": "види специјану страницу \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Менаџер група",
-	"right-groupmanager-viewspecialpage": "Пружа приступ специјалној страници [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "приступ посебној страници [[Special:GroupManager]]"
 }
