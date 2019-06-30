@@ -4,6 +4,11 @@
 			"Joetaras"
 		]
 	},
+	"bs-groupmanager-grpexists": "'U gruppe già esiste.",
+	"bs-groupmanager-grpempty": "'U nome d'u gruppe non ge pò essere vacande.",
+	"bs-groupmanager-grpadded": "'U gruppe ha state aggiunde.",
+	"bs-groupmanager-grpedited": "'U gruppe ha state cangiate.",
+	"bs-groupmanager-grpremoved": "'U gruppe ha state luate.",
 	"bs-groupmanager-label": "Gestore de gruppe",
 	"bs-groupmanager-headergroup": "Gruppe",
 	"bs-groupmanager-tipremove": "Live {{PLURAL:$1|gruppe}}",

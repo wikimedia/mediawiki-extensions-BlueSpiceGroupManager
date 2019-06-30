@@ -36,6 +36,7 @@
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|ја отстрани}} групата $4",
 	"apihelp-bs-groupmanager-description": "Ги дава задачите за додатокот „Раководител со групи“",
 	"apihelp-bs-groupmanager-summary": "Ги дава задачите за додатокот „Раководител со групи“",
+	"action-groupmanager-viewspecialpage": "преглед на службената страница „{{int:bs-groupmanager-label}}“",
 	"groupmanager": "Раководител со групи",
 	"right-groupmanager-viewspecialpage": "Пристап до службената страница [[Special:GroupManager]]"
 }
