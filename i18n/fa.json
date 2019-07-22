@@ -28,6 +28,7 @@
 	"bs-groupmanager-lablename": "نام گروه:",
 	"bs-groupmanager-msgnoteditable": "این گروه یک گروه سیستمی است و نامش نمی‌تواند تغییر یابد.",
 	"bs-groupmanager-msgnotremovable": "این گروه یک گروه سیستمی است و نمی‌تواند حذف شود.",
+	"bs-groupmanager-write-config-file-error": "پروندهٔ $1 قابل ایجاد یا ذخیره نیست.",
 	"log-name-bs-group-manager": "سیاههٔ مدیر گروه",
 	"log-description-bs-group-manager": "این سیاههٔ تغییرات گروه‌های کاربری است.",
 	"log-show-hide-bs-group-manager": "$1 سیاههٔ مدیر گروه",
