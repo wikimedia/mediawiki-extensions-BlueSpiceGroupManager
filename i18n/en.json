@@ -37,6 +37,6 @@
 	"apihelp-bs-groupmanager-description": "Provides the tasks for the extension GroupManager.",
 	"apihelp-bs-groupmanager-summary": "Provides the tasks for the extension GroupManager.",
 	"action-groupmanager-viewspecialpage": "view the special page \"{{int:bs-groupmanager-label}}\"",
-	"groupmanager":"Group manager",
-	"right-groupmanager-viewspecialpage": "Grants access to the special page [[Special:GroupManager]]."
+	"groupmanager": "Group manager",
+	"right-groupmanager-viewspecialpage": "Access to the special page [[Special:GroupManager]]"
 }

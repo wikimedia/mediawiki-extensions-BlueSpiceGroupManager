@@ -3,7 +3,8 @@
 		"authors": [
 			"Alirezaaa",
 			"Reza1615",
-			"Huji"
+			"Huji",
+			"FarsiNevis"
 		]
 	},
 	"bs-groupmanager-desc": "رابط مدیریتی برای افزودن، ویرایش و حذف گروه‌های کاربری و اختیارات آنها",
@@ -13,7 +14,7 @@
 	"bs-groupmanager-grpremoved": "گروه حذف شد.",
 	"bs-groupmanager-label": "مدیر گروه",
 	"bs-groupmanager-invalid-name": "نام گروه شامل {{PLURAL:$1|یک|}} {{PLURAL:$1|نویسه|نویسه}} نامعتبر است: $2",
-	"bs-groupmanager-invalid-name-length": "نام گروه نمی‌تواند بلندتر از ۱۶ نویسه باشد.",
+	"bs-groupmanager-invalid-name-length": "نام گروه نباید بیش از ۲۵۵ نویسه داشته باشد.",
 	"bs-groupmanager-invalid-name-numeric": "نام گروه نیاز دارد حداقل یک نویسه داشته باشد.",
 	"bs-groupmanager-headergroup": "گروه",
 	"bs-groupmanager-tipremove": "حذف {{PLURAL:$1|گروه|گروه}}",
@@ -25,5 +26,15 @@
 	"bs-groupmanager-removegroup-message-unknown": "یک خطای غیر منتظره رخ داد، لطفاً دوباره تلاش کنید.",
 	"bs-groupmanager-lablename": "نام گروه:",
 	"bs-groupmanager-msgnoteditable": "این گروه یک گروه سیستمی است و نامش نمی‌تواند تغییر یابد.",
-	"bs-groupmanager-msgnotremovable": "این گروه یک گروه سیستمی است و نمی‌تواند حذف شود."
+	"bs-groupmanager-msgnotremovable": "این گروه یک گروه سیستمی است و نمی‌تواند حذف شود.",
+	"bs-groupmanager-grpempty": "نام گروه نباید خالی بماند.",
+	"bs-groupmanager-write-config-file-error": "پروندهٔ $1 قابل ایجاد یا ذخیره نیست.",
+	"log-name-bs-group-manager": "سیاههٔ مدیر گروه",
+	"log-description-bs-group-manager": "این سیاههٔ تغییرات گروه‌های کاربری است.",
+	"log-show-hide-bs-group-manager": "$1 سیاههٔ مدیر گروه",
+	"logeventslist-bs-group-manager-log": "سیاههٔ مدیر گروه",
+	"logentry-bs-group-manager-create": "$1 گروه $4 را {{GENDER:$2|ایجاد کرده است}}",
+	"logentry-bs-group-manager-modify": "$1 نام گروه $4 را به $5 {{GENDER:$2|تغییر داده است}}",
+	"logentry-bs-group-manager-remove": "$1 گروه $4 را {{GENDER:$2|حذف کرده است}}",
+	"groupmanager": "مدیر گروه"
 }

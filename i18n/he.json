@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Guycn2",
-			"YaronSh"
+			"YaronSh",
+			"Steeve815"
 		]
 	},
 	"bs-groupmanager-desc": "ממשק ניהול עבור הוספת, עריכת ומחיקת קבוצות משתמש והרשאותיהן",
@@ -36,5 +37,6 @@
 	"apihelp-bs-groupmanager-description": "אספקת המשימות עבור ההרחבה GroupManager.",
 	"apihelp-bs-groupmanager-summary": "אספקת המשימות עבור ההרחבה GroupManager.",
 	"action-groupmanager-viewspecialpage": "לצפות בדף המיוחד \"{{int:bs-groupmanager-label}}\"",
-	"groupmanager": "ניהול קבוצות"
+	"groupmanager": "ניהול קבוצות",
+	"logeventslist-bs-group-manager-log": "יומן ניהול קבוצות"
 }

@@ -39,5 +39,5 @@
 	"apihelp-bs-groupmanager-summary": "يوفر المهام للإضافة GroupManager.",
 	"action-groupmanager-viewspecialpage": "انظر الصفحة الخاصَّة \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "مدير المجموعات",
-	"right-groupmanager-viewspecialpage": "يمنح الوصول إلى الصفحة الخاصة [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:GroupManager]]."
 }

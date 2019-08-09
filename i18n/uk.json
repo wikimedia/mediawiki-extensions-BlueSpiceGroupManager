@@ -41,5 +41,5 @@
 	"apihelp-bs-groupmanager-summary": "Забезпечує завдання для розширення GroupManager.",
 	"action-groupmanager-viewspecialpage": "перегляд спеціальної сторінки «{{int:bs-groupmanager-label}}»",
 	"groupmanager": "Менеджер груп",
-	"right-groupmanager-viewspecialpage": "доступ до спеціальної сторінки [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "доступ до спеціальної сторінки [[Special:GroupManager]]"
 }
