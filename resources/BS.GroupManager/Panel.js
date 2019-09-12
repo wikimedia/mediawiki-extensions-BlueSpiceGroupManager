@@ -139,6 +139,9 @@ Ext.define( 'BS.GroupManager.Panel', {
 				} else {
 					this.renderMsgFailure( responseObj );
 				}
+			},
+			failure: function( response, opts ) {
+				this.hideLoadMask();
 			}
 		});
 	},
