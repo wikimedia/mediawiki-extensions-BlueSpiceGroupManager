@@ -111,6 +111,7 @@ Ext.define( 'BS.GroupManager.Panel', {
 		);
 	},
 	onRemoveGroupOk: function() {
+		this.showLoadMask();
 		var selectedRow = this.grdMain.getSelectionModel().getSelection();
 		var groupNames = [];
 		for (var i = 0; i < selectedRow.length; i++){
@@ -131,6 +132,7 @@ Ext.define( 'BS.GroupManager.Panel', {
 				})
 			},
 			success: function( response, opts ) {
+				this.hideLoadMask();
 				var responseObj = Ext.decode( response.responseText );
 				if ( responseObj.success ) {
 					this.renderMsgSuccess( responseObj );
@@ -141,6 +143,7 @@ Ext.define( 'BS.GroupManager.Panel', {
 		});
 	},
 	onDlgGroupAddOk: function( data, group ) {
+		this.showLoadMask();
 		Ext.Ajax.request( {
 			url: mw.util.wikiScript( 'api' ),
 			method: 'post',
@@ -155,6 +158,7 @@ Ext.define( 'BS.GroupManager.Panel', {
 				})
 			},
 			success: function( response, opts ) {
+				this.hideLoadMask();
 				var responseObj = Ext.decode( response.responseText );
 				if ( responseObj.success === true ) {
 					this.renderMsgSuccess( responseObj );
@@ -163,10 +167,13 @@ Ext.define( 'BS.GroupManager.Panel', {
 					this.renderMsgFailure( responseObj );
 				}
 			},
-			failure: function( response, opts ) {}
+			failure: function( response, opts ) {
+				this.hideLoadMask();
+			}
 		});
 	},
 	onDlgUserEditOk: function( data, group ) {
+		this.showLoadMask();
 		Ext.Ajax.request( {
 			url: mw.util.wikiScript( 'api' ),
 			method: 'post',
@@ -182,6 +189,7 @@ Ext.define( 'BS.GroupManager.Panel', {
 				})
 			},
 			success: function( response, opts ) {
+				this.hideLoadMask();
 				var responseObj = Ext.decode( response.responseText );
 				if ( responseObj.success === true ) {
 					this.renderMsgSuccess( responseObj );
@@ -190,7 +198,9 @@ Ext.define( 'BS.GroupManager.Panel', {
 					this.renderMsgFailure( responseObj );
 				}
 			},
-			failure: function( response, opts ) {}
+			failure: function( response, opts ) {
+				this.hideLoadMask();
+			}
 		});
 	},
 	reloadStore: function() {
@@ -233,5 +243,13 @@ Ext.define( 'BS.GroupManager.Panel', {
 		if ( 'message' in responseObj && responseObj.message.length ) {
 			bs.util.alert( 'UMfail', { text: responseObj.message, titleMsg: 'bs-extjs-title-warning' }, { ok: this.showDlgAgain, cancel: function() {}, scope: this } );
 		}
+	},
+
+	showLoadMask: function() {
+		this.getEl().mask( mw.message( 'bs-extjs-loading' ).plain() );
+	},
+
+	hideLoadMask: function() {
+		this.getEl().unmask();
 	}
 } );
