@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"Railfail536"
+			"Railfail536",
+			"Rail"
 		]
 	},
 	"bs-groupmanager-desc": "Interfejs administracyjny do dodawania, edytowania i usuwania grup użytkowników i ich uprawnień",
