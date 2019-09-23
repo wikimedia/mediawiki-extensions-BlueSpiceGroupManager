@@ -27,6 +27,7 @@
 	"bs-groupmanager-lablename": "Име на групата:",
 	"bs-groupmanager-msgnoteditable": "Ова е системска група и затоа не може да се преименува.",
 	"bs-groupmanager-msgnotremovable": "Ова е системска група и затоа не може да се отстрани.",
+	"bs-groupmanager-write-config-file-error": "Податотеката $1 не можеше да се создаде или зачува.",
 	"log-name-bs-group-manager": "Раководен дневник за групи",
 	"log-description-bs-group-manager": "Ова е дневник на промеи направени во кориснички групи.",
 	"log-show-hide-bs-group-manager": "$1 раководен дневник",
