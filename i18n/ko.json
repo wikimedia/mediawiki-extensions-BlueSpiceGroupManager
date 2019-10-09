@@ -24,6 +24,7 @@
 	"bs-groupmanager-lablename": "그룹 이름:",
 	"bs-groupmanager-msgnoteditable": "이 그룹은 시스템 그룹이고 이름을 바꿀 수 없습니다.",
 	"bs-groupmanager-msgnotremovable": "이 그룹은 시스템 그룹이고 제거할 수 없습니다.",
+	"bs-groupmanager-write-config-file-error": "$1 파일을 만들거나 저장할 수 없습니다.",
 	"log-name-bs-group-manager": "그룹 관리자 기록",
 	"log-show-hide-bs-group-manager": "그룹 관리자 기록을 $1",
 	"logeventslist-bs-group-manager-log": "그룹 관리자 기록",
@@ -31,5 +32,11 @@
 	"logentry-bs-group-manager-modify": "$1님이 $4 그룹의 이름을 $5(으)로 {{GENDER:$2|바꾸었습니다}}",
 	"logentry-bs-group-manager-remove": "$1님이 $4 그룹을 {{GENDER:$2|제거했습니다}}",
 	"action-groupmanager-viewspecialpage": "특수 문서 \"{{int:bs-groupmanager-label}}\" 보기",
-	"groupmanager": "그룹 관리자"
+	"groupmanager": "그룹 관리자",
+	"bs-groupmanager-removegroup": "{{PLURAL:$1|이 그룹}}을 제거하시겠습니까?",
+	"bs-groupmanager-removegroup-message-success": "다음의 {{PLURAL:$1|그룹이}} 삭제되었습니다: $2",
+	"bs-groupmanager-removegroup-message-failure": "다음의 {{PLURAL:$1|그룹을}} 삭제하지 못했습니다: $2",
+	"bs-groupmanager-removegroup-message-unknown": "예기치 않은 오류가 발생했습니다. 다시 시도해 주십시오.",
+	"log-description-bs-group-manager": "사용자 그룹을 바꾼 기록입니다.",
+	"right-groupmanager-viewspecialpage": "[[Special:GroupManager]] 특수 문서로 접근"
 }

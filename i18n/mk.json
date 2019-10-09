@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Bjankuloski06",
-			"Macofe"
+			"Macofe",
+			"Vlad5250"
 		]
 	},
-	"bs-groupmanager-desc": "Административен посредник додавање, измена и бришење на кориснички групи и нивните права",
+	"bs-groupmanager-desc": "Административен посредник за додавање, уредување и бришење на кориснички групи и нивните права",
 	"bs-groupmanager-grpexists": "Групата веќе постои.",
 	"bs-groupmanager-grpempty": "Името не групата може да стои празно.",
 	"bs-groupmanager-grpadded": "Групата е додадена.",
@@ -20,7 +21,7 @@
 	"bs-groupmanager-titlenewgroup": "Нова група",
 	"bs-groupmanager-titleeditgroup": "Измени група",
 	"bs-groupmanager-removegroup": "Дали сте сигурни дека сакате да {{PLURAL:$1|ја отстраните групава|ги отстраните групиве}}?",
-	"bs-groupmanager-removegroup-message-success": "{{PLURAL:$1|Избришана е следнава група|Избришани се следнаве групи}}: $2",
+	"bs-groupmanager-removegroup-message-success": "{{PLURAL:$1|Следнава група е избришана|Следниве групи се избришани}}: $2",
 	"bs-groupmanager-removegroup-message-failure": "Не можев да {{PLURAL:$1|ја избришам следнава група|ги избришам следнаве групи}}: $2",
 	"bs-groupmanager-removegroup-message-unknown": "Се јави неочекувана грешка. Обидете се повторно.",
 	"bs-groupmanager-lablename": "Име на групата:",
@@ -32,5 +33,10 @@
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|ја создаде}} групата $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|ја преименуваше}} групата $4 во $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|ја отстрани}} групата $4",
-	"apihelp-bs-groupmanager-description": "Ги дава задачите за додатокот „Раководител со групи“"
+	"apihelp-bs-groupmanager-description": "Ги дава задачите за додатокот „Раководител со групи“",
+	"logeventslist-bs-group-manager-log": "Раководен дневник за групи",
+	"apihelp-bs-groupmanager-summary": "Ги дава задачите за додатокот „Раководител со групи“",
+	"action-groupmanager-viewspecialpage": "преглед на службената страница „{{int:bs-groupmanager-label}}“",
+	"groupmanager": "Раководител со групи",
+	"right-groupmanager-viewspecialpage": "Пристап до службената страница [[Special:GroupManager]]"
 }

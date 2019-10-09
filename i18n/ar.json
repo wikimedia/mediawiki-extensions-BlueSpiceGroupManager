@@ -27,6 +27,7 @@
 	"bs-groupmanager-lablename": "اسم المجموعة:",
 	"bs-groupmanager-msgnoteditable": "هذه المجموعة مجموعة نظام ولا يمكن إعادة تسميتها.",
 	"bs-groupmanager-msgnotremovable": "هذه المجموعة مجموعة نظام ولا يمكن إزالتها.",
+	"bs-groupmanager-write-config-file-error": "لا يمكن إنشاء أو حفظ الملف $1.",
 	"log-name-bs-group-manager": "سجل مدير المجموعة",
 	"log-description-bs-group-manager": "هذا سجل بالتغييرات في مجموعات المستخدمين.",
 	"log-show-hide-bs-group-manager": "سجل مدير مجموعة $1",
@@ -38,5 +39,5 @@
 	"apihelp-bs-groupmanager-summary": "يوفر المهام للإضافة GroupManager.",
 	"action-groupmanager-viewspecialpage": "انظر الصفحة الخاصَّة \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "مدير المجموعات",
-	"right-groupmanager-viewspecialpage": "يمنح الوصول إلى الصفحة الخاصة [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:GroupManager]]."
 }

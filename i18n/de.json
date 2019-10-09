@@ -29,7 +29,7 @@
 	"bs-groupmanager-lablename": "Gruppenname:",
 	"bs-groupmanager-msgnoteditable": "Dies ist eine Systemgruppe und kann nicht umbenannt werden.",
 	"bs-groupmanager-msgnotremovable": "Dies ist eine Systemgruppe und kann nicht gelöscht werden.",
-	"bs-groupmanager-write-config-file-error": "$1 konnte nicht erstellt oder beschrieben werden",
+	"bs-groupmanager-write-config-file-error": "Die Datei $1 konnte nicht erstellt oder gespeichert werden.",
 	"log-name-bs-group-manager": "Gruppenverwaltungs-Logbuch",
 	"log-description-bs-group-manager": "Logbuch von Änderungen an den Benutzergruppen.",
 	"log-show-hide-bs-group-manager": "$1 Gruppenverwaltung-Logbuch",
@@ -41,5 +41,5 @@
 	"apihelp-bs-groupmanager-summary": "Bietet die Aufgaben für die Erweiterung „GroupManager“.",
 	"action-groupmanager-viewspecialpage": "die Spezialseite „{{int:bs-groupmanager-label}}“ anzusehen",
 	"groupmanager": "Gruppenverwaltung",
-	"right-groupmanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:GroupManager]] gewähren."
+	"right-groupmanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:GroupManager]]"
 }

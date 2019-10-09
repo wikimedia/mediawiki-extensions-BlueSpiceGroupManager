@@ -9,7 +9,9 @@
 			"Mailman",
 			"Av6",
 			"Facenapalm",
-			"Vlad5250"
+			"Vlad5250",
+			"Movses",
+			"Diralik"
 		]
 	},
 	"bs-groupmanager-desc": "Административный интерфейс для добавления, правки и удаления групп участников и их прав",
@@ -31,8 +33,9 @@
 	"bs-groupmanager-removegroup-message-failure": "Не удалось удалить {{PLURAL:$1|следующую группу|следующие группы}}: $2",
 	"bs-groupmanager-removegroup-message-unknown": "Произошла непредвиденная ошибка, попробуйте ещё ​​раз.",
 	"bs-groupmanager-lablename": "Название группы:",
-	"bs-groupmanager-msgnoteditable": "Эта системная группа, и ее нельзя переименовать.",
-	"bs-groupmanager-msgnotremovable": "Это системная группа, и ее нельзя удалить.",
+	"bs-groupmanager-msgnoteditable": "Эта системная группа, и её нельзя переименовать.",
+	"bs-groupmanager-msgnotremovable": "Это системная группа, и её нельзя удалить.",
+	"bs-groupmanager-write-config-file-error": "Файл $1 не удалось создать или сохранить.",
 	"log-name-bs-group-manager": "Журнал управления группами",
 	"log-description-bs-group-manager": "Журнал изменений групп прав участников.",
 	"log-show-hide-bs-group-manager": "$1 журнал управления группами",
@@ -44,5 +47,5 @@
 	"apihelp-bs-groupmanager-summary": "Предоставляет задачи для расширения GroupManager.",
 	"action-groupmanager-viewspecialpage": "просмотр служебной страницы «{{int:bs-groupmanager-label}}»",
 	"groupmanager": "Менеджер групп",
-	"right-groupmanager-viewspecialpage": "доступ к служебной странице [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "доступ к служебной странице [[Special:GroupManager]]"
 }

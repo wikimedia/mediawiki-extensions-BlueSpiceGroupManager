@@ -27,6 +27,7 @@
 	"bs-groupmanager-lablename": "Nom du groupe :",
 	"bs-groupmanager-msgnoteditable": "Ce groupe est un groupe système et ne peut pas être renommé.",
 	"bs-groupmanager-msgnotremovable": "Ce groupe est un groupe système et ne peut pas être supprimé.",
+	"bs-groupmanager-write-config-file-error": "Le fichier $1 n’a pas pu être créé ou enregistré.",
 	"log-name-bs-group-manager": "Journal du gestionnaire de groupe",
 	"log-description-bs-group-manager": "Ceci est un journal des modifications des groupes utilisateur.",
 	"log-show-hide-bs-group-manager": "Journal du gestionnaire de groupe $1",
@@ -38,5 +39,5 @@
 	"apihelp-bs-groupmanager-summary": "Fournit les tâches de l’extension GroupManager.",
 	"action-groupmanager-viewspecialpage": "afficher la page spéciale \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Gestionnaire de groupe",
-	"right-groupmanager-viewspecialpage": "Donne les droits d'accès à la page spéciale [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "Accès à la page spéciale [[Special:GroupManager]]"
 }

@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Guycn2"
+			"Guycn2",
+			"YaronSh",
+			"Steeve815"
 		]
 	},
 	"bs-groupmanager-desc": "ממשק ניהול עבור הוספת, עריכת ומחיקת קבוצות משתמש והרשאותיהן",
@@ -25,6 +27,7 @@
 	"bs-groupmanager-lablename": "שם הקבוצה:",
 	"bs-groupmanager-msgnoteditable": "זוהי קבוצת מערכת, ולא ניתן לשנות את שמה.",
 	"bs-groupmanager-msgnotremovable": "זוהי קבוצת מערכת, ולא ניתן להסיר אותה.",
+	"bs-groupmanager-write-config-file-error": "לא ניתן ליצור או לשמור את הקובץ $1.",
 	"log-name-bs-group-manager": "יומן ניהול קבוצות",
 	"log-description-bs-group-manager": "יומן זה מציג את השינויים בקבוצות המשתמשים.",
 	"log-show-hide-bs-group-manager": "$1 יומן ניהול קבוצות",
@@ -34,5 +37,6 @@
 	"apihelp-bs-groupmanager-description": "אספקת המשימות עבור ההרחבה GroupManager.",
 	"apihelp-bs-groupmanager-summary": "אספקת המשימות עבור ההרחבה GroupManager.",
 	"action-groupmanager-viewspecialpage": "לצפות בדף המיוחד \"{{int:bs-groupmanager-label}}\"",
-	"groupmanager": "ניהול קבוצות"
+	"groupmanager": "ניהול קבוצות",
+	"logeventslist-bs-group-manager-log": "יומן ניהול קבוצות"
 }

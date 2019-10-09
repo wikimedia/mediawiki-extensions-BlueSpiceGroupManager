@@ -17,7 +17,7 @@
 	"bs-groupmanager-label": "Groepsbeheerder",
 	"bs-groupmanager-invalid-name": "De naam van de groep bevat {{PLURAL:$1|een ongeldig teken|ongeldige tekens}}: $2",
 	"bs-groupmanager-invalid-name-length": "De naam van de groep kan niet langer zijn dan 255 tekens.",
-	"bs-groupmanager-invalid-name-numeric": "De naam van de groep, moet ten minste één teken.",
+	"bs-groupmanager-invalid-name-numeric": "De naam van de groep moet ten minste één teken bevatten.",
 	"bs-groupmanager-headergroup": "Groep",
 	"bs-groupmanager-tipremove": "{{PLURAL:$1|Groep|Groepen}} verwijderen",
 	"bs-groupmanager-titlenewgroup": "Nieuwe groep",
@@ -30,5 +30,14 @@
 	"bs-groupmanager-msgnoteditable": "Deze groep is een systeemgroep en kan niet hernoemd worden.",
 	"bs-groupmanager-msgnotremovable": "Deze groep is een systeemgroep en kan niet worden verwijderd.",
 	"log-name-bs-group-manager": "Logboek groepenbeheer",
-	"log-show-hide-bs-group-manager": "Logboek groepenbeheer $1"
+	"log-show-hide-bs-group-manager": "Logboek groepenbeheer $1",
+	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|heeft}} de groep $4 aangemaakt",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|heeft}} de groep $4 naar $5 hernoemd",
+	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|heeft}} de groep $4 verwijderd",
+	"action-groupmanager-viewspecialpage": "de speciale pagina \"{{int:bs-groupmanager-label}}\" bekijken",
+	"groupmanager": "Groepsbeheerder",
+	"right-groupmanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:GroupManager]]",
+	"bs-groupmanager-grpempty": "De groepnaam mag niet leeg zijn.",
+	"bs-groupmanager-write-config-file-error": "Het bestand $1 kon niet worden aangemaakt of opgeslagen.",
+	"log-description-bs-group-manager": "Dit is een logboek van wijzigingen aan gebruikersgroepen."
 }
