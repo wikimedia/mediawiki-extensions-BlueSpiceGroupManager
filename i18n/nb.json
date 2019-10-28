@@ -25,6 +25,7 @@
 	"bs-groupmanager-lablename": "Gruppenavn:",
 	"bs-groupmanager-msgnoteditable": "Denne gruppe er ei systemgruppe og kan ikke endre navn.",
 	"bs-groupmanager-msgnotremovable": "Denne gruppa er ei systemgruppe og kan ikke fjernes.",
+	"bs-groupmanager-write-config-file-error": "Fila $1 kunne ikke oprrettes eller lagres.",
 	"log-name-bs-group-manager": "Gruppebehandlingslogg",
 	"log-description-bs-group-manager": "Dette er en logg over endringer i brukergruppene.",
 	"log-show-hide-bs-group-manager": "$1 gruppebehandlingslogg",
@@ -36,5 +37,5 @@
 	"apihelp-bs-groupmanager-summary": "Gir oppgaver for utvidelsen GroupManager.",
 	"action-groupmanager-viewspecialpage": "vise spesialsiden «{{int:bs-groupmanager-label}}»",
 	"groupmanager": "Gruppebehandler",
-	"right-groupmanager-viewspecialpage": "Gir tilgang til spesialsiden [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "Tilgang til spesialsiden [[Special:GroupManager]]."
 }
