@@ -38,5 +38,6 @@
 	"apihelp-bs-groupmanager-summary": "Ги дава задачите за додатокот „Раководител со групи“",
 	"action-groupmanager-viewspecialpage": "преглед на службената страница „{{int:bs-groupmanager-label}}“",
 	"groupmanager": "Раководител со групи",
-	"right-groupmanager-viewspecialpage": "Пристап до службената страница [[Special:GroupManager]]"
+	"right-groupmanager-viewspecialpage": "Пристап до службената страница [[Special:GroupManager]]",
+	"bs-groupmanager-write-config-file-error": "Податотеката $1 не можеше да се создаде или зачува."
 }
