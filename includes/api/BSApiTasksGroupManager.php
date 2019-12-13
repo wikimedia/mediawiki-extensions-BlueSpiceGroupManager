@@ -102,8 +102,6 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 
 	/**
 	 *
-	 * @global array $wgGroupPermissions
-	 * @global array $wgAdditionalGroups
 	 * @param stdClass $taskData
 	 * @param array $params
 	 * @return Standard
@@ -158,7 +156,6 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 
 	/**
 	 *
-	 * @global array $wgAdditionalGroups
 	 * @param stdClass $taskData
 	 * @param array $params
 	 * @return Standard
@@ -301,7 +298,6 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 
 	/**
 	 *
-	 * @global array $wgAdditionalGroups
 	 * @param stdClass $taskData
 	 * @param array $params
 	 * @return Standard
