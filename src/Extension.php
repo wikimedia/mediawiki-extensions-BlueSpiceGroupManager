@@ -36,7 +36,6 @@ class Extension extends \BlueSpice\Extension {
 
 	/**
 	 * extension.json callback
-	 * @global array $bsgConfigFiles
 	 */
 	public static function onRegistration() {
 		$GLOBALS[ 'bsgConfigFiles' ][ 'GroupManager' ] = \BSCONFIGDIR . '/gm-settings.php';

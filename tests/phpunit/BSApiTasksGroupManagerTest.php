@@ -11,14 +11,26 @@ use BlueSpice\Tests\BSApiTasksTestBase;
  */
 class BSApiTasksGroupManagerTest extends BSApiTasksTestBase {
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function getModuleName() {
 		return 'bs-groupmanager';
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	public function getTokens() {
 		return $this->getTokenList( self::$users[ 'sysop' ] );
 	}
 
+	/**
+	 *
+	 * @covers \BSApiTasksGroupManager::task_addGroup
+	 */
 	public function testAddGroup() {
 		global $wgAdditionalGroups;
 
@@ -33,6 +45,10 @@ class BSApiTasksGroupManagerTest extends BSApiTasksTestBase {
 		$this->assertTrue( isset( $wgAdditionalGroups['DummyGroup3'] ) );
 	}
 
+	/**
+	 *
+	 * @covers \BSApiTasksGroupManager::task_editGroup
+	 */
 	public function testEditGroup() {
 		global $wgAdditionalGroups, $wgGroupPermissions;
 
@@ -51,6 +67,10 @@ class BSApiTasksGroupManagerTest extends BSApiTasksTestBase {
 		$this->assertFalse( $wgAdditionalGroups['DummyGroup'] );
 	}
 
+	/**
+	 *
+	 * @covers \BSApiTasksGroupManager::task_removeGroup
+	 */
 	public function testRemoveGroup() {
 		global $wgAdditionalGroups;
 
@@ -65,6 +85,10 @@ class BSApiTasksGroupManagerTest extends BSApiTasksTestBase {
 		$this->assertFalse( $wgAdditionalGroups['FakeGroup'] );
 	}
 
+	/**
+	 *
+	 * @covers \BSApiTasksGroupManager::task_removeGroups
+	 */
 	public function testRemoveGroups() {
 		global $wgAdditionalGroups;
 
@@ -80,6 +104,11 @@ class BSApiTasksGroupManagerTest extends BSApiTasksTestBase {
 		$this->assertFalse( $wgAdditionalGroups['DummyGroup3'] );
 	}
 
+	/**
+	 *
+	 * @param string $sName
+	 * @return array
+	 */
 	protected function addGroup( $sName ) {
 		$data = $this->executeTask(
 			'addGroup',
