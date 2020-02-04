@@ -3,7 +3,8 @@
 		"authors": [
 			"Gomoko",
 			"Ltrlg",
-			"Wladek92"
+			"Wladek92",
+			"Thibaut120094"
 		]
 	},
 	"bs-groupmanager-desc": "Interface d’administration pour l’ajout, la modification et la suppression des groupes d’utilisateurs et des droits associés",
@@ -20,7 +21,7 @@
 	"bs-groupmanager-tipremove": "Supprimer {{PLURAL:$1|le groupe|les groupes}}",
 	"bs-groupmanager-titlenewgroup": "Nouveau groupe",
 	"bs-groupmanager-titleeditgroup": "Modifier le groupe",
-	"bs-groupmanager-removegroup": "Êtes-vous sûr de vouloir supprimer {{PLURAL:$1|ce groupe|ces groupes}} ?",
+	"bs-groupmanager-removegroup": "Êtes-vous sûr de vouloir supprimer {{PLURAL:$1|ce groupe|ces groupes}} ?",
 	"bs-groupmanager-removegroup-message-success": "{{PLURAL:$1|Le groupe suivant a été supprimé|Les groupes suivants ont été supprimés}} : $2",
 	"bs-groupmanager-removegroup-message-failure": "{{PLURAL:$1|Le groupe suivant n’a pas pu être supprimé|Les groupes suivants n’ont pas pu être supprimés}} : $2",
 	"bs-groupmanager-removegroup-message-unknown": "Une erreur inattendue s’est produite, veuillez réessayer.",
@@ -35,7 +36,7 @@
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|a créé}} le groupe $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|a renommé}} le groupe $4 en $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|a supprimé}} le groupe $4",
-	"apihelp-bs-groupmanager-description": "Fournit les tâches pour l'extension GroupManager.",
+	"apihelp-bs-groupmanager-description": "Fournit les tâches pour l’extension GroupManager.",
 	"apihelp-bs-groupmanager-summary": "Fournit les tâches de l’extension GroupManager.",
 	"action-groupmanager-viewspecialpage": "afficher la page spéciale \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Gestionnaire de groupe",
