@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sayginer",
-			"Macofe"
+			"Macofe",
+			"BaRaN6161 TURK"
 		]
 	},
 	"bs-groupmanager-grpadded": "Grup eklendi.",
@@ -10,5 +11,33 @@
 	"bs-groupmanager-headergroup": "Grup",
 	"bs-groupmanager-titlenewgroup": "Yeni grup",
 	"bs-groupmanager-removegroup-message-unknown": "Beklenmeyen bir hata oluştu, lütfen tekrar deneyin.",
-	"bs-groupmanager-lablename": "Grup adı:"
+	"bs-groupmanager-lablename": "Grup adı:",
+	"bs-groupmanager-desc": "Kullanıcı gruplarını ve haklarını eklemek, düzenlemek ve silmek için yönetim arayüzü",
+	"bs-groupmanager-grpexists": "Grup zaten var.",
+	"bs-groupmanager-grpempty": "Grup adı boş bırakılamaz.",
+	"bs-groupmanager-grpedited": "Grup düzenlendi.",
+	"bs-groupmanager-grpremoved": "Grup kaldırıldı.",
+	"bs-groupmanager-label": "Grup yöneticisi",
+	"bs-groupmanager-invalid-name": "Grup adı geçersiz bir {{PLURAL:$1|karakter|karakter}} içeriyor: $2",
+	"bs-groupmanager-invalid-name-numeric": "Grup adının en az bir karakteri olmalıdır.",
+	"bs-groupmanager-tipremove": "{{PLURAL:$1|Grubu|Grubu}} kaldır",
+	"bs-groupmanager-titleeditgroup": "Grubu düzenle",
+	"bs-groupmanager-removegroup": "{{PLURAL:$1|Bu grubu|Bu grubu}} kaldırmak istediğinizden emin misiniz?",
+	"bs-groupmanager-removegroup-message-success": "Şu {{PLURAL:$1|grup|gruplar}} silindi: $2",
+	"bs-groupmanager-removegroup-message-failure": "Şu {{PLURAL:$1|grubu|grubu}} silinemedi: $2",
+	"bs-groupmanager-msgnoteditable": "Bu grup bir sistem grubudur ve yeniden adlandırılamaz.",
+	"bs-groupmanager-msgnotremovable": "Bu grup bir sistem grubudur ve kaldırılamaz.",
+	"bs-groupmanager-write-config-file-error": "$1 dosyası oluşturulamadı veya kaydedilemedi.",
+	"log-name-bs-group-manager": "Grup yöneticisi günlüğü",
+	"log-description-bs-group-manager": "Bu, kullanıcı gruplarındaki değişikliklerin bir günlüğüdür.",
+	"log-show-hide-bs-group-manager": "$1 grup yöneticisi günlüğü",
+	"logeventslist-bs-group-manager-log": "Grup yöneticisi günlüğü",
+	"logentry-bs-group-manager-create": "$1, $4 grubu {{GENDER:$2|oluşturdu}}",
+	"logentry-bs-group-manager-modify": "$1, $4 grubu $5 olarak {{GENDER:$2|yeniden adlandırdı}}",
+	"logentry-bs-group-manager-remove": "$1, $4 grubu {{GENDER:$2|kaldırdı}}",
+	"apihelp-bs-groupmanager-description": "GroupManager uzantısı için görevler sağlar.",
+	"apihelp-bs-groupmanager-summary": "GroupManager uzantısı için görevler sağlar.",
+	"action-groupmanager-viewspecialpage": "\"{{int:bs-groupmanager-label}}\" özel sayfasını görüntüle",
+	"groupmanager": "Grup yöneticisi",
+	"right-groupmanager-viewspecialpage": "Özel sayfaya erişim [[Special:GroupManager]]"
 }
