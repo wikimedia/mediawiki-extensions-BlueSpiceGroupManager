@@ -125,17 +125,29 @@ class Extension extends \BlueSpice\Extension {
 	 */
 	public static function checkI18N( $group, $value = true ) {
 		$title = \Title::newFromText( 'group-' . $group, NS_MEDIAWIKI );
-		$article = null;
+		$user = \RequestContext::getMain()->getUser();
 
 		if ( $value === false ) {
 			if ( $title->exists() ) {
-				$article = new \Article( $title );
-				$article->doDeleteArticle( 'Group does no more exist' );
+				$error = '';
+				\WikiPage::factory( $title )->doDeleteArticle(
+					'Group does not exist anymore',
+					false,
+					null,
+					null,
+					$error,
+					$user
+				);
 			}
 		} else {
 			if ( !$title->exists() ) {
-				$article = new \Article( $title );
-				$article->doEditContent( \ContentHandler::makeContent( $group, $title ), '', EDIT_NEW );
+				\WikiPage::factory( $title )->doEditContent(
+					\ContentHandler::makeContent( $group, $title ),
+					'',
+					EDIT_NEW,
+					false,
+					$user
+				);
 			}
 		}
 	}
