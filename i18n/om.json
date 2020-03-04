@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Tumsaa",
-			"Macofe"
+			"Macofe",
+			"Oromoo"
 		]
 	},
 	"bs-groupmanager-grpexists": "Gareen kun duraanuu jira",
@@ -16,5 +17,5 @@
 	"bs-groupmanager-titlenewgroup": "Garee haaraa",
 	"bs-groupmanager-titleeditgroup": "Garee sirreessi",
 	"bs-groupmanager-removegroup-message-unknown": "Dogoggorri hin eeggamne ummame, itti deebi'ii yaali.",
-	"bs-groupmanager-lablename": "Maqaa garee"
+	"bs-groupmanager-lablename": "Maqaa garee:"
 }
