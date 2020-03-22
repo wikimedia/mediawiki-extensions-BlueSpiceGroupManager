@@ -129,13 +129,8 @@ class Extension extends \BlueSpice\Extension {
 
 		if ( $value === false ) {
 			if ( $title->exists() ) {
-				$error = '';
-				\WikiPage::factory( $title )->doDeleteArticle(
+				\WikiPage::factory( $title )->doDeleteArticleReal(
 					'Group does not exist anymore',
-					false,
-					null,
-					null,
-					$error,
 					$user
 				);
 			}
