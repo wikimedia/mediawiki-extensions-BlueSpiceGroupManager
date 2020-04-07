@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin",
-			"SPQRobin",
 			"Esketti",
-			"Siebrand",
 			"Macofe",
-			"Mainframe98"
+			"Mainframe98",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin"
 		]
 	},
 	"bs-groupmanager-desc": "Administratie-interface voor het toevoegen, bewerken en verwijderen van groepen gebruikers en hun rechten",

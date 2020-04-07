@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Felipe L. Ewald",
-			"Eduardo Addad de Oliveira"
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
 		]
 	},
 	"bs-groupmanager-desc": "Interface administrativa para adicionar, editar e excluir grupos de usuários e seus direitos",
