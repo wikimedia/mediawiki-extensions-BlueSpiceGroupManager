@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Lokal Profil",
-			"WikiPhoenix",
-			"Technic2"
+			"Technic2",
+			"WikiPhoenix"
 		]
 	},
 	"bs-groupmanager-desc": "Administrationsgränssnittet för att lägga till, redigera och radera användargrupper och deras rättigheter",

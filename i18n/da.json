@@ -9,5 +9,10 @@
 	"bs-groupmanager-titlenewgroup": "Ny gruppe",
 	"bs-groupmanager-titleeditgroup": "Rediger gruppe",
 	"bs-groupmanager-lablename": "Gruppenavn:",
-	"bs-groupmanager-write-config-file-error": "Filen $1 kunne ikke oprettes eller gemmes."
+	"bs-groupmanager-write-config-file-error": "Filen $1 kunne ikke oprettes eller gemmes.",
+	"bs-groupmanager-grpexists": "Denne gruppe findes allerede.",
+	"bs-groupmanager-grpempty": "Gruppenavnet kan ikke være tomt.",
+	"bs-groupmanager-grpadded": "Gruppen blev tilføjet.",
+	"bs-groupmanager-grpedited": "Gruppen blev redigeret.",
+	"bs-groupmanager-grpremoved": "Gruppen blev fjernet."
 }

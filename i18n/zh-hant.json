@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Cwlin0416",
-			"Liuxinyu970226",
-			"Kly"
+			"Kly",
+			"Liuxinyu970226"
 		]
 	},
 	"bs-groupmanager-desc": "添加、編輯，以及刪除使用者群組與權限的管理介面",
