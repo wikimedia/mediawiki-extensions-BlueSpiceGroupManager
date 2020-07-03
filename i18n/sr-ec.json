@@ -18,7 +18,7 @@
 	"bs-groupmanager-tipremove": "Уклони {{PLURAL:$1|групу|групе}}",
 	"bs-groupmanager-titlenewgroup": "Нова група",
 	"bs-groupmanager-titleeditgroup": "Измени групу",
-	"bs-groupmanager-removegroup": "Да ли сте сигурни да желите да уклоните {{PLURAL:$1|ову групу|ове групе}}?",
+	"bs-groupmanager-removegroup": "Желите ли заиста да уклоните {{PLURAL:$1|ову групу|ове групе}}?",
 	"bs-groupmanager-removegroup-message-success": "{{PLURAL:$1|Наведена група је обрисана|Наведене групе су обрисане}}: $2",
 	"bs-groupmanager-removegroup-message-failure": "{{PLURAL:$1|Наведена група не може бити обрисана|Наведене групе не могу бити обрисане}}: $2",
 	"bs-groupmanager-removegroup-message-unknown": "Дошло је до неочекиване грешке, покушајте поново.",
