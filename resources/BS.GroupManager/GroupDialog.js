@@ -22,6 +22,7 @@ Ext.define( 'BS.GroupManager.GroupDialog', {
 			labelWidth: 85,
 			labelAlign: 'right',
 			name: 'groupname',
+			id: this.id + "-groupname",
 			allowBlank: false
 		});
 
