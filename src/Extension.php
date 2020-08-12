@@ -32,14 +32,9 @@
 
 namespace BlueSpice\GroupManager;
 
-class Extension extends \BlueSpice\Extension {
+use BlueSpice\DynamicSettingsManager;
 
-	/**
-	 * extension.json callback
-	 */
-	public static function onRegistration() {
-		$GLOBALS[ 'bsgConfigFiles' ][ 'GroupManager' ] = \BSCONFIGDIR . '/gm-settings.php';
-	}
+class Extension extends \BlueSpice\Extension {
 
 	/**
 	 * saves all groupspecific data to a config file
@@ -65,7 +60,9 @@ class Extension extends \BlueSpice\Extension {
 		$saveContent .= "\n\$GLOBALS['wgGroupPermissions'] = "
 			. "array_merge(\$GLOBALS['wgGroupPermissions'], \$GLOBALS['wgAdditionalGroups']);";
 
-		$res = file_put_contents( $GLOBALS[ 'bsgConfigFiles' ][ 'GroupManager' ], $saveContent );
+		$dynamicSettingsManager = DynamicSettingsManager::factory();
+		$status = $dynamicSettingsManager->persist( 'GroupManager', $saveContent );
+		$res = $status->isGood();
 		if ( $res ) {
 			return [
 				'success' => true,
@@ -76,7 +73,7 @@ class Extension extends \BlueSpice\Extension {
 				'success' => false,
 				'message' => wfMessage(
 					'bs-groupmanager-write-config-file-error',
-					basename( $GLOBALS['bsgConfigFiles']['GroupManager'] )
+					'gm-settings.php'
 				)
 			];
 		}
