@@ -126,7 +126,7 @@ Ext.define( 'BS.GroupManager.Panel', {
 				action: 'bs-groupmanager',
 				task: 'removeGroups',
 				format: 'json',
-				token: mw.user.tokens.get( 'editToken', '' ),
+				token: mw.user.tokens.get( 'csrfToken', '' ),
 				taskData: Ext.encode({
 					'groups': groupNames
 				})
@@ -155,7 +155,7 @@ Ext.define( 'BS.GroupManager.Panel', {
 				action: 'bs-groupmanager',
 				task: 'addGroup',
 				format: 'json',
-				token: mw.user.tokens.get( 'editToken', '' ),
+				token: mw.user.tokens.get( 'csrfToken', '' ),
 				taskData: Ext.encode({
 					'group': group.group_name
 				})
@@ -185,7 +185,7 @@ Ext.define( 'BS.GroupManager.Panel', {
 				action: 'bs-groupmanager',
 				task: 'editGroup',
 				format: 'json',
-				token: mw.user.tokens.get( 'editToken', '' ),
+				token: mw.user.tokens.get( 'csrfToken', '' ),
 				taskData: Ext.encode({
 					'group': group.group_name_old,
 					'newGroup': group.group_name
