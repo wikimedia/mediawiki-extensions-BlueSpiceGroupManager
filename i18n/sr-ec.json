@@ -33,7 +33,7 @@
 	"log-show-hide-bs-group-manager": "$1 дневник менаџера група",
 	"logeventslist-bs-group-manager-log": "Дневник менаџера група",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|је направио|је направила}} групу $4",
-	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|је преименовао|је преименовала}} групу $4 на $5",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|преименовао|преименовала|преименовао/-ла}} је групу $4 на $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|је уклонио|је уклонила}} групу $4",
 	"apihelp-bs-groupmanager-description": "Пружа задатке за екстензију GroupManager.",
 	"apihelp-bs-groupmanager-summary": "Пружа задатке за екстензију GroupManager.",
