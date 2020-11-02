@@ -223,7 +223,11 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 			$result
 		);
 
-		Hooks::run( "BSGroupManagerGroupNameChanged", [ $group, $newGroup, &$result ] );
+		$this->getServices()->getHookContainer()->run( "BSGroupManagerGroupNameChanged", [
+			$group,
+			$newGroup,
+			&$result
+		] );
 
 		if ( $result['success'] === false ) {
 			return (object)$result;
@@ -344,7 +348,10 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 			$result
 		);
 
-		Hooks::run( "BSGroupManagerGroupDeleted", [ $group, &$result ] );
+		$this->getServices()->getHookContainer()->run( "BSGroupManagerGroupDeleted", [
+			$group,
+			&$result
+		] );
 		if ( $result['success'] === false ) {
 			return (object)$result;
 		}
