@@ -4,6 +4,7 @@
 			"Alirezaaa",
 			"FarsiNevis",
 			"Huji",
+			"Jeeputer",
 			"Reza1615"
 		]
 	},
@@ -36,5 +37,7 @@
 	"logentry-bs-group-manager-create": "$1 گروه $4 را {{GENDER:$2|ایجاد کرده است}}",
 	"logentry-bs-group-manager-modify": "$1 نام گروه $4 را به $5 {{GENDER:$2|تغییر داده است}}",
 	"logentry-bs-group-manager-remove": "$1 گروه $4 را {{GENDER:$2|حذف کرده است}}",
-	"groupmanager": "مدیر گروه"
+	"action-groupmanager-viewspecialpage": "مشاهدهٔ ویژه‌صفحهٔ «{{int:bs-groupmanager-label}}»",
+	"groupmanager": "مدیر گروه",
+	"right-groupmanager-viewspecialpage": "دسترسی به ویژه‌صفحهٔ [[Special:GroupManager]]"
 }
