@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elisardojm",
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
 	"bs-groupmanager-desc": "Interface administrativa para engadir, editar e eliminar grupos de usuarios e os seus privilexios",

@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Alirezaaa",
-			"Reza1615",
+			"FarsiNevis",
 			"Huji",
-			"FarsiNevis"
+			"Jeeputer",
+			"Reza1615"
 		]
 	},
 	"bs-groupmanager-desc": "رابط مدیریتی برای افزودن، ویرایش و حذف گروه‌های کاربری و اختیارات آنها",
@@ -36,5 +37,7 @@
 	"logentry-bs-group-manager-create": "$1 گروه $4 را {{GENDER:$2|ایجاد کرده است}}",
 	"logentry-bs-group-manager-modify": "$1 نام گروه $4 را به $5 {{GENDER:$2|تغییر داده است}}",
 	"logentry-bs-group-manager-remove": "$1 گروه $4 را {{GENDER:$2|حذف کرده است}}",
-	"groupmanager": "مدیر گروه"
+	"groupmanager": "مدیر گروه",
+	"action-groupmanager-viewspecialpage": "مشاهدهٔ ویژه‌صفحهٔ «{{int:bs-groupmanager-label}}»",
+	"right-groupmanager-viewspecialpage": "دسترسی به ویژه‌صفحهٔ [[Special:GroupManager]]"
 }

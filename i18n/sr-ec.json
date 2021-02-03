@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zoranzoki21",
-			"BadDog"
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
 		]
 	},
 	"bs-groupmanager-desc": "Административни интерфејс за додавање, уређивање и брисање корисничких група и њихових права",
@@ -18,7 +19,7 @@
 	"bs-groupmanager-tipremove": "Уклони {{PLURAL:$1|групу|групе}}",
 	"bs-groupmanager-titlenewgroup": "Нова група",
 	"bs-groupmanager-titleeditgroup": "Измени групу",
-	"bs-groupmanager-removegroup": "Да ли сте сигурни да желите да уклоните {{PLURAL:$1|ову групу|ове групе}}?",
+	"bs-groupmanager-removegroup": "Желите ли заиста да уклоните {{PLURAL:$1|ову групу|ове групе}}?",
 	"bs-groupmanager-removegroup-message-success": "{{PLURAL:$1|Наведена група је обрисана|Наведене групе су обрисане}}: $2",
 	"bs-groupmanager-removegroup-message-failure": "{{PLURAL:$1|Наведена група не може бити обрисана|Наведене групе не могу бити обрисане}}: $2",
 	"bs-groupmanager-removegroup-message-unknown": "Дошло је до неочекиване грешке, покушајте поново.",
@@ -31,7 +32,7 @@
 	"log-show-hide-bs-group-manager": "$1 дневник менаџера група",
 	"logeventslist-bs-group-manager-log": "Дневник менаџера група",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|је направио|је направила}} групу $4",
-	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|је преименовао|је преименовала}} групу $4 на $5",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|преименовао|преименовала|преименовао/-ла}} је групу $4 на $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|је уклонио|је уклонила}} групу $4",
 	"apihelp-bs-groupmanager-description": "Пружа задатке за екстензију GroupManager.",
 	"apihelp-bs-groupmanager-summary": "Пружа задатке за екстензију GroupManager.",

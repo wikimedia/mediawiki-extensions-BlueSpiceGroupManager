@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ата",
 			"Andriykopanytsia",
 			"Macofe",
 			"Piramidion",
-			"Vlad5250"
+			"Vlad5250",
+			"Ата"
 		]
 	},
 	"bs-groupmanager-desc": "Адміністративний інтерфейс для додавання, редагування і видалення груп, користувачів та їхніх прав",

@@ -1,17 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
 			"Alexandr Efremov",
-			"Striking Blue",
-			"Kaganer",
-			"Iniquity",
-			"Mailman",
 			"Av6",
+			"Diralik",
 			"Facenapalm",
-			"Vlad5250",
+			"Iniquity",
+			"Kaganer",
+			"Mailman",
 			"Movses",
-			"Diralik"
+			"Okras",
+			"Striking Blue",
+			"Vlad5250"
 		]
 	},
 	"bs-groupmanager-desc": "Административный интерфейс для добавления, правки и удаления групп участников и их прав",

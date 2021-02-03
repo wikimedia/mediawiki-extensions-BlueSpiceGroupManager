@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Hwboehm",
+			"Jkonrad",
 			"Metalhead64",
 			"Osnard",
-			"Jkonrad",
-			"Hwboehm"
+			"Stephan Muggli <muggli@hallowelt.biz>"
 		]
 	},
 	"bs-groupmanager-desc": "Administrationsoberfläche zum Hinzufügen, Bearbeiten und Löschen von Benutzergruppen",

@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-groupmanager-desc": "Administrativni interfejs za dodavanje, uređivanje i brisanje korisničkih grupa i njihovih prava",
 	"bs-groupmanager-grpexists": "Ova grupa već postoji.",
 	"bs-groupmanager-grpempty": "Ime grupe ne može biti prazno.",

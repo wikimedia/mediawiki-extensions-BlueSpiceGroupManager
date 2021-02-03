@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Lokal Profil",
+			"Technic2",
 			"WikiPhoenix"
 		]
 	},
@@ -35,5 +36,5 @@
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|har tagit bort}} gruppen $4",
 	"action-groupmanager-viewspecialpage": "visa specialsidan \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Grupphanterare",
-	"right-groupmanager-viewspecialpage": "Ger åtkomst till specialsidan [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "Åtkomst till specialsidan [[Special:GroupManager]]."
 }
