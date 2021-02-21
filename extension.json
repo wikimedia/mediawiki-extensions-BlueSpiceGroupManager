@@ -1,6 +1,6 @@
 {
 	"name": "BlueSpiceGroupManager",
-	"license-name":"GPL-3.0-only",
+	"license-name": "GPL-3.0-only",
 	"version": "4.0.0",
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:GroupManager",
 	"author": [
@@ -83,7 +83,7 @@
 		"SpecialGroupManagerAlias": "includes/specials/SpecialGroupManager.alias.php"
 	},
 	"AutoloadNamespaces": {
-		"BlueSpice\\GroupManager\\" : "src/"
+		"BlueSpice\\GroupManager\\": "src/"
 	},
 	"AutoloadClasses": {
 		"BSApiTasksGroupManager": "includes/api/BSApiTasksGroupManager.php",
