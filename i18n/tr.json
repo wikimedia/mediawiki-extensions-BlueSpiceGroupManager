@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"Macofe",
 			"Sayginer"
 		]
@@ -33,7 +34,7 @@
 	"log-show-hide-bs-group-manager": "$1 grup yöneticisi günlüğü",
 	"logeventslist-bs-group-manager-log": "Grup yöneticisi günlüğü",
 	"logentry-bs-group-manager-create": "$1, $4 grubu {{GENDER:$2|oluşturdu}}",
-	"logentry-bs-group-manager-modify": "$1, $4 grubu $5 olarak {{GENDER:$2|yeniden adlandırdı}}",
+	"logentry-bs-group-manager-modify": "$1, $4 grubunu $5 olarak {{GENDER:$2|yeniden adlandırdı}}",
 	"logentry-bs-group-manager-remove": "$1, $4 grubu {{GENDER:$2|kaldırdı}}",
 	"apihelp-bs-groupmanager-description": "GroupManager uzantısı için görevler sağlar.",
 	"apihelp-bs-groupmanager-summary": "GroupManager uzantısı için görevler sağlar.",
