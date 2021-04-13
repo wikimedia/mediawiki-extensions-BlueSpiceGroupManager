@@ -1,5 +1,5 @@
 /**
- * UserManager UserDialog
+ * GroupManager GroupDialog
  *
  * Part of BlueSpice MediaWiki
  *
@@ -13,13 +13,12 @@
  */
 
 Ext.define( 'BS.GroupManager.GroupDialog', {
-	extend: 'BS.Window',
+	extend: 'MWExt.Dialog',
 	currentData: {},
 	selectedData: {},
 	afterInitComponent: function() {
 		this.tfGroupName = Ext.create( 'Ext.form.TextField', {
 			fieldLabel: mw.message( 'bs-groupmanager-lablename' ).plain(),
-			labelWidth: 85,
 			labelAlign: 'right',
 			name: 'groupname',
 			id: this.id + "-groupname",
