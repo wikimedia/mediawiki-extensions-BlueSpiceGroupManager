@@ -4,6 +4,7 @@
 			"Esketti",
 			"Macofe",
 			"Mainframe98",
+			"Romaine",
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin"
@@ -34,6 +35,7 @@
 	"log-name-bs-group-manager": "Logboek groepenbeheer",
 	"log-description-bs-group-manager": "Dit is een logboek van wijzigingen aan gebruikersgroepen.",
 	"log-show-hide-bs-group-manager": "Logboek groepenbeheer $1",
+	"logeventslist-bs-group-manager-log": "Logboek groepsbeheer",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|heeft}} de groep $4 aangemaakt",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|heeft}} de groep $4 naar $5 hernoemd",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|heeft}} de groep $4 verwijderd",
