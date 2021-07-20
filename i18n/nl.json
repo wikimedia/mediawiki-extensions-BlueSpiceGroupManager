@@ -4,6 +4,7 @@
 			"Esketti",
 			"Macofe",
 			"Mainframe98",
+			"Romaine",
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin"
@@ -39,5 +40,6 @@
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|heeft}} de groep $4 verwijderd",
 	"action-groupmanager-viewspecialpage": "de speciale pagina \"{{int:bs-groupmanager-label}}\" bekijken",
 	"groupmanager": "Groepsbeheerder",
-	"right-groupmanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:GroupManager]]"
+	"right-groupmanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:GroupManager]]",
+	"logeventslist-bs-group-manager-log": "Logboek groepsbeheer"
 }
