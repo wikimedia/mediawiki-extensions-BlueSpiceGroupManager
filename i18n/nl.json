@@ -4,6 +4,7 @@
 			"Esketti",
 			"Macofe",
 			"Mainframe98",
+			"Romaine",
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin"
@@ -39,5 +40,6 @@
 	"right-groupmanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:GroupManager]]",
 	"bs-groupmanager-grpempty": "De groepnaam mag niet leeg zijn.",
 	"bs-groupmanager-write-config-file-error": "Het bestand $1 kon niet worden aangemaakt of opgeslagen.",
-	"log-description-bs-group-manager": "Dit is een logboek van wijzigingen aan gebruikersgroepen."
+	"log-description-bs-group-manager": "Dit is een logboek van wijzigingen aan gebruikersgroepen.",
+	"logeventslist-bs-group-manager-log": "Logboek groepsbeheer"
 }
