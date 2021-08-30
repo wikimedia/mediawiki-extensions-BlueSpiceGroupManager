@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"bs-groupmanager-grpexists": "Le gruppo jam existe.",
+	"bs-groupmanager-grpempty": "Le nomine del gruppo non pote esser vacue.",
+	"bs-groupmanager-grpadded": "Le gruppo ha essite addite.",
+	"bs-groupmanager-grpedited": "Le gruppo ha essite modificate.",
+	"bs-groupmanager-grpremoved": "Le gruppo ha essite removite.",
+	"bs-groupmanager-label": "Gestion de gruppos",
+	"bs-groupmanager-invalid-name": "Le nomine del gruppo contine {{PLURAL:$1|un|}} character{{PLURAL:$1||es}} non valide: $2",
+	"bs-groupmanager-invalid-name-length": "Le nomine del gruppo non pote esser plus longe de 255 characteres.",
+	"bs-groupmanager-invalid-name-numeric": "Le nomine del gruppo debe haber al minus un character.",
+	"bs-groupmanager-headergroup": "Gruppo",
+	"bs-groupmanager-tipremove": "Remover gruppo{{PLURAL:$1||s}}",
+	"bs-groupmanager-titlenewgroup": "Nove gruppo",
+	"bs-groupmanager-titleeditgroup": "Modificar gruppo",
+	"bs-groupmanager-removegroup": "Es tu secur de voler remover iste gruppo{{PLURAL:$1||s}}?",
+	"bs-groupmanager-removegroup-message-success": "Le sequente gruppo{{PLURAL:$1||s}} ha essite delite: $2",
+	"bs-groupmanager-removegroup-message-failure": "Le sequente gruppo{{PLURAL:$1||s}} non poteva esser delite: $2",
+	"bs-groupmanager-removegroup-message-unknown": "Un error inexpectate ha occurrite. Per favor, reproba.",
+	"bs-groupmanager-lablename": "Nomine del gruppo:",
+	"bs-groupmanager-msgnoteditable": "Iste gruppo es un gruppo del systema e non pote esser renominate.",
+	"bs-groupmanager-msgnotremovable": "Iste gruppo es un gruppo del systema e non pote esser removite.",
+	"bs-groupmanager-write-config-file-error": "Le file $1 non poteva esser create o salveguardate.",
+	"log-name-bs-group-manager": "Registro de gestion de gruppos",
+	"log-description-bs-group-manager": "Isto es un registro de cambiamentos in le gruppos de usatores.",
+	"log-show-hide-bs-group-manager": "$1 le registro de gestion de gruppos",
+	"logeventslist-bs-group-manager-log": "Registro de gestion de gruppos",
+	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|ha create}} le gruppo $4",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|ha renominate}} le gruppo $4 in $5",
+	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|ha removite}} le gruppo $4",
+	"apihelp-bs-groupmanager-description": "Forni le travalios pro le extension GroupManager (gestion de gruppos).",
+	"apihelp-bs-groupmanager-summary": "Forni le travalios pro le extension GroupManager (gestion de gruppos).",
+	"action-groupmanager-viewspecialpage": "vider le pagina special \"{{int:bs-groupmanager-label}}\"",
+	"groupmanager": "Gestion de gruppos",
+	"right-groupmanager-viewspecialpage": "Accesso al pagina special [[Special:GroupManager]]"
+}
