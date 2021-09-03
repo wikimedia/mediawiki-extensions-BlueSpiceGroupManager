@@ -107,6 +107,14 @@
 			]
 		}
 	},
+	"HookHandlers": {
+		"main": {
+			"class": "\\BlueSpice\\GroupManager\\HookHandler\\Main"
+		}
+	},
+	"Hooks": {
+		"MWStakeCommonUIRegisterSkinSlotComponents": "main"
+	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2
 }
