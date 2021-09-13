@@ -8,6 +8,7 @@
 			"아라"
 		]
 	},
+	"bs-groupmanager-desc": "사용자 그룹 및 권한을 추가, 편집, 삭제하기 위한 관리 인터페이스",
 	"bs-groupmanager-grpexists": "그룹이 이미 존재합니다.",
 	"bs-groupmanager-grpempty": "그룹명을 채워주세요.",
 	"bs-groupmanager-grpadded": "그룹이 추가되었습니다.",
@@ -36,6 +37,8 @@
 	"logentry-bs-group-manager-create": "$1님이 $4 그룹을 {{GENDER:$2|만들었습니다}}",
 	"logentry-bs-group-manager-modify": "$1님이 $4 그룹의 이름을 $5(으)로 {{GENDER:$2|바꾸었습니다}}",
 	"logentry-bs-group-manager-remove": "$1님이 $4 그룹을 {{GENDER:$2|제거했습니다}}",
+	"apihelp-bs-groupmanager-description": "GroupManager 확장 기능을 위한 작업을 제공합니다.",
+	"apihelp-bs-groupmanager-summary": "GroupManager 확장 기능을 위한 작업을 제공합니다.",
 	"action-groupmanager-viewspecialpage": "특수 문서 \"{{int:bs-groupmanager-label}}\" 보기",
 	"groupmanager": "그룹 관리자",
 	"right-groupmanager-viewspecialpage": "[[Special:GroupManager]] 특수 문서로 접근"

@@ -4,6 +4,7 @@
 			"McDutchie"
 		]
 	},
+	"bs-groupmanager-desc": "Interfacie de administration pro adder, modificar e deler gruppos de usatores e lor derectos",
 	"bs-groupmanager-grpexists": "Le gruppo jam existe.",
 	"bs-groupmanager-grpempty": "Le nomine del gruppo non pote esser vacue.",
 	"bs-groupmanager-grpadded": "Le gruppo ha essite addite.",
