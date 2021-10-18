@@ -108,12 +108,12 @@
 		}
 	},
 	"HookHandlers": {
-		"main": {
-			"class": "\\BlueSpice\\GroupManager\\HookHandler\\Main"
+		"common-user-interface": {
+			"class": "\\BlueSpice\\GroupManager\\HookHandler\\CommonUserInterface"
 		}
 	},
 	"Hooks": {
-		"MWStakeCommonUIRegisterSkinSlotComponents": "main"
+		"MWStakeCommonUIRegisterSkinSlotComponents": "common-user-interface"
 	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2
