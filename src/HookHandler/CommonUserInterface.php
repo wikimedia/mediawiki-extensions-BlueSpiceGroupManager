@@ -5,7 +5,7 @@ namespace BlueSpice\GroupManager\HookHandler;
 use BlueSpice\GroupManager\GlobalActionsManager;
 use MWStake\MediaWiki\Component\CommonUserInterface\Hook\MWStakeCommonUIRegisterSkinSlotComponents;
 
-class Main implements MWStakeCommonUIRegisterSkinSlotComponents {
+class CommonUserInterface implements MWStakeCommonUIRegisterSkinSlotComponents {
 
 	/**
 	 * @inheritDoc
@@ -15,7 +15,7 @@ class Main implements MWStakeCommonUIRegisterSkinSlotComponents {
 			'GlobalActionsManager',
 			[
 				'ga-bs-groupmanager' => [
-					'factory' => function () {
+					'factory' => static function () {
 						return new GlobalActionsManager();
 					}
 				]
