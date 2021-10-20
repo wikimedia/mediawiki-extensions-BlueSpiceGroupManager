@@ -4,6 +4,7 @@
 			"Esketti",
 			"Macofe",
 			"Mainframe98",
+			"McDutchie",
 			"Romaine",
 			"SPQRobin",
 			"Siebrand",
@@ -38,8 +39,10 @@
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|heeft}} de groep $4 aangemaakt",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|heeft}} de groep $4 naar $5 hernoemd",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|heeft}} de groep $4 verwijderd",
-	"action-groupmanager-viewspecialpage": "de speciale pagina \"{{int:bs-groupmanager-label}}\" bekijken",
+	"action-groupmanager-viewspecialpage": "de speciale pagina \"{{int:bs-groupmanager-label}}\" te bekijken",
 	"groupmanager": "Groepsbeheerder",
 	"right-groupmanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:GroupManager]]",
-	"logeventslist-bs-group-manager-log": "Logboek groepsbeheer"
+	"logeventslist-bs-group-manager-log": "Logboek groepsbeheer",
+	"apihelp-bs-groupmanager-description": "Voorziet in de taken voor de uitbreiding GroupManager.",
+	"apihelp-bs-groupmanager-summary": "Voorziet in de taken voor de uitbreiding GroupManager."
 }
