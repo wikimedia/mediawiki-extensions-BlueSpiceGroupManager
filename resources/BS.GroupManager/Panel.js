@@ -18,7 +18,12 @@ Ext.define( 'BS.GroupManager.Panel', {
 	initComponent: function() {
 		this.strMain = Ext.create( 'BS.store.BSApi', {
 			apiAction: 'bs-group-store',
-			fields: ['group_name', 'additional_group'],
+			fields: ['group_name', 'additional_group', 'group_type'],
+			filters: [{
+				property: 'group_type',
+				type: 'list',
+				value: [ 'custom', 'core-minimal', 'extension-minimal' ]
+			}],
 			submitValue: false
 		});
 
