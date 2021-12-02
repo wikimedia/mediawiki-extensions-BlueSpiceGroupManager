@@ -16,6 +16,7 @@
 	"bs-groupmanager-grpedited": "Success message that the group has been edited.",
 	"bs-groupmanager-grpremoved": "Success message that the group has been removed.",
 	"bs-groupmanager-label": "Used in sidebar, anchor text for group manager\n{{Identical|Group manager}}",
+	"bs-groupmanager-text": "Label for global actions menu entry",
 	"bs-groupmanager-invalid-name": "Error message that the group name contains an invalid character or invalid characters\n*$1 is the number of invalid characetares\n*$2 are the invalid characters",
 	"bs-groupmanager-invalid-name-length": "Error message that the group name cannot be longer than 16 characters.",
 	"bs-groupmanager-invalid-name-numeric": "Error message that the group name needs to have at least one character.",

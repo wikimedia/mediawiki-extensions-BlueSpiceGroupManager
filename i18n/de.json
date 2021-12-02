@@ -15,6 +15,7 @@
 	"bs-groupmanager-grpedited": "Die Gruppe wurde bearbeitet.",
 	"bs-groupmanager-grpremoved": "Die Gruppe wurde gelöscht.",
 	"bs-groupmanager-label": "Gruppenverwaltung",
+	"bs-groupmanager-text": "Gruppen",
 	"bs-groupmanager-invalid-name": "Der Gruppenname enthält {{PLURAL:$1|ein|}} nicht erlaubte{{PLURAL:$1|s|}} Zeichen: $2",
 	"bs-groupmanager-invalid-name-length": "Der Gruppenname darf nicht länger als 255 Zeichen sein.",
 	"bs-groupmanager-invalid-name-numeric": "Der Gruppenname muss mindestens einen Buchstaben beinhalten.",
