@@ -9,6 +9,7 @@
 	"bs-groupmanager-grpadded": "Gruppen blev tilføjet.",
 	"bs-groupmanager-grpedited": "Gruppen blev redigeret.",
 	"bs-groupmanager-grpremoved": "Gruppen blev fjernet.",
+	"bs-groupmanager-text": "Grupper",
 	"bs-groupmanager-headergroup": "Gruppe",
 	"bs-groupmanager-tipremove": "Fjern {{PLURAL:$1|gruppe|grupper}}",
 	"bs-groupmanager-titlenewgroup": "Ny gruppe",
