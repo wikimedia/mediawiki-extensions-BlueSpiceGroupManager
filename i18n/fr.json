@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Gomoko",
 			"Ltrlg",
 			"Thibaut120094",
@@ -42,5 +43,6 @@
 	"apihelp-bs-groupmanager-summary": "Fournit les tâches de l’extension GroupManager.",
 	"action-groupmanager-viewspecialpage": "afficher la page spéciale « {{int:bs-groupmanager-label}} »",
 	"groupmanager": "Gestionnaire de groupes",
-	"right-groupmanager-viewspecialpage": "Accéder à la page spéciale [[Special:GroupManager]]"
+	"right-groupmanager-viewspecialpage": "Accéder à la page spéciale [[Special:GroupManager]]",
+	"bs-groupmanager-text": "Groupes"
 }

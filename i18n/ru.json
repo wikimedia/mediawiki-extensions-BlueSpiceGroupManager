@@ -7,6 +7,7 @@
 			"Facenapalm",
 			"Iniquity",
 			"Kaganer",
+			"Kareyac",
 			"Mailman",
 			"Movses",
 			"Okras",
@@ -47,5 +48,6 @@
 	"apihelp-bs-groupmanager-summary": "Предоставляет задачи для расширения GroupManager.",
 	"action-groupmanager-viewspecialpage": "просмотр служебной страницы «{{int:bs-groupmanager-label}}»",
 	"groupmanager": "Менеджер групп",
-	"right-groupmanager-viewspecialpage": "доступ к служебной странице [[Special:GroupManager]]"
+	"right-groupmanager-viewspecialpage": "доступ к служебной странице [[Special:GroupManager]]",
+	"bs-groupmanager-text": "Группы"
 }
