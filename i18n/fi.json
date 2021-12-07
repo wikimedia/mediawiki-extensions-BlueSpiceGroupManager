@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"MITO",
 			"Silvonen"
 		]
 	},
@@ -9,6 +10,7 @@
 	"bs-groupmanager-grpedited": "Ryhmää on muokattu.",
 	"bs-groupmanager-grpremoved": "Ryhmä on poistettu.",
 	"bs-groupmanager-label": "Ryhmien hallinta",
+	"bs-groupmanager-text": "Ryhmät",
 	"bs-groupmanager-headergroup": "Ryhmä",
 	"bs-groupmanager-tipremove": "Poista {{PLURAL:$1|ryhmä|ryhmät}}",
 	"bs-groupmanager-titlenewgroup": "Uusi ryhmä",
