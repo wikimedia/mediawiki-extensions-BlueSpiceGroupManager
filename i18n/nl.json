@@ -18,6 +18,7 @@
 	"bs-groupmanager-grpedited": "De groep is bewerkt.",
 	"bs-groupmanager-grpremoved": "De groep is verwijderd.",
 	"bs-groupmanager-label": "Groepsbeheerder",
+	"bs-groupmanager-text": "Groepen",
 	"bs-groupmanager-invalid-name": "De naam van de groep bevat {{PLURAL:$1|een ongeldig teken|ongeldige tekens}}: $2",
 	"bs-groupmanager-invalid-name-length": "De naam van de groep kan niet langer zijn dan 255 tekens.",
 	"bs-groupmanager-invalid-name-numeric": "De naam van de groep moet ten minste één teken bevatten.",
