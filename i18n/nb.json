@@ -11,6 +11,7 @@
 	"bs-groupmanager-grpedited": "Gruppa har blitt redigert.",
 	"bs-groupmanager-grpremoved": "Gruppa har blitt fjernet.",
 	"bs-groupmanager-label": "Gruppebehandler",
+	"bs-groupmanager-text": "Grupper",
 	"bs-groupmanager-invalid-name": "Gruppenavnet inneholder {{PLURAL:$1|et ugyldig|ugyldige}} tegn: $2",
 	"bs-groupmanager-invalid-name-length": "Gruppenavnet kan ikke være lengre enn 255 tegn.",
 	"bs-groupmanager-invalid-name-numeric": "Gruppenavnet må ha minst ett tegn.",
