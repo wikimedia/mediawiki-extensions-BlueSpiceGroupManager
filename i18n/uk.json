@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Andriykopanytsia",
+			"DDPAT",
 			"Macofe",
 			"Piramidion",
 			"Vlad5250",
@@ -15,6 +16,7 @@
 	"bs-groupmanager-grpedited": "Групу було відредаговано.",
 	"bs-groupmanager-grpremoved": "Групу було вилучено.",
 	"bs-groupmanager-label": "Менеджер груп",
+	"bs-groupmanager-text": "Групи",
 	"bs-groupmanager-invalid-name": "Назва групи містить недопустим{{PLURAL:$1|ий|і}} {{PLURAL:$1|символ|символи}}: $2",
 	"bs-groupmanager-invalid-name-length": "Назва групи не може бути довшою, ніж 255 символів.",
 	"bs-groupmanager-invalid-name-numeric": "Назва групи повинна мати принаймні один символ.",
