@@ -6,6 +6,9 @@
 		]
 	},
 	"bs-groupmanager-label": "Grup manajer",
+	"bs-groupmanager-text": "Grubi",
 	"bs-groupmanager-headergroup": "Grube",
-	"bs-groupmanager-titleeditgroup": "Grube bıvurne"
+	"bs-groupmanager-titlenewgroup": "Gruba newiye",
+	"bs-groupmanager-titleeditgroup": "Grube bıvurne",
+	"bs-groupmanager-lablename": "Nameyê grube:"
 }
