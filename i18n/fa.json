@@ -5,6 +5,7 @@
 			"FarsiNevis",
 			"Huji",
 			"Jeeputer",
+			"LordProfo",
 			"Reza1615"
 		]
 	},
@@ -15,6 +16,7 @@
 	"bs-groupmanager-grpedited": "گروه ویرایش شد.",
 	"bs-groupmanager-grpremoved": "گروه حذف شد.",
 	"bs-groupmanager-label": "مدیر گروه",
+	"bs-groupmanager-text": "گروه‌ها",
 	"bs-groupmanager-invalid-name": "نام گروه شامل {{PLURAL:$1|یک|}} {{PLURAL:$1|نویسه|نویسه}} نامعتبر است: $2",
 	"bs-groupmanager-invalid-name-length": "نام گروه نباید بیش از ۲۵۵ نویسه داشته باشد.",
 	"bs-groupmanager-invalid-name-numeric": "نام گروه نیاز دارد حداقل یک نویسه داشته باشد.",
