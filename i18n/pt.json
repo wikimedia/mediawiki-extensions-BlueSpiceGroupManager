@@ -12,6 +12,7 @@
 	"bs-groupmanager-grpedited": "O grupo foi editado.",
 	"bs-groupmanager-grpremoved": "O grupo foi removido.",
 	"bs-groupmanager-label": "Gestor de grupos",
+	"bs-groupmanager-text": "Grupos",
 	"bs-groupmanager-invalid-name": "O nome do grupo contém {{PLURAL:$1|o carácter inválido|os caracteres inválidos}}: $2",
 	"bs-groupmanager-invalid-name-length": "O nome do grupo não pode ter mais de 255 caracteres.",
 	"bs-groupmanager-invalid-name-numeric": "O nome do grupo precisa de ter pelo menos um carácter.",
