@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"FiberAhmed",
 			"باسم",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
@@ -13,6 +14,7 @@
 	"bs-groupmanager-grpedited": "تم تحرير المجموعة.",
 	"bs-groupmanager-grpremoved": "تمت إزالة المجموعة.",
 	"bs-groupmanager-label": "مدير مجموعة",
+	"bs-groupmanager-text": "المجموعات",
 	"bs-groupmanager-invalid-name": "يحتوي اسم المجموعة على {{PLURAL:$1}} {{PLURAL:$1|حرف غير صالح|أحرف غير صالحة}}: $2",
 	"bs-groupmanager-invalid-name-length": "لا يمكن أن يكون اسم المجموعة أطول من 255 حرفا.",
 	"bs-groupmanager-invalid-name-numeric": "يجب أن يحتوي اسم المجموعة على حرف واحد على الأقل.",
