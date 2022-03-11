@@ -37,5 +37,6 @@
 	"apihelp-bs-groupmanager-summary": "Forni le travalios pro le extension GroupManager (gestion de gruppos).",
 	"action-groupmanager-viewspecialpage": "vider le pagina special \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Gestion de gruppos",
-	"right-groupmanager-viewspecialpage": "Accesso al pagina special [[Special:GroupManager]]"
+	"right-groupmanager-viewspecialpage": "Accesso al pagina special [[Special:GroupManager]]",
+	"bs-groupmanager-text": "Gruppos"
 }

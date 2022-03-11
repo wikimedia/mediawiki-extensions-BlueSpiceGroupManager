@@ -5,6 +5,7 @@
 			"FarsiNevis",
 			"Huji",
 			"Jeeputer",
+			"LordProfo",
 			"Reza1615"
 		]
 	},
@@ -39,5 +40,6 @@
 	"logentry-bs-group-manager-remove": "$1 گروه $4 را {{GENDER:$2|حذف کرده است}}",
 	"groupmanager": "مدیر گروه",
 	"action-groupmanager-viewspecialpage": "مشاهدهٔ ویژه‌صفحهٔ «{{int:bs-groupmanager-label}}»",
-	"right-groupmanager-viewspecialpage": "دسترسی به ویژه‌صفحهٔ [[Special:GroupManager]]"
+	"right-groupmanager-viewspecialpage": "دسترسی به ویژه‌صفحهٔ [[Special:GroupManager]]",
+	"bs-groupmanager-text": "گروه‌ها"
 }

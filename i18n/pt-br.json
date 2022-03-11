@@ -3,7 +3,8 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Juan90264"
 		]
 	},
 	"bs-groupmanager-desc": "Interface administrativa para adicionar, editar e excluir grupos de usuários e seus direitos",
@@ -39,5 +40,6 @@
 	"apihelp-bs-groupmanager-summary": "Fornece as tarefas para a extensão GroupManager.",
 	"action-groupmanager-viewspecialpage": "ver a página especial \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Gerenciador de grupos",
-	"right-groupmanager-viewspecialpage": "Acesso à página especial [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "Acesso à página especial [[Special:GroupManager]].",
+	"bs-groupmanager-text": "Grupos"
 }
