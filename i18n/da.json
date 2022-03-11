@@ -14,5 +14,6 @@
 	"bs-groupmanager-grpempty": "Gruppenavnet kan ikke være tomt.",
 	"bs-groupmanager-grpadded": "Gruppen blev tilføjet.",
 	"bs-groupmanager-grpedited": "Gruppen blev redigeret.",
-	"bs-groupmanager-grpremoved": "Gruppen blev fjernet."
+	"bs-groupmanager-grpremoved": "Gruppen blev fjernet.",
+	"bs-groupmanager-text": "Grupper"
 }

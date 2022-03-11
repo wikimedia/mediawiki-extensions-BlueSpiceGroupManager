@@ -37,5 +37,6 @@
 	"action-groupmanager-viewspecialpage": "vider le pagina special \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Gestion de gruppos",
 	"right-groupmanager-viewspecialpage": "Accesso al pagina special [[Special:GroupManager]]",
-	"bs-groupmanager-desc": "Interfacie de administration pro adder, modificar e deler gruppos de usatores e lor derectos"
+	"bs-groupmanager-desc": "Interfacie de administration pro adder, modificar e deler gruppos de usatores e lor derectos",
+	"bs-groupmanager-text": "Gruppos"
 }

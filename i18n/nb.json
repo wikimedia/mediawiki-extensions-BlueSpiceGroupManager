@@ -37,5 +37,6 @@
 	"action-groupmanager-viewspecialpage": "vise spesialsiden «{{int:bs-groupmanager-label}}»",
 	"groupmanager": "Gruppebehandler",
 	"right-groupmanager-viewspecialpage": "Tilgang til spesialsiden [[Special:GroupManager]].",
-	"bs-groupmanager-write-config-file-error": "Fila $1 kunne ikke oprrettes eller lagres."
+	"bs-groupmanager-write-config-file-error": "Fila $1 kunne ikke oprrettes eller lagres.",
+	"bs-groupmanager-text": "Grupper"
 }

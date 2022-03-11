@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Beta16",
 			"Leonid Verhovskij <verhovskij@hallowelt.com>",
 			"Liuxinyu970226",
@@ -42,5 +43,6 @@
 	"apihelp-bs-groupmanager-summary": "Describes the API endpoint that provides tasks for the GroupManager extension\n{{doc-apihelp-summary|bs-groupmanager}}",
 	"action-groupmanager-viewspecialpage": "placeholder to describe that view of special page \"{{int:bs-groupmanager-label}}\" is restricted for the current user.\n\n{{Doc-action|groupmanager-viewspecialpage}}",
 	"groupmanager": "Used in overview of special pages, anchor text for group manager\n{{Identical|Group manager}}",
-	"right-groupmanager-viewspecialpage": "Grants access to the special page [[Special:GroupManager]].\n{{doc-right|groupmanager-viewspecialpage}}"
+	"right-groupmanager-viewspecialpage": "Grants access to the special page [[Special:GroupManager]].\n{{doc-right|groupmanager-viewspecialpage}}",
+	"bs-groupmanager-text": "Label for global actions menu entry\n\n{{Identical|Group}}"
 }

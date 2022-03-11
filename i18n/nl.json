@@ -44,5 +44,6 @@
 	"log-description-bs-group-manager": "Dit is een logboek van wijzigingen aan gebruikersgroepen.",
 	"logeventslist-bs-group-manager-log": "Logboek groepsbeheer",
 	"apihelp-bs-groupmanager-description": "Voorziet in de taken voor de uitbreiding GroupManager.",
-	"apihelp-bs-groupmanager-summary": "Voorziet in de taken voor de uitbreiding GroupManager."
+	"apihelp-bs-groupmanager-summary": "Voorziet in de taken voor de uitbreiding GroupManager.",
+	"bs-groupmanager-text": "Groepen"
 }

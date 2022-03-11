@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Joseph",
 			"Macofe",
 			"Sayginer"
@@ -40,5 +41,6 @@
 	"apihelp-bs-groupmanager-summary": "GroupManager uzantısı için görevler sağlar.",
 	"action-groupmanager-viewspecialpage": "\"{{int:bs-groupmanager-label}}\" özel sayfasını görüntüle",
 	"groupmanager": "Grup yöneticisi",
-	"right-groupmanager-viewspecialpage": "[[Special:GroupManager]] özel sayfaya erişin"
+	"right-groupmanager-viewspecialpage": "[[Special:GroupManager]] özel sayfaya erişin",
+	"bs-groupmanager-text": "Gruplar"
 }
