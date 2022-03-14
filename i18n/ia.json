@@ -11,6 +11,7 @@
 	"bs-groupmanager-grpedited": "Le gruppo ha essite modificate.",
 	"bs-groupmanager-grpremoved": "Le gruppo ha essite removite.",
 	"bs-groupmanager-label": "Gestion de gruppos",
+	"bs-groupmanager-text": "Gruppos",
 	"bs-groupmanager-invalid-name": "Le nomine del gruppo contine {{PLURAL:$1|un|}} character{{PLURAL:$1||es}} non valide: $2",
 	"bs-groupmanager-invalid-name-length": "Le nomine del gruppo non pote esser plus longe de 255 characteres.",
 	"bs-groupmanager-invalid-name-numeric": "Le nomine del gruppo debe haber al minus un character.",
