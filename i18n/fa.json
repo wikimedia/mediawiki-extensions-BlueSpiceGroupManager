@@ -30,7 +30,7 @@
 	"bs-groupmanager-removegroup-message-unknown": "یک خطای غیر منتظره رخ داد، لطفاً دوباره تلاش کنید.",
 	"bs-groupmanager-lablename": "نام گروه:",
 	"bs-groupmanager-msgnoteditable": "این گروه یک گروه سیستمی است و نامش نمی‌تواند تغییر یابد.",
-	"bs-groupmanager-msgnotremovable": "این گروه یک گروه سیستمی است و نمی‌تواند حذف شود.",
+	"bs-groupmanager-msgnotremovable": "این گروه یک گروه سامانه است و نمی‌تواند حذف شود.",
 	"bs-groupmanager-write-config-file-error": "پروندهٔ $1 قابل ایجاد یا ذخیره نیست.",
 	"log-name-bs-group-manager": "سیاههٔ مدیر گروه",
 	"log-description-bs-group-manager": "این سیاههٔ تغییرات گروه‌های کاربری است.",
@@ -39,7 +39,7 @@
 	"logentry-bs-group-manager-create": "$1 گروه $4 را {{GENDER:$2|ایجاد کرده است}}",
 	"logentry-bs-group-manager-modify": "$1 نام گروه $4 را به $5 {{GENDER:$2|تغییر داده است}}",
 	"logentry-bs-group-manager-remove": "$1 گروه $4 را {{GENDER:$2|حذف کرده است}}",
-	"action-groupmanager-viewspecialpage": "مشاهدهٔ ویژه‌صفحهٔ «{{int:bs-groupmanager-label}}»",
+	"action-groupmanager-viewspecialpage": "مشاهدهٔ صفحهٔ ویژه «{{int:bs-groupmanager-label}}»",
 	"groupmanager": "مدیر گروه",
-	"right-groupmanager-viewspecialpage": "دسترسی به ویژه‌صفحهٔ [[Special:GroupManager]]"
+	"right-groupmanager-viewspecialpage": "دسترسی به صفحهٔ ویژه [[Special:GroupManager]]"
 }
