@@ -3,7 +3,8 @@
 		"authors": [
 			"AVIADOR",
 			"Fitoschido",
-			"Macofe"
+			"Macofe",
+			"DiegoAmbrocio"
 		]
 	},
 	"bs-groupmanager-desc": "Interfaz administrativa para añadir, editar y eliminar grupos de usuarios y sus privilegios",
@@ -13,6 +14,7 @@
 	"bs-groupmanager-grpedited": "Se ha editado el grupo.",
 	"bs-groupmanager-grpremoved": "Se ha eliminado el grupo.",
 	"bs-groupmanager-label": "Gestor de grupos",
+	"bs-groupmanager-text": "Grupos",
 	"bs-groupmanager-invalid-name": "El nombre del grupo contiene {{PLURAL:$1|un carácter inválido|caracteres inválidos}}: $2",
 	"bs-groupmanager-invalid-name-length": "El nombre del grupo no puede tener más de 255 caracteres.",
 	"bs-groupmanager-invalid-name-numeric": "El nombre del grupo debe tener al menos un carácter.",
@@ -31,6 +33,7 @@
 	"log-name-bs-group-manager": "Registro del gestor de grupos",
 	"log-description-bs-group-manager": "Este es un registro de cambios en los grupos de usuarios.",
 	"log-show-hide-bs-group-manager": "$1 el registro del gestor de grupos",
+	"logeventslist-bs-group-manager-log": "Registro del gestor de grupos",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|ha creado}} el grupo $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|cambió el nombre}} del grupo $4 a $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|ha eliminado}} el grupo $4",
