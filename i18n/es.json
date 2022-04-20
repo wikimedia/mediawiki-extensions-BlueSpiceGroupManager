@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"AVIADOR",
+			"DiegoAmbrocio",
 			"Fitoschido",
 			"Macofe"
 		]
@@ -36,5 +37,7 @@
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|ha eliminado}} el grupo $4",
 	"action-groupmanager-viewspecialpage": "ver la página especial \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Gestor de grupos",
-	"right-groupmanager-viewspecialpage": "Acceso a la página especial [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "Acceso a la página especial [[Special:GroupManager]].",
+	"bs-groupmanager-text": "Grupos",
+	"logeventslist-bs-group-manager-log": "Registro del gestor de grupos"
 }
