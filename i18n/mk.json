@@ -8,7 +8,7 @@
 	},
 	"bs-groupmanager-desc": "Административен посредник за додавање, уредување и бришење на кориснички групи и нивните права",
 	"bs-groupmanager-grpexists": "Групата веќе постои.",
-	"bs-groupmanager-grpempty": "Името не групата може да стои празно.",
+	"bs-groupmanager-grpempty": "Името на групата не може да стои празно.",
 	"bs-groupmanager-grpadded": "Групата е додадена.",
 	"bs-groupmanager-grpedited": "Групата е изменета.",
 	"bs-groupmanager-grpremoved": "Групата е отстранета.",
