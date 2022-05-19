@@ -5,7 +5,8 @@
 			"Can",
 			"Joseph",
 			"Macofe",
-			"Sayginer"
+			"Sayginer",
+			"SaldırganSincap"
 		]
 	},
 	"bs-groupmanager-desc": "Kullanıcı gruplarını ve haklarını eklemek, düzenlemek ve silmek için yönetim arayüzü",
@@ -37,7 +38,7 @@
 	"logeventslist-bs-group-manager-log": "Grup yöneticisi günlüğü",
 	"logentry-bs-group-manager-create": "$1, $4 grubu {{GENDER:$2|oluşturdu}}",
 	"logentry-bs-group-manager-modify": "$1, $4 grubunu $5 olarak {{GENDER:$2|yeniden adlandırdı}}",
-	"logentry-bs-group-manager-remove": "$1, $4 grubu {{GENDER:$2|kaldırdı}}",
+	"logentry-bs-group-manager-remove": "$1, $4 grubunu {{GENDER:$2|kaldırdı}}",
 	"apihelp-bs-groupmanager-description": "GroupManager uzantısı için görevler sağlar.",
 	"apihelp-bs-groupmanager-summary": "GroupManager uzantısı için görevler sağlar.",
 	"action-groupmanager-viewspecialpage": "\"{{int:bs-groupmanager-label}}\" özel sayfasını görüntüle",
