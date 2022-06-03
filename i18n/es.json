@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"AVIADOR",
+			"DiegoAmbrocio",
 			"Fitoschido",
-			"Macofe",
-			"DiegoAmbrocio"
+			"Macofe"
 		]
 	},
 	"bs-groupmanager-desc": "Interfaz administrativa para añadir, editar y eliminar grupos de usuarios y sus privilegios",
