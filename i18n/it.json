@@ -3,6 +3,7 @@
 		"authors": [
 			"Beta16",
 			"FRacco",
+			"GpieroMW",
 			"Selven"
 		]
 	},
@@ -39,5 +40,6 @@
 	"apihelp-bs-groupmanager-summary": "Fornisce le attività per l'estensione GroupManager.",
 	"action-groupmanager-viewspecialpage": "visualizzare la pagina speciale \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Gestione gruppi",
-	"right-groupmanager-viewspecialpage": "Accede alla pagina speciale [[Special:GroupManager]]"
+	"right-groupmanager-viewspecialpage": "Accede alla pagina speciale [[Special:GroupManager]]",
+	"bs-groupmanager-text": "Gruppi"
 }
