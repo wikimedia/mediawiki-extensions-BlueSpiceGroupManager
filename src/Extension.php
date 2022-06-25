@@ -33,6 +33,7 @@
 namespace BlueSpice\GroupManager;
 
 use BlueSpice\DynamicSettingsManager;
+use MediaWiki\MediaWikiServices;
 
 class Extension extends \BlueSpice\Extension {
 
@@ -126,14 +127,14 @@ class Extension extends \BlueSpice\Extension {
 
 		if ( $value === false ) {
 			if ( $title->exists() ) {
-				\WikiPage::factory( $title )->doDeleteArticleReal(
+				MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title )->doDeleteArticleReal(
 					'Group does not exist anymore',
 					$user
 				);
 			}
 		} else {
 			if ( !$title->exists() ) {
-				\WikiPage::factory( $title )->doEditContent(
+				MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title )->doEditContent(
 					\ContentHandler::makeContent( $group, $title ),
 					'',
 					EDIT_NEW,
