@@ -4,5 +4,10 @@
 			"Yupik"
 		]
 	},
-	"action-groupmanager-viewspecialpage": "ǩiččâd tuåimmseeid \"{{int:bs-groupmanager-label}}\""
+	"action-groupmanager-viewspecialpage": "ǩiččâd tuåimmseeid \"{{int:bs-groupmanager-label}}\"",
+	"bs-groupmanager-text": "Joouk",
+	"bs-groupmanager-headergroup": "Joukk",
+	"bs-groupmanager-titlenewgroup": "Ođđ joukk",
+	"bs-groupmanager-titleeditgroup": "Muuʹtt joouk",
+	"bs-groupmanager-lablename": "Joukknõmm:"
 }
