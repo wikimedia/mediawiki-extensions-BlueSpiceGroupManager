@@ -33,6 +33,11 @@
 namespace BlueSpice\GroupManager;
 
 use BlueSpice\DynamicSettingsManager;
+use CommentStoreComment;
+use Exception;
+use MediaWiki\Logger\LoggerFactory;
+use MediaWiki\Revision\SlotRecord;
+use WikiPage;
 
 class Extension extends \BlueSpice\Extension {
 
@@ -133,15 +138,18 @@ class Extension extends \BlueSpice\Extension {
 			}
 		} else {
 			if ( !$title->exists() ) {
-				\WikiPage::factory( $title )->doEditContent(
-					\ContentHandler::makeContent( $group, $title ),
-					'',
-					EDIT_NEW,
-					false,
-					$user
-				);
+				$wikiPage = WikiPage::factory( $title );
+				$updater = $wikiPage->newPageUpdater( $user );
+				$content = $wikiPage->getContentHandler()->makeContent( $group, $title );
+				$updater->setContent( SlotRecord::MAIN, $content );
+				$comment = CommentStoreComment::newUnsavedComment( '' );
+				try {
+					$updater->saveRevision( $comment, EDIT_NEW );
+				} catch ( Exception $e ) {
+					$logger = LoggerFactory::getInstance( 'BlueSpiceGroupManager' );
+					$logger->error( $e->getMessage() );
+				}
 			}
 		}
 	}
-
 }
