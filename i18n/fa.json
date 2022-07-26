@@ -10,7 +10,7 @@
 			"LordProfo"
 		]
 	},
-	"bs-groupmanager-desc": "رابط مدیریتی برای افزودن، ویرایش و حذف گروه‌های کاربری و امتیازات آنها",
+	"bs-groupmanager-desc": "رابط مدیریتی برای افزودن، ویرایش‌کردن و حذف‌نمودن گروه‌های کاربری و اختیاراتشان",
 	"bs-groupmanager-grpexists": "گروه پیش از این وجود دارد.",
 	"bs-groupmanager-grpempty": "نام گروه نباید خالی بماند.",
 	"bs-groupmanager-grpadded": "گروه اضافه شد.",
