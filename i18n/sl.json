@@ -25,5 +25,6 @@
 	"bs-groupmanager-removegroup-message-unknown": "Prišlo je do nepričakovane napake. Prosimo, poskusite ponovno.",
 	"bs-groupmanager-lablename": "Ime skupine:",
 	"bs-groupmanager-msgnoteditable": "Ta skupina je sistemska skupina in ne more biti preimenovana.",
-	"bs-groupmanager-msgnotremovable": "Ta skupina je sistemska skupina in ne more biti odstranjena."
+	"bs-groupmanager-msgnotremovable": "Ta skupina je sistemska skupina in ne more biti odstranjena.",
+	"bs-groupmanager-text": "Skupine"
 }
