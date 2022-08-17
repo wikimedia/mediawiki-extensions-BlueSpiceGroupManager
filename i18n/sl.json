@@ -12,6 +12,7 @@
 	"bs-groupmanager-grpedited": "Skupina je bila urejena.",
 	"bs-groupmanager-grpremoved": "Skupina je bila odstranjena.",
 	"bs-groupmanager-label": "Skrbnik skupine",
+	"bs-groupmanager-text": "Skupine",
 	"bs-groupmanager-invalid-name": "Ime skupine vsebuje {{PLURAL:$1|neveljaven|neveljavne}} {{PLURAL:$1|znak|znake}}: $2",
 	"bs-groupmanager-invalid-name-length": "Ime skupine ne more biti daljše od 255 znakov.",
 	"bs-groupmanager-invalid-name-numeric": "Ime skupine mora vsebovati vsaj en znak.",
