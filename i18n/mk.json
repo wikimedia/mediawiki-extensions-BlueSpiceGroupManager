@@ -13,6 +13,7 @@
 	"bs-groupmanager-grpedited": "Групата е изменета.",
 	"bs-groupmanager-grpremoved": "Групата е отстранета.",
 	"bs-groupmanager-label": "Раководител со групи",
+	"bs-groupmanager-text": "Групи",
 	"bs-groupmanager-invalid-name": "Името на групата содржи {{PLURAL:$1|содржи|}} неважечки {{PLURAL:$1|знак|знаци}}: $2",
 	"bs-groupmanager-invalid-name-length": "Името на групата не може да содржи повеќе од 255 знаци.",
 	"bs-groupmanager-invalid-name-numeric": "Името на групата мора да содржи барем еден знак.",
