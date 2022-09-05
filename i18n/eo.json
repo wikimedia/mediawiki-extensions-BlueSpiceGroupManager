@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Agloforto",
 			"Mirin"
 		]
 	},
+	"bs-groupmanager-desc": "Administra interfaco por aldoni, redakti kaj forigi uzantgrupojn kaj iliajn rajtojn",
+	"bs-groupmanager-grpexists": "La grupo jam ekzistas.",
+	"bs-groupmanager-grpempty": "La grupnomo ne povas esti malplena.",
+	"bs-groupmanager-grpadded": "La grupo estis aldonita.",
 	"bs-groupmanager-headergroup": "Grupo",
 	"bs-groupmanager-titlenewgroup": "Nova grupo",
 	"bs-groupmanager-titleeditgroup": "Redakti grupon",
