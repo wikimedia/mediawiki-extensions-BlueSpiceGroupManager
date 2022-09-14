@@ -223,7 +223,7 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 			$result
 		);
 
-		$this->getServices()->getHookContainer()->run( "BSGroupManagerGroupNameChanged", [
+		$this->services->getHookContainer()->run( "BSGroupManagerGroupNameChanged", [
 			$group,
 			$newGroup,
 			&$result
@@ -348,7 +348,7 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 			$result
 		);
 
-		$this->getServices()->getHookContainer()->run( "BSGroupManagerGroupDeleted", [
+		$this->services->getHookContainer()->run( "BSGroupManagerGroupDeleted", [
 			$group,
 			&$result
 		] );
