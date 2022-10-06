@@ -87,7 +87,8 @@
 	},
 	"AutoloadClasses": {
 		"BSApiTasksGroupManager": "includes/api/BSApiTasksGroupManager.php",
-		"SpecialGroupManager": "includes/specials/SpecialGroupManager.php"
+		"SpecialGroupManager": "includes/specials/SpecialGroupManager.php",
+		"CleanUpUserGroupTable": "maintenance/cleanUpUserGroupTable.php"
 	},
 	"ResourceModules": {
 		"ext.bluespice.groupManager": {
@@ -113,7 +114,8 @@
 		}
 	},
 	"Hooks": {
-		"MWStakeCommonUIRegisterSkinSlotComponents": "common-user-interface"
+		"MWStakeCommonUIRegisterSkinSlotComponents": "common-user-interface",
+		"LoadExtensionSchemaUpdates": "\\BlueSpice\\GroupManager\\Hook\\LoadExtensionSchemaUpdates\\AddCleanUpUserGroupTableMaintenanceScript::callback"
 	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2
