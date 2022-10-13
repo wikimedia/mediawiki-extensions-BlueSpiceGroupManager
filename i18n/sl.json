@@ -22,7 +22,7 @@
 	"bs-groupmanager-removegroup": "Ali res želite odstraniti {{PLURAL:$1|1=to skupino|2=ti skupini|te skupine}}?",
 	"bs-groupmanager-removegroup-message-success": "Naslednj{{PLURAL:$1|1=a skupina je bila izbrisana|2=i skupini sta bili izbrisani|e skupine so bile izbrisane}}: $2",
 	"bs-groupmanager-removegroup-message-failure": "Naslednj{{PLURAL:$1|1=a skupina ne more biti izbrisana|2=i skupini ne moreta biti izbrisani|e skupine ne morejo biti izbrisane}}: $2",
-	"bs-groupmanager-removegroup-message-unknown": "Prišlo je do nepričakovane napake. Prosimo, poskusite ponovno.",
+	"bs-groupmanager-removegroup-message-unknown": "Prišlo je do nepričakovane napake. Prosimo, poskusite znova.",
 	"bs-groupmanager-lablename": "Ime skupine:",
 	"bs-groupmanager-msgnoteditable": "Ta skupina je sistemska skupina in ne more biti preimenovana.",
 	"bs-groupmanager-msgnotremovable": "Ta skupina je sistemska skupina in ne more biti odstranjena.",
