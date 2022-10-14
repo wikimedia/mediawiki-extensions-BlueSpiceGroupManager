@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Guycn2",
 			"Steeve815",
 			"YaronSh"
@@ -13,6 +14,7 @@
 	"bs-groupmanager-grpedited": "הקבוצה שונתה.",
 	"bs-groupmanager-grpremoved": "הקבוצה הוסרה.",
 	"bs-groupmanager-label": "ניהול קבוצות",
+	"bs-groupmanager-text": "קבוצות",
 	"bs-groupmanager-invalid-name": "שם הקבוצה מכיל {{PLURAL:$1|תו בלתי־תקין|תווים בלתי־תקינים}}: $2",
 	"bs-groupmanager-invalid-name-length": "שם הקבוצה לא יכול להיות ארוך מ־255 תווים.",
 	"bs-groupmanager-invalid-name-numeric": "שם הקבוצה צריך להכיל תו אחד לפחות.",
@@ -38,5 +40,6 @@
 	"apihelp-bs-groupmanager-description": "אספקת המשימות עבור ההרחבה GroupManager.",
 	"apihelp-bs-groupmanager-summary": "אספקת המשימות עבור ההרחבה GroupManager.",
 	"action-groupmanager-viewspecialpage": "לצפות בדף המיוחד \"{{int:bs-groupmanager-label}}\"",
-	"groupmanager": "ניהול קבוצות"
+	"groupmanager": "ניהול קבוצות",
+	"right-groupmanager-viewspecialpage": "גישה לדף המיוחד [[Special:GroupManager]]"
 }
