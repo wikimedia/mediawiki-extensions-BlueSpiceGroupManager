@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Guycn2",
 			"Steeve815",
 			"YaronSh"
@@ -38,5 +39,7 @@
 	"apihelp-bs-groupmanager-description": "אספקת המשימות עבור ההרחבה GroupManager.",
 	"apihelp-bs-groupmanager-summary": "אספקת המשימות עבור ההרחבה GroupManager.",
 	"action-groupmanager-viewspecialpage": "לצפות בדף המיוחד \"{{int:bs-groupmanager-label}}\"",
-	"groupmanager": "ניהול קבוצות"
+	"groupmanager": "ניהול קבוצות",
+	"bs-groupmanager-text": "קבוצות",
+	"right-groupmanager-viewspecialpage": "גישה לדף המיוחד [[Special:GroupManager]]"
 }
