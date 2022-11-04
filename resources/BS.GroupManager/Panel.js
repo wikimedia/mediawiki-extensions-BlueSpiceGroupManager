@@ -49,6 +49,9 @@ Ext.define( 'BS.GroupManager.Panel', {
 			this.colAdditionalGroup
 		];
 		this.callParent( arguments );
+		this.btnAdd.ariaLabel = mw.message( 'bs-groupmanager-titlenewgroup' ).plain();
+		this.btnEdit.ariaLabel = mw.message( 'bs-groupmanager-titleeditgroup' ).plain();
+		this.btnRemove.ariaLabel = mw.message( 'bs-groupmanager-tipremove', 1 ).text();
 	},
 	makeSelModel: function(){
 		this.smModel = Ext.create( 'Ext.selection.CheckboxModel', {
