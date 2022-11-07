@@ -17,7 +17,7 @@
 	"bs-groupmanager-grpedited": "Le groupe a été modifié.",
 	"bs-groupmanager-grpremoved": "Le groupe a été supprimé.",
 	"bs-groupmanager-label": "Gestionnaire de groupes",
-	"bs-groupmanager-invalid-name": "Le nom du groupe contient {{PLURAL:$1|un caractère non valide|des caractères non valides}} : $2",
+	"bs-groupmanager-invalid-name": "Le nom du groupe contient {{PLURAL:$1|un|des}} caractère{{PLURAL:$1||s}} non valide{{PLURAL:$1||s}} : $2",
 	"bs-groupmanager-invalid-name-length": "Le nom du groupe ne peut pas dépasser 255 caractères.",
 	"bs-groupmanager-invalid-name-numeric": "Le nom du groupe doit comporter au moins un caractère.",
 	"bs-groupmanager-headergroup": "Groupe",
