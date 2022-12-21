@@ -11,6 +11,7 @@
 	"bs-groupmanager-grpedited": "'U gruppe ha state cangiate.",
 	"bs-groupmanager-grpremoved": "'U gruppe ha state luate.",
 	"bs-groupmanager-label": "Gestore de gruppe",
+	"bs-groupmanager-text": "Gruppe",
 	"bs-groupmanager-invalid-name": "'U nome d'u gruppe tène {{PLURAL:$1|'nu carattere|carattere}} non {{PLURAL:$1|valide}}: $2",
 	"bs-groupmanager-invalid-name-length": "'U nome d'u gruppe non ge pò essere cchiù luènghe de 255 carattere.",
 	"bs-groupmanager-invalid-name-numeric": "'U nome d'u gruppe tene abbesogne de tenè ninde ninde 'nu carattere.",
