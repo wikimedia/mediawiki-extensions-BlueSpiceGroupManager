@@ -37,5 +37,6 @@
 	"apihelp-bs-groupmanager-summary": "Dèje le attivitate pe l'estenzione GroupManager.",
 	"action-groupmanager-viewspecialpage": "'ndruche 'a pàgena speciale \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Gestore de gruppe",
-	"right-groupmanager-viewspecialpage": "Tràse jndr'à pàgena speciale [[Special:GroupManager]]"
+	"right-groupmanager-viewspecialpage": "Tràse jndr'à pàgena speciale [[Special:GroupManager]]",
+	"bs-groupmanager-text": "Gruppe"
 }
