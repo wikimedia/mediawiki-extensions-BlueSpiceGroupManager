@@ -128,17 +128,16 @@ class Extension extends \BlueSpice\Extension {
 	public static function checkI18N( $group, $value = true ) {
 		$title = \Title::newFromText( 'group-' . $group, NS_MEDIAWIKI );
 		$user = \RequestContext::getMain()->getUser();
-
+		$services = MediaWikiServices::getInstance();
 		if ( $value === false ) {
 			if ( $title->exists() ) {
-				MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title )->doDeleteArticleReal(
-					'Group does not exist anymore',
-					$user
-				);
+				$wikiPage = $services->getWikiPageFactory()->newFromTitle( $title );
+				$deletePage = $services->getDeletePageFactory()->newDeletePage( $wikiPage, $user );
+				$deletePage->deleteIfAllowed( 'Group does not exist anymore' );
 			}
 		} else {
 			if ( !$title->exists() ) {
-				$wikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+				$wikiPage = $services->getWikiPageFactory()->newFromTitle( $title );
 				$updater = $wikiPage->newPageUpdater( $user );
 				$content = $wikiPage->getContentHandler()->makeContent( $group, $title );
 				$updater->setContent( SlotRecord::MAIN, $content );
