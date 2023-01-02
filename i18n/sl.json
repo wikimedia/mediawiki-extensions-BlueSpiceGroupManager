@@ -26,5 +26,6 @@
 	"bs-groupmanager-lablename": "Ime skupine:",
 	"bs-groupmanager-msgnoteditable": "Ta skupina je sistemska skupina in ne more biti preimenovana.",
 	"bs-groupmanager-msgnotremovable": "Ta skupina je sistemska skupina in ne more biti odstranjena.",
-	"bs-groupmanager-text": "Skupine"
+	"bs-groupmanager-text": "Skupine",
+	"bs-groupmanager-grpempty": "Ime skupine ne sme biti prazno."
 }
