@@ -8,6 +8,7 @@
 	},
 	"bs-groupmanager-desc": "Skrbniški vmesnik za dodajanje, urejanje in brisanje uporabniških skupin ter njihovih pravic",
 	"bs-groupmanager-grpexists": "Skupina že obstaja.",
+	"bs-groupmanager-grpempty": "Ime skupine ne sme biti prazno.",
 	"bs-groupmanager-grpadded": "Skupina je bila dodana.",
 	"bs-groupmanager-grpedited": "Skupina je bila urejena.",
 	"bs-groupmanager-grpremoved": "Skupina je bila odstranjena.",
