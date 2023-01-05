@@ -27,5 +27,18 @@
 	"bs-groupmanager-removegroup-message-unknown": "Prišlo je do nepričakovane napake. Prosimo, poskusite znova.",
 	"bs-groupmanager-lablename": "Ime skupine:",
 	"bs-groupmanager-msgnoteditable": "Ta skupina je sistemska skupina in ne more biti preimenovana.",
-	"bs-groupmanager-msgnotremovable": "Ta skupina je sistemska skupina in ne more biti odstranjena."
+	"bs-groupmanager-msgnotremovable": "Ta skupina je sistemska skupina in ne more biti odstranjena.",
+	"bs-groupmanager-write-config-file-error": "Datoteke $1 ni bilo mogoče ustvariti ali shraniti.",
+	"log-name-bs-group-manager": "Dnevnik upravitelja skupin",
+	"log-description-bs-group-manager": "To je dnevnik sprememb uporabniških skupin",
+	"log-show-hide-bs-group-manager": "$1 dnevnik upravitelja skupin",
+	"logeventslist-bs-group-manager-log": "Dnevnik upravitelja skupin",
+	"logentry-bs-group-manager-create": "$1 je {{GENDER:$2|ustvaril|ustvarila|ustvaril_a}} skupino $4",
+	"logentry-bs-group-manager-modify": "$1 je {{GENDER:$2|preimenoval|preimenovala|preimenoval_a}} skupino $4 v $5",
+	"logentry-bs-group-manager-remove": "$1 je {{GENDER:$2|odstranil|odstranila|odstranil_a}} skupino $4",
+	"apihelp-bs-groupmanager-description": "Zagotavlja opravila za razširitev GroupManager.",
+	"apihelp-bs-groupmanager-summary": "Zagotavlja opravila za razširitev GroupManager.",
+	"action-groupmanager-viewspecialpage": "ogled posebne strani »{{int:bs-groupmanager-label}}«",
+	"groupmanager": "Upravitelj skupin",
+	"right-groupmanager-viewspecialpage": "Dostop do posebne strani [[Special:GroupManager]]"
 }
