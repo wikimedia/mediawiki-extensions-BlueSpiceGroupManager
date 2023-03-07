@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pacha Tchernof",
 			"פוילישער"
 		]
 	},
-	"bs-groupmanager-headergroup": "גרופע",
+	"bs-groupmanager-headergroup": "גרופּע",
 	"bs-groupmanager-tipremove": "אראפנעמען {{PLURAL:$1|גרופע|גרופעס}}",
 	"bs-groupmanager-titlenewgroup": "נײַע גרופע",
 	"bs-groupmanager-titleeditgroup": "רעדאקטירן גרופע",
-	"bs-groupmanager-lablename": "גרופע נאמען:"
+	"bs-groupmanager-lablename": "גרופע נאמען:",
+	"bs-groupmanager-text": "גרופּעס"
 }
