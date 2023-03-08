@@ -5,7 +5,8 @@
 			"Shield-9",
 			"Shirayuki",
 			"Sujiniku",
-			"Suyama"
+			"Suyama",
+			"もなー(偽物)"
 		]
 	},
 	"bs-groupmanager-desc": "利用者グループとその権限を追加/編集/削除するための管理インターフェイス",
@@ -14,6 +15,7 @@
 	"bs-groupmanager-grpedited": "グループを編集しました。",
 	"bs-groupmanager-grpremoved": "グループを除去しました。",
 	"bs-groupmanager-label": "グループマネージャー",
+	"bs-groupmanager-text": "グループ",
 	"bs-groupmanager-invalid-name-length": "グループ名は255文字よりも長くはできません。",
 	"bs-groupmanager-headergroup": "グループ",
 	"bs-groupmanager-tipremove": "{{PLURAL:$1|グループ}}の除去",
