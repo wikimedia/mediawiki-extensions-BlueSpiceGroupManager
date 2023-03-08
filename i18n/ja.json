@@ -5,7 +5,8 @@
 			"Shield-9",
 			"Shirayuki",
 			"Sujiniku",
-			"Suyama"
+			"Suyama",
+			"もなー(偽物)"
 		]
 	},
 	"bs-groupmanager-desc": "利用者グループとその権限を追加/編集/削除するための管理インターフェイス",
@@ -33,5 +34,6 @@
 	"logentry-bs-group-manager-remove": "$1 はグループ $4 を{{GENDER:$2|除去しました}}",
 	"action-groupmanager-viewspecialpage": "特別ページ「{{int:bs-groupmanager-label}}」の閲覧",
 	"groupmanager": "グループマネージャー",
-	"right-groupmanager-viewspecialpage": "特別ページ [[Special:GroupManager]] を利用"
+	"right-groupmanager-viewspecialpage": "特別ページ [[Special:GroupManager]] を利用",
+	"bs-groupmanager-text": "グループ"
 }
