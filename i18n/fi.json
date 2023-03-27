@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"MITO",
+			"Pyscowicz",
 			"Silvonen"
 		]
 	},
@@ -20,5 +21,6 @@
 	"bs-groupmanager-removegroup-message-failure": "{{PLURAL:$1|Seuraavaa ryhmää|Seuraavia ryhmiä}} ei pystytty poistamaan: $2",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|on luonut}} ryhmän $4",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|on poistanut}} ryhmän $4",
-	"groupmanager": "Ryhmien hallinta"
+	"groupmanager": "Ryhmien hallinta",
+	"bs-groupmanager-write-config-file-error": "Tiedostoa $1 ei voitu luoda tai tallentaa."
 }
