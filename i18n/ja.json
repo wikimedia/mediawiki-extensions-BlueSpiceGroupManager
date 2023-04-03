@@ -35,5 +35,7 @@
 	"action-groupmanager-viewspecialpage": "特別ページ「{{int:bs-groupmanager-label}}」の閲覧",
 	"groupmanager": "グループマネージャー",
 	"right-groupmanager-viewspecialpage": "特別ページ [[Special:GroupManager]] を利用",
-	"bs-groupmanager-text": "グループ"
+	"bs-groupmanager-text": "グループ",
+	"bs-groupmanager-grpempty": "グループ名は空欄にできません。",
+	"bs-groupmanager-removegroup-message-unknown": "予期せぬエラーが発生しました。もう一度お試しください。"
 }
