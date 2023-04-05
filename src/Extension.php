@@ -43,12 +43,16 @@ class Extension extends \BlueSpice\Extension {
 
 	/**
 	 * saves all groupspecific data to a config file
+	 *
+	 * @param array|null $additionalGroups
+	 *
 	 * @return array the json answer
+	 * @throws Exception
 	 */
-	public static function saveData() {
-		global $wgAdditionalGroups;
+	public static function saveData( ?array $additionalGroups = null ) {
+		$additionalGroups = $additionalGroups ?? $GLOBALS['wgAdditionalGroups'];
 		$saveContent = "<?php\n\$GLOBALS['wgAdditionalGroups'] = [];\n\n";
-		foreach ( $wgAdditionalGroups as $group => $value ) {
+		foreach ( $additionalGroups as $group => $value ) {
 			$nameErrors = self::getNameErrors( $group );
 			if ( !empty( $nameErrors ) ) {
 				return $nameErrors;
