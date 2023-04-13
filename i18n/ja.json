@@ -6,7 +6,8 @@
 			"Shirayuki",
 			"Sujiniku",
 			"Suyama",
-			"もなー(偽物)"
+			"もなー(偽物)",
+			"背番号4のエース"
 		]
 	},
 	"bs-groupmanager-desc": "利用者グループとその権限を追加/編集/削除するための管理インターフェイス",
@@ -38,5 +39,7 @@
 	"bs-groupmanager-text": "グループ",
 	"bs-groupmanager-grpempty": "グループ名は空欄にできません。",
 	"bs-groupmanager-removegroup-message-unknown": "予期せぬエラーが発生しました。もう一度お試しください。",
-	"logeventslist-bs-group-manager-log": "グループマネージャーのログ"
+	"logeventslist-bs-group-manager-log": "グループマネージャーのログ",
+	"bs-groupmanager-invalid-name-numeric": "グループ名には少なくとも1文字が必要です。",
+	"bs-groupmanager-write-config-file-error": "ファイル$1を作成または保存できませんでした。"
 }
