@@ -6,7 +6,8 @@
 			"Shirayuki",
 			"Sujiniku",
 			"Suyama",
-			"もなー(偽物)"
+			"もなー(偽物)",
+			"背番号4のエース"
 		]
 	},
 	"bs-groupmanager-desc": "利用者グループとその権限を追加/編集/削除するための管理インターフェイス",
@@ -18,6 +19,7 @@
 	"bs-groupmanager-label": "グループマネージャー",
 	"bs-groupmanager-text": "グループ",
 	"bs-groupmanager-invalid-name-length": "グループ名は255文字よりも長くはできません。",
+	"bs-groupmanager-invalid-name-numeric": "グループ名には少なくとも1文字が必要です。",
 	"bs-groupmanager-headergroup": "グループ",
 	"bs-groupmanager-tipremove": "{{PLURAL:$1|グループ}}の除去",
 	"bs-groupmanager-titlenewgroup": "グループの新規作成",
@@ -29,9 +31,11 @@
 	"bs-groupmanager-lablename": "グループ名:",
 	"bs-groupmanager-msgnoteditable": "このグループはシステム グループであるため名前を変更できません。",
 	"bs-groupmanager-msgnotremovable": "このグループはシステム グループであるため除去できません。",
+	"bs-groupmanager-write-config-file-error": "ファイル$1を作成または保存できませんでした。",
 	"log-name-bs-group-manager": "グループマネージャー記録",
 	"log-description-bs-group-manager": "これは、利用者グループへの変更の記録です。",
 	"log-show-hide-bs-group-manager": "グループマネージャー記録を$1",
+	"logeventslist-bs-group-manager-log": "グループマネージャーのログ",
 	"logentry-bs-group-manager-create": "$1 はグループ $4 を{{GENDER:$2|作成しました}}",
 	"logentry-bs-group-manager-modify": "$1 はグループ $4 を $5 に{{GENDER:$2|改名しました}}",
 	"logentry-bs-group-manager-remove": "$1 はグループ $4 を{{GENDER:$2|除去しました}}",
