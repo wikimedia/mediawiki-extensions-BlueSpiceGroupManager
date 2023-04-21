@@ -35,5 +35,10 @@
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|pašalino}} grupę $4",
 	"apihelp-bs-groupmanager-description": "Pateikia užduotis GroupManager plėtiniui.",
 	"action-groupmanager-viewspecialpage": "žiūrėti specialų puslapį „{{int:bs-groupmanager-label}}“",
-	"groupmanager": "Grupės tvarkymas"
+	"groupmanager": "Grupės tvarkymas",
+	"bs-groupmanager-text": "Grupės",
+	"bs-groupmanager-write-config-file-error": "Failo $1 nepavyko sukurti arba išsaugoti.",
+	"logeventslist-bs-group-manager-log": "Grupės tvarkymo žurnalas",
+	"apihelp-bs-groupmanager-summary": "Pateikia užduotis GroupManager plėtiniui.",
+	"right-groupmanager-viewspecialpage": "Prieiga prie specialaus puslapio [[Special:GroupManager]]"
 }
