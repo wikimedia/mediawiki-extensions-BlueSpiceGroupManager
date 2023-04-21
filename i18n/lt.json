@@ -13,6 +13,7 @@
 	"bs-groupmanager-grpedited": "Grupė buvo redaguota.",
 	"bs-groupmanager-grpremoved": "Grupė buvo pašalinta.",
 	"bs-groupmanager-label": "Grupės tvarkymas",
+	"bs-groupmanager-text": "Grupės",
 	"bs-groupmanager-invalid-name": "Grupės pavadinime {{PLURAL:$1|yra|}} {{PLURAL:$1|negalimas simbolis|negalimi simboliai}}: $2",
 	"bs-groupmanager-invalid-name-length": "Grupės pavadinimas negali būti ilgesnis nei 255 simbolių.",
 	"bs-groupmanager-invalid-name-numeric": "Grupės pavadinimas turi turėti bent vieną simbolį.",
@@ -27,13 +28,17 @@
 	"bs-groupmanager-lablename": "Grupės pavadinimas:",
 	"bs-groupmanager-msgnoteditable": "Ši grupė yra sistemos grupė ir negali būti pervadinta.",
 	"bs-groupmanager-msgnotremovable": "Ši grupė yra sistemos grupė ir negali būti pašalinta.",
+	"bs-groupmanager-write-config-file-error": "Failo $1 nepavyko sukurti arba išsaugoti.",
 	"log-name-bs-group-manager": "Grupės tvarkymo žurnalas",
 	"log-description-bs-group-manager": "Tai yra vartotojų grupių pakeitimų žurnalas.",
 	"log-show-hide-bs-group-manager": "$1 grupės tvarkymo žurnalas",
+	"logeventslist-bs-group-manager-log": "Grupės tvarkymo žurnalas",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|sukūrė}} grupę $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|pervadino}} grupę $4 į $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|pašalino}} grupę $4",
 	"apihelp-bs-groupmanager-description": "Pateikia užduotis GroupManager plėtiniui.",
+	"apihelp-bs-groupmanager-summary": "Pateikia užduotis GroupManager plėtiniui.",
 	"action-groupmanager-viewspecialpage": "žiūrėti specialų puslapį „{{int:bs-groupmanager-label}}“",
-	"groupmanager": "Grupės tvarkymas"
+	"groupmanager": "Grupės tvarkymas",
+	"right-groupmanager-viewspecialpage": "Prieiga prie specialaus puslapio [[Special:GroupManager]]"
 }
