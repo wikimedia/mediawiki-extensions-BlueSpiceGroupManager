@@ -39,9 +39,6 @@
 			},
 			"AdminToolRegistry": {
 				"bs-group-manager": "BlueSpice\\GroupManager\\AdminTool"
-			},
-			"DynamicSettingsRegistry": {
-				"GroupManager": "BlueSpice\\GroupManager\\DynamicSettings\\GmSettings::factory"
 			}
 		}
 	},
@@ -111,12 +108,20 @@
 	"HookHandlers": {
 		"common-user-interface": {
 			"class": "\\BlueSpice\\GroupManager\\HookHandler\\CommonUserInterface"
+		},
+		"registerDynamicConfig": {
+			"class": "\\BlueSpice\\GroupManager\\Hook\\RegisterDynamicConfig"
 		}
 	},
 	"Hooks": {
 		"MWStakeCommonUIRegisterSkinSlotComponents": "common-user-interface",
-		"LoadExtensionSchemaUpdates": "\\BlueSpice\\GroupManager\\Hook\\LoadExtensionSchemaUpdates\\AddCleanUpUserGroupTableMaintenanceScript::callback"
+		"LoadExtensionSchemaUpdates": [
+			"\\BlueSpice\\GroupManager\\Hook\\LoadExtensionSchemaUpdates\\MigrateGmSettings::callback",
+			"\\BlueSpice\\GroupManager\\Hook\\LoadExtensionSchemaUpdates\\AddCleanUpUserGroupTableMaintenanceScript::callback"
+		],
+		"MWStakeDynamicConfigRegisterConfigs": "registerDynamicConfig"
 	},
+	"callback": "mwsInitComponents",
 	"load_composer_autoloader": true,
 	"manifest_version": 2
 }
