@@ -32,12 +32,12 @@
 
 namespace BlueSpice\GroupManager;
 
-use BlueSpice\DynamicSettingsManager;
 use CommentStoreComment;
 use Exception;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
+use MWStake\MediaWiki\Component\DynamicConfig\DynamicConfigManager;
 
 class Extension extends \BlueSpice\Extension {
 
@@ -51,14 +51,12 @@ class Extension extends \BlueSpice\Extension {
 	 */
 	public static function saveData( ?array $additionalGroups = null ) {
 		$additionalGroups = $additionalGroups ?? $GLOBALS['wgAdditionalGroups'];
-		$saveContent = "<?php\n\$GLOBALS['wgAdditionalGroups'] = [];\n\n";
 		foreach ( $additionalGroups as $group => $value ) {
 			$nameErrors = self::getNameErrors( $group );
 			if ( !empty( $nameErrors ) ) {
 				return $nameErrors;
 			} else {
 				if ( $value !== false ) {
-					$saveContent .= "\$GLOBALS['wgAdditionalGroups']['{$group}'] = [];\n";
 					self::checkI18N( $group );
 				} else {
 					self::checkI18N( $group, $value );
@@ -66,26 +64,15 @@ class Extension extends \BlueSpice\Extension {
 			}
 		}
 
-		$saveContent .= "\n\$GLOBALS['wgGroupPermissions'] = "
-			. "array_merge(\$GLOBALS['wgGroupPermissions'], \$GLOBALS['wgAdditionalGroups']);";
+		/** @var DynamicConfigManager $configManager */
+		$configManager = MediaWikiServices::getInstance()->getService( 'MWStakeDynamicConfigManager' );
+		$config = $configManager->getConfigObject( 'bs-groupmanager-groups' );
+		$configManager->storeConfig( $config, $additionalGroups );
 
-		$dynamicSettingsManager = DynamicSettingsManager::factory();
-		$status = $dynamicSettingsManager->persist( 'GroupManager', $saveContent );
-		$res = $status->isGood();
-		if ( $res ) {
-			return [
-				'success' => true,
-				'message' => \wfMessage( 'bs-groupmanager-grpadded' )->plain()
-			];
-		} else {
-			return [
-				'success' => false,
-				'message' => wfMessage(
-					'bs-groupmanager-write-config-file-error',
-					'gm-settings.php'
-				)
-			];
-		}
+		return [
+			'success' => true,
+			'message' => \wfMessage( 'bs-groupmanager-grpadded' )->plain()
+		];
 	}
 
 	/**
