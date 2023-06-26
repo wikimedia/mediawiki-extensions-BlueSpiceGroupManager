@@ -4,6 +4,7 @@
 			"A Chinese Wikipedian",
 			"Hzy980512",
 			"Liuxinyu970226",
+			"U.T.",
 			"WQL",
 			"佛壁灯",
 			"科劳"
@@ -42,5 +43,6 @@
 	"apihelp-bs-groupmanager-summary": "为扩展GroupManager提供任务。",
 	"action-groupmanager-viewspecialpage": "查看特殊页面“{{int:bs-groupmanager-label}}”",
 	"groupmanager": "群组管理器",
-	"right-groupmanager-viewspecialpage": "访问页面[[Special:GroupManager]]的权限。"
+	"right-groupmanager-viewspecialpage": "访问页面[[Special:GroupManager]]的权限。",
+	"bs-groupmanager-text": "组"
 }
