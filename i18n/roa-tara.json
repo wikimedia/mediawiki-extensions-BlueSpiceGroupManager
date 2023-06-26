@@ -34,7 +34,6 @@
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|ave ccrejate}} 'u gruppe $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|ave renomenate}} 'u gruppe $4 jndr'à $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|ave luate}} 'u gruppe $4",
-	"apihelp-bs-groupmanager-description": "Dèje le attivitate pe l'estenzione GroupManager.",
 	"apihelp-bs-groupmanager-summary": "Dèje le attivitate pe l'estenzione GroupManager.",
 	"action-groupmanager-viewspecialpage": "'ndruche 'a pàgena speciale \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Gestore de gruppe",

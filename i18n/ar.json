@@ -38,7 +38,6 @@
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|أنشأ|أنشأت}} المجموعة $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|أعاد|أعادت}} تسمية المجموعة $4 إلى $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|أزال|أزالت}} المجموعة $4",
-	"apihelp-bs-groupmanager-description": "يوفر المهام للإضافة GroupManager.",
 	"apihelp-bs-groupmanager-summary": "يوفر المهام للإضافة GroupManager.",
 	"action-groupmanager-viewspecialpage": "انظر الصفحة الخاصَّة \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "مدير المجموعات",

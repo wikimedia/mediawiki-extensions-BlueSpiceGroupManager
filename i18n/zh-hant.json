@@ -36,7 +36,6 @@
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|已建立}}群組 $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|已重新命名}}群組 $4 成 $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|已移除}}群組 $4",
-	"apihelp-bs-groupmanager-description": "為 GroupManager 擴充提供任務。",
 	"apihelp-bs-groupmanager-summary": "為 GroupManager 擴充提供任務。",
 	"action-groupmanager-viewspecialpage": "檢視特定頁面「{{int:bs-groupmanager-label}}」",
 	"groupmanager": "群組管理者",

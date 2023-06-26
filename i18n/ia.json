@@ -34,7 +34,6 @@
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|ha create}} le gruppo $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|ha renominate}} le gruppo $4 in $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|ha removite}} le gruppo $4",
-	"apihelp-bs-groupmanager-description": "Forni le travalios pro le extension GroupManager (gestion de gruppos).",
 	"apihelp-bs-groupmanager-summary": "Forni le travalios pro le extension GroupManager (gestion de gruppos).",
 	"action-groupmanager-viewspecialpage": "vider le pagina special \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Gestion de gruppos",

@@ -37,7 +37,6 @@
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|יצר|יצרה}} את הקבוצה \"$4\"",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|שינה|שינתה}} את שם הקבוצה \"$4\" לשם \"$5\"",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|הסיר|הסירה}} את הקבוצה \"$4\"",
-	"apihelp-bs-groupmanager-description": "אספקת המשימות עבור ההרחבה GroupManager.",
 	"apihelp-bs-groupmanager-summary": "אספקת המשימות עבור ההרחבה GroupManager.",
 	"action-groupmanager-viewspecialpage": "לצפות בדף המיוחד \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "ניהול קבוצות",

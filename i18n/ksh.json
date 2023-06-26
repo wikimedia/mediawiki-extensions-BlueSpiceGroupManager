@@ -30,6 +30,5 @@
 	"log-show-hide-bs-group-manager": "$1 et Logbohch övver de Jroppeverwalldong",
 	"logentry-bs-group-manager-create": "{{GENDER:$2|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher}} $1 hät de Jropp $4 aanjelaat.",
 	"logentry-bs-group-manager-modify": "{{GENDER:$2|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher}} $1 hät de Jropp $4 op $5 ömmjenannt.",
-	"logentry-bs-group-manager-remove": "{{GENDER:$2|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher}} $1 hät de Jropp $4 fottjeschmeße.",
-	"apihelp-bs-groupmanager-description": "Livvert de Aufjahbe för et Zohsazprojramm för de Jroppeverwalldong."
+	"logentry-bs-group-manager-remove": "{{GENDER:$2|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher}} $1 hät de Jropp $4 fottjeschmeße."
 }

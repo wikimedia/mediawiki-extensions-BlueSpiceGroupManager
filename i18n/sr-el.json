@@ -31,7 +31,6 @@
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|je napravio|je napravila}} grupu $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|preimenovao|preimenovala}} je grupu $4 na $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|je uklonio|je uklonila}} grupu $4",
-	"apihelp-bs-groupmanager-description": "Pruža zadatke za ekstenziju GroupManager.",
 	"apihelp-bs-groupmanager-summary": "Pruža zadatke za ekstenziju GroupManager.",
 	"action-groupmanager-viewspecialpage": "vidi specijanu stranicu \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Menadžer grupa",
