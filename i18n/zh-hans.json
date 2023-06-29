@@ -6,7 +6,8 @@
 			"Liuxinyu970226",
 			"WQL",
 			"佛壁灯",
-			"科劳"
+			"科劳",
+			"U.T."
 		]
 	},
 	"bs-groupmanager-desc": "用于添加、编辑和删除用户组及其权限的管理界面",
@@ -16,6 +17,7 @@
 	"bs-groupmanager-grpedited": "群组已编辑。",
 	"bs-groupmanager-grpremoved": "群组已移除。",
 	"bs-groupmanager-label": "群组管理器",
+	"bs-groupmanager-text": "组",
 	"bs-groupmanager-invalid-name": "此群组名包含{{PLURAL:$1|一个|多个}}无效字符：$2",
 	"bs-groupmanager-invalid-name-length": "群组名不能超过255个字符。",
 	"bs-groupmanager-invalid-name-numeric": "群组名需要至少一个字符。",
