@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"FiberAhmed",
+			"Karim185.3",
 			"أَحمد",
 			"باسم",
 			"ديفيد",
@@ -13,7 +14,7 @@
 	"bs-groupmanager-grpempty": "لا يمكن أن يكون اسم المجموعة فارغا.",
 	"bs-groupmanager-grpadded": "تمت إضافة المجموعة.",
 	"bs-groupmanager-grpedited": "تم تحرير المجموعة.",
-	"bs-groupmanager-grpremoved": "تمت إزالة المجموعة.",
+	"bs-groupmanager-grpremoved": "أُزيلت المجموعة",
 	"bs-groupmanager-label": "مدير مجموعة",
 	"bs-groupmanager-text": "المجموعات",
 	"bs-groupmanager-invalid-name": "يحتوي اسم المجموعة على {{PLURAL:$1}} {{PLURAL:$1|حرف غير صالح|أحرف غير صالحة}}: $2",
