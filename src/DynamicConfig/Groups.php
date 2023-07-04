@@ -46,7 +46,7 @@ class Groups extends GlobalsDynamicConfig {
 	public function serialize( ?array $additionalData = [] ): string {
 		$toSerialize = [];
 		foreach ( $additionalData as $group => $value ) {
-			if ( !$value ) {
+			if ( $value === false ) {
 				continue;
 			}
 			$toSerialize[$group] = [];
