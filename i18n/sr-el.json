@@ -35,5 +35,6 @@
 	"apihelp-bs-groupmanager-summary": "Pruža zadatke za ekstenziju GroupManager.",
 	"action-groupmanager-viewspecialpage": "vidi specijanu stranicu \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Menadžer grupa",
-	"right-groupmanager-viewspecialpage": "pristup posebnoj stranici [[Special:GroupManager]]"
+	"right-groupmanager-viewspecialpage": "pristup posebnoj stranici [[Special:GroupManager]]",
+	"bs-groupmanager-text": "Grupe"
 }
