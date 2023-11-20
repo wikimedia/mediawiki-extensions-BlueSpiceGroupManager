@@ -9,6 +9,7 @@
 	"bs-groupmanager-grpedited": "Grupa je izmenjena.",
 	"bs-groupmanager-grpremoved": "Grupa je uklonjena.",
 	"bs-groupmanager-label": "Menadžer grupa",
+	"bs-groupmanager-text": "Grupe",
 	"bs-groupmanager-invalid-name": "Naziv grupe sadrži {{PLURAL:$1|nevalidan|nevalidne}} {{PLURAL:$1|karakter|karaktere}}: $2",
 	"bs-groupmanager-invalid-name-length": "Naziv grupe ne može biti duži od 255 karaktera.",
 	"bs-groupmanager-invalid-name-numeric": "Naziv kruge mora imati najmanje jedan karakter.",
