@@ -39,6 +39,7 @@
 	"logentry-bs-group-manager-create": "$1 はグループ $4 を{{GENDER:$2|作成しました}}",
 	"logentry-bs-group-manager-modify": "$1 はグループ $4 を $5 に{{GENDER:$2|改名しました}}",
 	"logentry-bs-group-manager-remove": "$1 はグループ $4 を{{GENDER:$2|除去しました}}",
+	"apihelp-bs-groupmanager-summary": "拡張機能 GroupManager のタスクを提供します。",
 	"action-groupmanager-viewspecialpage": "特別ページ「{{int:bs-groupmanager-label}}」の閲覧",
 	"groupmanager": "グループマネージャー",
 	"right-groupmanager-viewspecialpage": "特別ページ [[Special:GroupManager]] を利用"
