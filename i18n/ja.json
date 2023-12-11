@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"2nd-player",
+			"Kokage si",
 			"Shield-9",
 			"Shirayuki",
 			"Sujiniku",
@@ -19,7 +20,7 @@
 	"bs-groupmanager-grpremoved": "グループを除去しました。",
 	"bs-groupmanager-label": "グループマネージャー",
 	"bs-groupmanager-text": "グループ",
-	"bs-groupmanager-invalid-name": "グループ名には{{PLURAL:$1|が含まれていますan|}} 無効な{{PLURAL:$1|文字|文字}}: $2",
+	"bs-groupmanager-invalid-name": "グループ名に無効な{{PLURAL:$1|文字}}が含まれています: $2",
 	"bs-groupmanager-invalid-name-length": "グループ名は255文字よりも長くはできません。",
 	"bs-groupmanager-invalid-name-numeric": "グループ名には少なくとも1文字が必要です。",
 	"bs-groupmanager-headergroup": "グループ",
