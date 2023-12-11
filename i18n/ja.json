@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"2nd-player",
+			"Kokage si",
 			"Shield-9",
 			"Shirayuki",
 			"Sujiniku",
@@ -44,5 +45,5 @@
 	"bs-groupmanager-invalid-name-numeric": "グループ名には少なくとも1文字が必要です。",
 	"bs-groupmanager-write-config-file-error": "ファイル$1を作成または保存できませんでした。",
 	"apihelp-bs-groupmanager-summary": "拡張機能 GroupManager のタスクを提供します。",
-	"bs-groupmanager-invalid-name": "グループ名には{{PLURAL:$1|が含まれていますan|}} 無効な{{PLURAL:$1|文字|文字}}: $2"
+	"bs-groupmanager-invalid-name": "グループ名に無効な{{PLURAL:$1|文字}}が含まれています: $2"
 }
