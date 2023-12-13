@@ -32,5 +32,6 @@
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|usunął|usunęła}} grupę $4",
 	"action-groupmanager-viewspecialpage": "zobacz stronę specjalną „{{int:bs-groupmanager-label}}”",
 	"groupmanager": "Menedżer grup",
-	"right-groupmanager-viewspecialpage": "Dostęp do strony specjalnej [[Special:GroupManager]]."
+	"right-groupmanager-viewspecialpage": "Dostęp do strony specjalnej [[Special:GroupManager]].",
+	"bs-groupmanager-text": "Grupy"
 }
