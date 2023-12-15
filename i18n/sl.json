@@ -35,7 +35,7 @@
 	"log-show-hide-bs-group-manager": "$1 dnevnik upravitelja skupin",
 	"logeventslist-bs-group-manager-log": "Dnevnik upravitelja skupin",
 	"logentry-bs-group-manager-create": "$1 je {{GENDER:$2|ustvaril|ustvarila|ustvaril_a}} skupino $4",
-	"logentry-bs-group-manager-modify": "$1 je {{GENDER:$2|preimenoval|preimenovala|preimenoval/a}} skupino $4 v $5",
+	"logentry-bs-group-manager-modify": "$1 je {{GENDER:$2|preimenoval|preimenovala|preimenoval_a}} skupino $4 v $5",
 	"logentry-bs-group-manager-remove": "$1 je {{GENDER:$2|odstranil|odstranila|odstranil_a}} skupino $4",
 	"apihelp-bs-groupmanager-summary": "Zagotavlja opravila za razširitev GroupManager.",
 	"action-groupmanager-viewspecialpage": "ogled posebne strani »{{int:bs-groupmanager-label}}«",
