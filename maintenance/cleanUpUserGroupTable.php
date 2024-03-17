@@ -5,9 +5,9 @@ require_once "$IP/maintenance/Maintenance.php";
 
 class CleanUpUserGroupTable extends LoggedUpdateMaintenance {
 
-/**
- * @return bool
- */
+	/**
+	 * @return bool
+	 */
 	protected function doDBUpdates() {
 		$this->getUserIds();
 		$this->getSysopIds();
