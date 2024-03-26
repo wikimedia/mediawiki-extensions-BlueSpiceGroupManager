@@ -195,7 +195,7 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 		$wgAdditionalGroups[$group] = false;
 		$wgAdditionalGroups[$newGroup] = true;
 
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = $this->services->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 		$res = $dbw->update(
 			'user_groups',
 			[
@@ -327,7 +327,7 @@ class BSApiTasksGroupManager extends BSApiTasksBase {
 		}
 
 		$wgAdditionalGroups[$group] = false;
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = $this->services->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 		$res = $dbw->delete(
 			'user_groups',
 			[
