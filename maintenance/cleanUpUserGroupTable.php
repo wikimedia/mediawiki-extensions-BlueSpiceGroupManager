@@ -25,7 +25,7 @@ class CleanUpUserGroupTable extends LoggedUpdateMaintenance {
 	 * @return void
 	 */
 	private function getUserIds() {
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = $this->getDB( DB_REPLICA );
 		$res = $dbr->select( 'user', 'user_id' );
 		foreach ( $res as $row ) {
 			$this->userIds[] = $row->user_id;
@@ -41,7 +41,7 @@ class CleanUpUserGroupTable extends LoggedUpdateMaintenance {
 	 * @return void
 	 */
 	private function getSysopIds() {
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = $this->getDB( DB_REPLICA );
 		$res = $dbr->select( 'user_groups', 'ug_user' );
 		foreach ( $res as $row ) {
 			$this->sysOpIds[] = $row->ug_user;
@@ -53,7 +53,7 @@ class CleanUpUserGroupTable extends LoggedUpdateMaintenance {
 	 */
 	private function deleteNotMatchingIds() {
 		$idsToRemoveFromGroupsTable = array_diff( $this->sysOpIds, $this->userIds );
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = $this->getDB( DB_PRIMARY );
 		foreach ( $idsToRemoveFromGroupsTable as $idToRemoveFromGroupsTable ) {
 			$this->output( "Clean up groups of non existing user with ID '$idToRemoveFromGroupsTable'\n" );
 			$dbw->delete( 'user_groups', [ 'ug_user' => $idToRemoveFromGroupsTable ] );
