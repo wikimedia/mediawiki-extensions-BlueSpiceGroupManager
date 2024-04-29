@@ -1,17 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Умар"
+			"\u0423\u043c\u0430\u0440"
 		]
 	},
-	"bs-groupmanager-label": "Тобан менеджер",
-	"bs-groupmanager-headergroup": "Тоба",
-	"bs-groupmanager-tipremove": "{{PLURAL:$1|ДӀайаккха тоба|ДӀайаха тобанаш}}",
-	"bs-groupmanager-titlenewgroup": "Керла тоба",
-	"bs-groupmanager-titleeditgroup": "Тайе тоба",
-	"bs-groupmanager-lablename": "Тобан цӀе:",
-	"bs-groupmanager-text": "Тобанаш",
-	"bs-groupmanager-invalid-name": "Тобанан цӀеран йукъахь ду {{PLURAL:$1|магийна доцу}} {{PLURAL:$1|хьаьрк|хьаьркаш}}: $2",
-	"groupmanager": "Тобанийн менеджер",
-	"right-groupmanager-viewspecialpage": "белхан [[Special:GroupManager]] агӀонан тӀекхачар"
+	"bs-groupmanager-label": "\u0422\u043e\u0431\u0430\u043d \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440",
+	"bs-groupmanager-headergroup": "\u0422\u043e\u0431\u0430",
+	"bs-groupmanager-tipremove": "{{PLURAL:$1|\u0414\u04c0\u0430\u0439\u0430\u043a\u043a\u0445\u0430 \u0442\u043e\u0431\u0430|\u0414\u04c0\u0430\u0439\u0430\u0445\u0430 \u0442\u043e\u0431\u0430\u043d\u0430\u0448}}",
+	"bs-groupmanager-titlenewgroup": "\u041a\u0435\u0440\u043b\u0430 \u0442\u043e\u0431\u0430",
+	"bs-groupmanager-titleeditgroup": "\u0422\u0430\u0439\u0435 \u0442\u043e\u0431\u0430",
+	"bs-groupmanager-lablename": "\u0422\u043e\u0431\u0430\u043d \u0446\u04c0\u0435:",
+	"bs-groupmanager-text": "\u0422\u043e\u0431\u0430\u043d\u0430\u0448",
+	"bs-groupmanager-invalid-name": "\u0422\u043e\u0431\u0430\u043d\u0430\u043d \u0446\u04c0\u0435\u0440\u0430\u043d \u0439\u0443\u043a\u044a\u0430\u0445\u044c \u0434\u0443 {{PLURAL:$1|\u043c\u0430\u0433\u0438\u0439\u043d\u0430 \u0434\u043e\u0446\u0443}} {{PLURAL:$1|\u0445\u044c\u0430\u044c\u0440\u043a|\u0445\u044c\u0430\u044c\u0440\u043a\u0430\u0448}}: $2",
+	"groupmanager": "\u0422\u043e\u0431\u0430\u043d\u0438\u0439\u043d \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440",
+	"right-groupmanager-viewspecialpage": "\u0431\u0435\u043b\u0445\u0430\u043d [[Special:GroupManager]] \u0430\u0433\u04c0\u043e\u043d\u0430\u043d \u0442\u04c0\u0435\u043a\u0445\u0430\u0447\u0430\u0440"
 }
