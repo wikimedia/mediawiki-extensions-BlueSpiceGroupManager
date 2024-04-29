@@ -21,7 +21,7 @@
 	"bs-groupmanager-text": "Groepen",
 	"bs-groupmanager-invalid-name": "De naam van de groep bevat {{PLURAL:$1|een ongeldig teken|ongeldige tekens}}: $2",
 	"bs-groupmanager-invalid-name-length": "De naam van de groep kan niet langer zijn dan 255 tekens.",
-	"bs-groupmanager-invalid-name-numeric": "De naam van de groep moet ten minste één teken bevatten.",
+	"bs-groupmanager-invalid-name-numeric": "De naam van de groep moet ten minste \u00e9\u00e9n teken bevatten.",
 	"bs-groupmanager-headergroup": "Groep",
 	"bs-groupmanager-tipremove": "{{PLURAL:$1|Groep|Groepen}} verwijderen",
 	"bs-groupmanager-titlenewgroup": "Nieuwe groep",
