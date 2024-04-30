@@ -2,13 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Pacha Tchernof",
-			"\u05e4\u05d5\u05d9\u05dc\u05d9\u05e9\u05e2\u05e8"
+			"פוילישער"
 		]
 	},
-	"bs-groupmanager-headergroup": "\u05d2\u05e8\u05d5\u05e4\u05bc\u05e2",
-	"bs-groupmanager-tipremove": "\u05d0\u05e8\u05d0\u05e4\u05e0\u05e2\u05de\u05e2\u05df {{PLURAL:$1|\u05d2\u05e8\u05d5\u05e4\u05e2|\u05d2\u05e8\u05d5\u05e4\u05e2\u05e1}}",
-	"bs-groupmanager-titlenewgroup": "\u05e0\u05f2\u05b7\u05e2 \u05d2\u05e8\u05d5\u05e4\u05bc\u05e2",
-	"bs-groupmanager-titleeditgroup": "\u05e8\u05e2\u05d3\u05d0\u05e7\u05d8\u05d9\u05e8\u05df \u05d2\u05e8\u05d5\u05e4\u05e2",
-	"bs-groupmanager-lablename": "\u05d2\u05e8\u05d5\u05e4\u05e2 \u05e0\u05d0\u05de\u05e2\u05df:",
-	"bs-groupmanager-text": "\u05d2\u05e8\u05d5\u05e4\u05bc\u05e2\u05e1"
+	"bs-groupmanager-headergroup": "גרופּע",
+	"bs-groupmanager-tipremove": "אראפנעמען {{PLURAL:$1|גרופע|גרופעס}}",
+	"bs-groupmanager-titlenewgroup": "נײַע גרופּע",
+	"bs-groupmanager-titleeditgroup": "רעדאקטירן גרופע",
+	"bs-groupmanager-lablename": "גרופע נאמען:",
+	"bs-groupmanager-text": "גרופּעס"
 }
