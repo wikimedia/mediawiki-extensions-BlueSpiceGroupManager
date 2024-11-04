@@ -5,13 +5,13 @@
 		]
 	},
 	"bs-groupmanager-label": "Тобан менеджер",
+	"bs-groupmanager-text": "Тобанаш",
+	"bs-groupmanager-invalid-name": "Тобанан цӀеран йукъахь ду {{PLURAL:$1|магийна доцу}} {{PLURAL:$1|хьаьрк|хьаьркаш}}: $2",
 	"bs-groupmanager-headergroup": "Тоба",
 	"bs-groupmanager-tipremove": "{{PLURAL:$1|ДӀайаккха тоба|ДӀайаха тобанаш}}",
 	"bs-groupmanager-titlenewgroup": "Керла тоба",
 	"bs-groupmanager-titleeditgroup": "Тайе тоба",
 	"bs-groupmanager-lablename": "Тобан цӀе:",
-	"bs-groupmanager-text": "Тобанаш",
-	"bs-groupmanager-invalid-name": "Тобанан цӀеран йукъахь ду {{PLURAL:$1|магийна доцу}} {{PLURAL:$1|хьаьрк|хьаьркаш}}: $2",
 	"groupmanager": "Тобанийн менеджер",
 	"right-groupmanager-viewspecialpage": "белхан [[Special:GroupManager]] агӀонан тӀекхачар"
 }

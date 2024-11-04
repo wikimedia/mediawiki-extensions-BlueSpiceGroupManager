@@ -5,10 +5,10 @@
 			"פוילישער"
 		]
 	},
+	"bs-groupmanager-text": "גרופּעס",
 	"bs-groupmanager-headergroup": "גרופּע",
 	"bs-groupmanager-tipremove": "אראפנעמען {{PLURAL:$1|גרופע|גרופעס}}",
 	"bs-groupmanager-titlenewgroup": "נײַע גרופּע",
 	"bs-groupmanager-titleeditgroup": "רעדאקטירן גרופע",
-	"bs-groupmanager-lablename": "גרופע נאמען:",
-	"bs-groupmanager-text": "גרופּעס"
+	"bs-groupmanager-lablename": "גרופע נאמען:"
 }
