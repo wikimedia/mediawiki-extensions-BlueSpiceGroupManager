@@ -39,7 +39,7 @@
 	"log-show-hide-bs-group-manager": "Logboek groepenbeheer $1",
 	"logeventslist-bs-group-manager-log": "Logboek groepsbeheer",
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|heeft}} de groep $4 aangemaakt",
-	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|heeft}} de groep $4 naar $5 hernoemd",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|heeft}} de groep $4 hernoemd tot $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|heeft}} de groep $4 verwijderd",
 	"apihelp-bs-groupmanager-summary": "Voorziet in de taken voor de uitbreiding GroupManager.",
 	"action-groupmanager-viewspecialpage": "de speciale pagina \"{{int:bs-groupmanager-label}}\" te bekijken",
