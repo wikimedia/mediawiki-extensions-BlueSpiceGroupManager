@@ -37,6 +37,7 @@ use Exception;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
+use MediaWiki\Title\Title;
 use MWStake\MediaWiki\Component\DynamicConfig\DynamicConfigManager;
 
 class Extension extends \BlueSpice\Extension {
@@ -117,7 +118,7 @@ class Extension extends \BlueSpice\Extension {
 	 * @param bool $value
 	 */
 	public static function checkI18N( $group, $value = true ) {
-		$title = \Title::newFromText( 'group-' . $group, NS_MEDIAWIKI );
+		$title = Title::newFromText( 'group-' . $group, NS_MEDIAWIKI );
 		$user = \RequestContext::getMain()->getUser();
 		$services = MediaWikiServices::getInstance();
 		if ( $value === false ) {
