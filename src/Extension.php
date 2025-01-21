@@ -34,6 +34,7 @@ namespace BlueSpice\GroupManager;
 
 use CommentStoreComment;
 use Exception;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
@@ -119,7 +120,7 @@ class Extension extends \BlueSpice\Extension {
 	 */
 	public static function checkI18N( $group, $value = true ) {
 		$title = Title::newFromText( 'group-' . $group, NS_MEDIAWIKI );
-		$user = \RequestContext::getMain()->getUser();
+		$user = RequestContext::getMain()->getUser();
 		$services = MediaWikiServices::getInstance();
 		if ( $value === false ) {
 			if ( $title->exists() ) {
