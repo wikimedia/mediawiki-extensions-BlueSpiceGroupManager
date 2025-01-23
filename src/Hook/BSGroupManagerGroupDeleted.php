@@ -2,6 +2,8 @@
 
 namespace BlueSpice\GroupManager\Hook;
 
+use MediaWiki\Config\Config;
+
 abstract class BSGroupManagerGroupDeleted extends \BlueSpice\Hook {
 	/**
 	 * @var string
@@ -32,7 +34,7 @@ abstract class BSGroupManagerGroupDeleted extends \BlueSpice\Hook {
 	/**
 	 *
 	 * @param \IContextSource $context
-	 * @param \Config $config
+	 * @param Config $config
 	 * @param string $group
 	 * @param array &$result
 	 */
