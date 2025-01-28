@@ -25,6 +25,7 @@
  */
 
 use MediaWiki\Context\RequestContext;
+use MediaWiki\SpecialPage\SpecialPage;
 
 /**
  * GroupManager Api class
