@@ -3,6 +3,7 @@
 		"authors": [
 			"FiberAhmed",
 			"Karim185.3",
+			"Meno25",
 			"أَحمد",
 			"باسم",
 			"ديفيد",
@@ -17,7 +18,7 @@
 	"bs-groupmanager-grpremoved": "أُزيلت المجموعة",
 	"bs-groupmanager-label": "مدير مجموعة",
 	"bs-groupmanager-text": "المجموعات",
-	"bs-groupmanager-invalid-name": "يحتوي اسم المجموعة على {{PLURAL:$1}} {{PLURAL:$1|حرف غير صالح|أحرف غير صالحة}}: $2",
+	"bs-groupmanager-invalid-name": "يحتوي اسم المجموعة على {{PLURAL:$1|حرف غير صالح|أحرف غير صالحة}}: $2",
 	"bs-groupmanager-invalid-name-length": "لا يمكن أن يكون اسم المجموعة أطول من 255 حرفا.",
 	"bs-groupmanager-invalid-name-numeric": "يجب أن يحتوي اسم المجموعة على حرف واحد على الأقل.",
 	"bs-groupmanager-headergroup": "المجموعة",
