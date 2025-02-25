@@ -7,10 +7,11 @@
 			"Huji",
 			"Jeeputer",
 			"LordProfo",
-			"Reza1615"
+			"Reza1615",
+			"Ebrahim"
 		]
 	},
-	"bs-groupmanager-desc": "رابط مدیریتی برای افزودن، ویرایش‌کردن و حذف‌نمودن گروه‌های کاربری و اختیاراتشان",
+	"bs-groupmanager-desc": "رابط مدیریتی برای افزودن، ویرایش و حذف کردن گروه‌های کاربری و اختیاراتشان",
 	"bs-groupmanager-grpexists": "گروه پیش از این وجود دارد.",
 	"bs-groupmanager-grpempty": "نام گروه نباید خالی بماند.",
 	"bs-groupmanager-grpadded": "گروه اضافه شد.",
