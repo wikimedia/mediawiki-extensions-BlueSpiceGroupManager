@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krisztina"
+		]
+	},
+	"bs-groupmanager-desc": "Adminisztrációs felület felhasználói csoportok és jogosultságaik hozzáadásához, szerkesztéséhez és törléséhez",
+	"bs-groupmanager-grpexists": "A csoport már létezik.",
+	"bs-groupmanager-grpempty": "A csoportnév nem lehet üres.",
+	"bs-groupmanager-grpadded": "A csoport hozzáadva.",
+	"bs-groupmanager-grpedited": "A csoport szerkesztve.",
+	"bs-groupmanager-grpremoved": "A csoport eltávolítva.",
+	"bs-groupmanager-label": "Csoport kezelő",
+	"bs-groupmanager-text": "Csoportok",
+	"bs-groupmanager-invalid-name": "A csoportnév érvénytelen {{PLURAL:$1|karaktert|karaktereket}}: $2 tartalmaz",
+	"bs-groupmanager-invalid-name-length": "A csoportnév nem lehet hosszabb 255 karakternél.",
+	"bs-groupmanager-invalid-name-numeric": "A csoportnév legalább egy karaktert kell tartalmazzon.",
+	"bs-groupmanager-headergroup": "Csoport",
+	"bs-groupmanager-tipremove": "{{PLURAL:$1|Csoport|Csoportok}} eltávolítása",
+	"bs-groupmanager-titlenewgroup": "Új csoport",
+	"bs-groupmanager-titleeditgroup": "Csoport szerkesztése",
+	"bs-groupmanager-removegroup": "Biztosan el szeretnéd távolítani {{PLURAL:$1|ezt a csoportot|ezeket a csoportokat}}?",
+	"bs-groupmanager-removegroup-message-success": "A következő {{PLURAL:$1| csoport törölve lett|csoportok törölve lettek}}: $2",
+	"bs-groupmanager-removegroup-message-failure": "A következő {{PLURAL:$1| csoport nem törölhető|csoportok nem törölhetők}}: $2",
+	"bs-groupmanager-removegroup-message-unknown": "Váratlan hiba történt, kérjük, próbáld újra.",
+	"bs-groupmanager-lablename": "Csoportnév:",
+	"bs-groupmanager-msgnoteditable": "Ez egy rendszercsoport, nem lehet átnevezni.",
+	"bs-groupmanager-msgnotremovable": "Ez egy rendszercsoport, nem lehet eltávolítani.",
+	"bs-groupmanager-write-config-file-error": "A(z) $1 fájlt nem sikerült létrehozni vagy menteni.",
+	"log-name-bs-group-manager": "Csoport kezelés napló",
+	"log-description-bs-group-manager": "Ez a felhasználói csoportok változásainak naplója.",
+	"log-show-hide-bs-group-manager": "$1 csoport kezelő napló",
+	"logeventslist-bs-group-manager-log": "Csoport kezelő napló",
+	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|létrehozta}} a csoportot $4",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|átnevezte}} a csoportot erről: $4 erre: $5",
+	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|eltávolította}} a csoportot $4",
+	"apihelp-bs-groupmanager-summary": "Biztosítja a GroupManager bővítmény feladatait.",
+	"action-groupmanager-viewspecialpage": "speciális lap: \"{{int:bs-groupmanager-label}}\" megtekintése",
+	"groupmanager": "Csoport kezelő",
+	"right-groupmanager-viewspecialpage": "Hozzáférés a [[Special:GroupManager]] speciális laphoz"
+}
