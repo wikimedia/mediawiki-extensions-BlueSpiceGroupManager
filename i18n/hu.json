@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Krisztina"
+			"Krisztina",
+			"Tacsipacsi"
 		]
 	},
 	"bs-groupmanager-desc": "Adminisztrációs felület felhasználói csoportok és jogosultságaik hozzáadásához, szerkesztéséhez és törléséhez",
@@ -10,7 +11,7 @@
 	"bs-groupmanager-grpadded": "A csoport hozzáadva.",
 	"bs-groupmanager-grpedited": "A csoport szerkesztve.",
 	"bs-groupmanager-grpremoved": "A csoport eltávolítva.",
-	"bs-groupmanager-label": "Csoport kezelő",
+	"bs-groupmanager-label": "Csoportkezelő",
 	"bs-groupmanager-text": "Csoportok",
 	"bs-groupmanager-invalid-name": "A csoportnév érvénytelen {{PLURAL:$1|karaktert|karaktereket}}: $2 tartalmaz",
 	"bs-groupmanager-invalid-name-length": "A csoportnév nem lehet hosszabb 255 karakternél.",
@@ -35,7 +36,7 @@
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|átnevezte}} a csoportot erről: $4 erre: $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|eltávolította}} a csoportot $4",
 	"apihelp-bs-groupmanager-summary": "Biztosítja a GroupManager bővítmény feladatait.",
-	"action-groupmanager-viewspecialpage": "speciális lap: \"{{int:bs-groupmanager-label}}\" megtekintése",
+	"action-groupmanager-viewspecialpage": "„{{int:bs-groupmanager-label}}” speciális lap megtekintése",
 	"groupmanager": "Csoport kezelő",
 	"right-groupmanager-viewspecialpage": "Hozzáférés a [[Special:GroupManager]] speciális laphoz"
 }
