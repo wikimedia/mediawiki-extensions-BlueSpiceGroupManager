@@ -12,6 +12,13 @@
 	"bs-groupmanager-titlenewgroup": "Керла тоба",
 	"bs-groupmanager-titleeditgroup": "Тайе тоба",
 	"bs-groupmanager-lablename": "Тобан цӀе:",
+	"log-name-bs-group-manager": "Тобанийн урхаллин журнал",
+	"log-show-hide-bs-group-manager": "$1 тобанийн урхаллин журнал",
+	"logeventslist-bs-group-manager-log": "Тобанийн урхаллин журнал",
+	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|кхоьллина}} $4 тоба",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|цӀе хийцина}} тоба $5 тӀера $4 тӀе",
+	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|дӀайаьккхина}} $4 тоба",
+	"action-groupmanager-viewspecialpage": "белхан агӀоне хьажар «{{int:bs-groupmanager-label}}»",
 	"groupmanager": "Тобанийн менеджер",
 	"right-groupmanager-viewspecialpage": "белхан [[Special:GroupManager]] агӀонан тӀекхачар"
 }
