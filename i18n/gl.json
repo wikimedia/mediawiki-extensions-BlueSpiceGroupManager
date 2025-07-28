@@ -20,7 +20,7 @@
 	"bs-groupmanager-tipremove": "Eliminar {{PLURAL:$1|grupo|grupos}}",
 	"bs-groupmanager-titlenewgroup": "Novo grupo",
 	"bs-groupmanager-titleeditgroup": "Editar grupo",
-	"bs-groupmanager-removegroup": "¿Está seguro de que quere eliminar {{PLURAL:$1|este grupo|estes grupos}}?",
+	"bs-groupmanager-removegroup": "Quere eliminar {{PLURAL:$1|este grupo|estes grupos}}?",
 	"bs-groupmanager-removegroup-message-success": "{{PLURAL:$1|Eliminouse o seguinte grupo|Elimináronse os seguintes grupos}}: $2",
 	"bs-groupmanager-removegroup-message-failure": "{{PLURAL:$1|O seguinte grupo|Os seguintes grupos}}  non puideron eliminarse: $2",
 	"bs-groupmanager-removegroup-message-unknown": "Ocorreu un erro inesperado, por favor ténteo outra vez.",
