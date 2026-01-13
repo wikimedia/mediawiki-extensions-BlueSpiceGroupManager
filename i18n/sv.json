@@ -3,7 +3,8 @@
 		"authors": [
 			"Lokal Profil",
 			"Technic2",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Stefan2255"
 		]
 	},
 	"bs-groupmanager-desc": "Administrationsgränssnittet för att lägga till, redigera och radera användargrupper och deras rättigheter",
@@ -13,6 +14,7 @@
 	"bs-groupmanager-grpedited": "Gruppen har redigerats.",
 	"bs-groupmanager-grpremoved": "Gruppen har tagits bort.",
 	"bs-groupmanager-label": "Grupphanterare",
+	"bs-groupmanager-text": "Grupper",
 	"bs-groupmanager-invalid-name": "Gruppens namn innehåller {{PLURAL:$1|ett otillåtet tecken|otillåtna tecken}}: $2",
 	"bs-groupmanager-invalid-name-length": "Gruppens namn kan inte vara längre än 255 tecken.",
 	"bs-groupmanager-invalid-name-numeric": "Gruppens namn måste ha minst ett tecken.",
@@ -27,6 +29,7 @@
 	"bs-groupmanager-lablename": "Gruppnamn:",
 	"bs-groupmanager-msgnoteditable": "Denna grupp är en systemgrupp och kan inte döpas om.",
 	"bs-groupmanager-msgnotremovable": "Denna grupp är en systemgrupp och kan inte tas bort.",
+	"bs-groupmanager-write-config-file-error": "Filen $1 kunde inte skapas eller sparas.",
 	"log-name-bs-group-manager": "Logg för grupphantering",
 	"log-description-bs-group-manager": "Detta är en ändringslogg för användargrupperna.",
 	"log-show-hide-bs-group-manager": "$1 logg för grupphantering",
@@ -34,6 +37,7 @@
 	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|har skapat}} gruppen $4",
 	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|har namnändrat}} gruppen $4 till $5",
 	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|har tagit bort}} gruppen $4",
+	"apihelp-bs-groupmanager-summary": "Tillhandahåller uppgifterna för tillägget GroupManager.",
 	"action-groupmanager-viewspecialpage": "visa specialsidan \"{{int:bs-groupmanager-label}}\"",
 	"groupmanager": "Grupphanterare",
 	"right-groupmanager-viewspecialpage": "Åtkomst till specialsidan [[Special:GroupManager]]."
