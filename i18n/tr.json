@@ -17,7 +17,7 @@
 	"bs-groupmanager-grpremoved": "Grup kaldırıldı.",
 	"bs-groupmanager-label": "Grup yöneticisi",
 	"bs-groupmanager-text": "Gruplar",
-	"bs-groupmanager-invalid-name": "Grup adı geçersiz bir {{PLURAL:$1|karakter|karakter}} içeriyor: $2",
+	"bs-groupmanager-invalid-name": "Grup adı geçersiz bir {{PLURAL:$1|karakter}} içeriyor: $2",
 	"bs-groupmanager-invalid-name-length": "Grup adı 255 karakterden daha uzun olamaz.",
 	"bs-groupmanager-invalid-name-numeric": "Grup adının en az bir karakteri olmalıdır.",
 	"bs-groupmanager-headergroup": "Grup",

@@ -8,7 +8,7 @@
 		]
 	},
 	"bs-groupmanager-desc": "ממשק ניהול עבור הוספת, עריכת ומחיקת קבוצות משתמש והרשאותיהן",
-	"bs-groupmanager-grpexists": "קבוצה זו כבר קיימת.",
+	"bs-groupmanager-grpexists": "הקבוצה הזאת כבר קיימת.",
 	"bs-groupmanager-grpempty": "שם הקבוצה לא יכול להיות ריק.",
 	"bs-groupmanager-grpadded": "הקבוצה נוספה.",
 	"bs-groupmanager-grpedited": "הקבוצה שונתה.",

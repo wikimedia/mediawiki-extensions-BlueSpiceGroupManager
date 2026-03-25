@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krisztina"
+		]
+	},
+	"bs-groupmanager-removegroup": "Biztosan el szeretné távolítani {{PLURAL:$1|ezt a csoportot|ezeket a csoportokat}}?",
+	"bs-groupmanager-removegroup-message-unknown": "Váratlan hiba történt, kérjük, próbálja újra."
+}

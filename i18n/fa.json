@@ -3,6 +3,7 @@
 		"authors": [
 			"Alirezaaa",
 			"Beginneruser",
+			"Ebrahim",
 			"FarsiNevis",
 			"Huji",
 			"Jeeputer",
@@ -10,7 +11,7 @@
 			"Reza1615"
 		]
 	},
-	"bs-groupmanager-desc": "رابط مدیریتی برای افزودن، ویرایش‌کردن و حذف‌نمودن گروه‌های کاربری و اختیاراتشان",
+	"bs-groupmanager-desc": "رابط مدیریتی برای افزودن، ویرایش و حذف کردن گروه‌های کاربری و اختیاراتشان",
 	"bs-groupmanager-grpexists": "گروه پیش از این وجود دارد.",
 	"bs-groupmanager-grpempty": "نام گروه نباید خالی بماند.",
 	"bs-groupmanager-grpadded": "گروه اضافه شد.",
@@ -18,7 +19,7 @@
 	"bs-groupmanager-grpremoved": "گروه حذف شد.",
 	"bs-groupmanager-label": "مدیر گروه",
 	"bs-groupmanager-text": "گروه‌ها",
-	"bs-groupmanager-invalid-name": "نام گروه شامل {{PLURAL:$1|یک|}} {{PLURAL:$1|نویسه|نویسه}} نامعتبر است: $2",
+	"bs-groupmanager-invalid-name": "نام گروه حاوی {{PLURAL:$1|یک نویسهٔ نامعتبر|نویسه‌های نامعتبر}} است: $2",
 	"bs-groupmanager-invalid-name-length": "نام گروه نباید بیش از ۲۵۵ نویسه داشته باشد.",
 	"bs-groupmanager-invalid-name-numeric": "نام گروه نیاز دارد حداقل یک نویسه داشته باشد.",
 	"bs-groupmanager-headergroup": "گروه",

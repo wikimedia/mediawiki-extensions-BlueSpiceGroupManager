@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bashkorttan",
 			"Sagan",
 			"Азат Хәлилов",
 			"З. ӘЙЛЕ"
@@ -28,6 +29,6 @@
 	"bs-groupmanager-msgnoteditable": "Был система төркөмө, уның исемен алмаштырып булмай.",
 	"bs-groupmanager-msgnotremovable": "Был система төркөмө, уны юйып булмай.",
 	"log-name-bs-group-manager": "Төркөм менән идара итеү журналы",
-	"log-description-bs-group-manager": "Был — ҡатнашыусылар хоҡуҡтарын үҙгәртеү яҙмалары журналы.",
+	"log-description-bs-group-manager": "Был — ҡатнашыусы хоҡуҡтарын үҙгәртеүҙәр журналы.",
 	"log-show-hide-bs-group-manager": "$1 Төркөм менеджеры журналы"
 }

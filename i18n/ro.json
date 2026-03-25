@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Trotinel Iftode"
+		]
+	},
+	"bs-groupmanager-invalid-name": "Numele grupului conține {{PLURAL:$1| un caracter nevalid|caractere nevalide}}: $2"
+}
