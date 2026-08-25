@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"bs-groupmanager-desc": "د کارن ډلو او د هغوی د رښتو د ورگډولو، سمولو او ړنگولو لپاره پازواله مخبڼه",
+	"bs-groupmanager-grpexists": "دا ډله لادمخه شتون لري.",
+	"bs-groupmanager-grpempty": "د ډلې نوم تش نشي پاتې کېدای.",
+	"bs-groupmanager-grpadded": "ډله ورگډه شوې ده.",
+	"bs-groupmanager-grpedited": "ډله سمه شوې ده.",
+	"bs-groupmanager-grpremoved": "ډله لرې شوې ده.",
+	"bs-groupmanager-label": "د ډلې مهاروونکی",
+	"bs-groupmanager-text": "ډلې",
+	"bs-groupmanager-invalid-name-length": "د ډلې نوم له ۲۵۵ لوښو څخه اوږدېدای نشي.",
+	"bs-groupmanager-invalid-name-numeric": "د ډلې نوم بايډ لږ تر لږه يوه لوښه ولري.",
+	"bs-groupmanager-headergroup": "ډله",
+	"bs-groupmanager-tipremove": "$1 {{PLURAL:$1|ډله|ډلې}} لرې‌کول",
+	"bs-groupmanager-titlenewgroup": "نوې ډله",
+	"bs-groupmanager-titleeditgroup": "ډله سمول",
+	"bs-groupmanager-removegroup": "ايا تاسو ډاډه ياست چې {{PLURAL:$1|دا ډله|دا ډلې}} لرې کړئ؟",
+	"bs-groupmanager-removegroup-message-success": "لاندې {{PLURAL:$1|ډله ړنگه شوه|ډلې ړنگې شوې}}: $2",
+	"bs-groupmanager-removegroup-message-failure": "لاندې {{PLURAL:$1|ډله نشي ړنگېدی|ډلې نشي ړنگېدی}}: $2",
+	"bs-groupmanager-removegroup-message-unknown": "يوه ناڅاپي تېروتنه رامنځته شوه، مهرباني وکړئ بيا هڅه وکړئ.",
+	"bs-groupmanager-lablename": "د ډلې نوم:",
+	"bs-groupmanager-msgnoteditable": "دا ډله غونډال ډله ده او نوم يې نشي بدلېدی.",
+	"bs-groupmanager-msgnotremovable": "دا ډله غونډال ډله ده او لرې کېدی نشي.",
+	"bs-groupmanager-write-config-file-error": "د $1 دوتنه جوړېدی يا خوندي‌کېدی نشي.",
+	"log-name-bs-group-manager": "د ډلې مهاروونکي يادښت",
+	"log-description-bs-group-manager": "دا په کارن ډله کې د بدلونونو يادښت دی.",
+	"log-show-hide-bs-group-manager": "د $1 ډلې د مهاروونکي يادښت",
+	"logeventslist-bs-group-manager-log": "د ډلې مهاروونکي يادښت",
+	"logentry-bs-group-manager-create": "$1 د $4 ډله {{GENDER:$2|جوړه کړه}}",
+	"logentry-bs-group-manager-modify": "$1 د $4 ډلې نوم $5 ته {{GENDER:$2|بدل کړ}}",
+	"logentry-bs-group-manager-remove": "$1د $4 ډله {{GENDER:$2|لرې کړه}}",
+	"apihelp-bs-groupmanager-summary": "د ډلې‌مهاروونکي شاتاړي لپاره کاردندې چمتو کوي.",
+	"action-groupmanager-viewspecialpage": "\"{{int:bs-groupmanager-label}}\" ځانگړی مخ کتل",
+	"groupmanager": "د ډلې مهاروونکی",
+	"right-groupmanager-viewspecialpage": "[[Special:GroupManager]] ځانگړي مخ ته لاسرسی"
+}
