@@ -12,7 +12,7 @@
 	"bs-groupmanager-grpremoved": "Тоба дӀалаьцна.",
 	"bs-groupmanager-label": "Тобанийн менеджер",
 	"bs-groupmanager-text": "Тобанаш",
-	"bs-groupmanager-invalid-name": "Тобанан цӀеран йукъахь ду {{PLURAL:$1|магийна доцу}} {{PLURAL:$1|хьаьрк|хьаьркаш}}: $2",
+	"bs-groupmanager-invalid-name": "Тобанан цӀеран йукъахь йу {{PLURAL:$1|магийна йоцу}} {{PLURAL:$1|символ|символаш}}: $2",
 	"bs-groupmanager-headergroup": "Тоба",
 	"bs-groupmanager-tipremove": "{{PLURAL:$1|ДӀайаккха тоба|ДӀайаха тобанаш}}",
 	"bs-groupmanager-titlenewgroup": "Керла тоба",
